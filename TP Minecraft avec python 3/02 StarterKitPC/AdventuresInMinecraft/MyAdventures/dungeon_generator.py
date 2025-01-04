@@ -6,6 +6,7 @@ import mcpi.minecraft as minecraft
 import mcpi.block as block
 import mcpi.entity as entity
 import random
+import time
 
 mc = minecraft.Minecraft.create()
 
@@ -22,7 +23,7 @@ ENTITY_MONSTER_LVL3_LIST = (entity.VEX, entity.VINDICATOR, entity.BLAZE)
 class Room:
     '''
     Une salle du donjon.
-    Les salles mesurent au minimum 10×10×6 blocs.
+    Les salles mesurent au minimum 15×15×6 blocs.
     
     INPUT
     - pos (tuple[int, int, int]) : coordonnées du centre de la salle
@@ -42,6 +43,7 @@ class Room:
         self.width = width
         self.height = height
         self.depth = depth
+        self.generation_points = [] # les endroits à partir desquels d'autres salles seront générées
 
         self.pos_entrance = entrance
         
@@ -68,12 +70,19 @@ class Room:
         self.orientation = None # l'orientation n'a d'importance que pour bridge
         if self.type == 'bridge':
             if self.pos_entrance[0] == x:
-                self.orientation = 'x'
-            elif self.pos_entrance[2] == z:
                 self.orientation = 'z'
-            print('orientation is', self.orientation, f'(door is at {self.pos_entrance})')
+            elif self.pos_entrance[2] == z:
+                self.orientation = 'x'
+            else:
+                print('entrance was incorrect, selected x for orientation.')
+                self.orientation = 'x'
+            print('orientation is', self.orientation, f'(door is at {self.pos_entrance} for center {self.center})')
 
         self.liquid_block = block.ICE if self.theme == 'winter' else block.LAVA if self.theme == 'hell' else block.WATER
+    
+    def get_generation_points(self):
+        """Renvoie les points de la pièe à partir desquels d'autres pièces peuvent se générer"""
+        return self.generation_points
 
     def generate(self):
         """Créé la salle"""
@@ -89,6 +98,8 @@ class Room:
             self.summon_monsters()
         self.generate_enhancements()
         self.generate_doors()
+        # mc.player.setPos(*self.pos_entrance)
+        print('room generated.')
 
     def clear_area(self):
         """Vide l'espace où la pièce va être créée"""
@@ -96,6 +107,11 @@ class Room:
         mc.setBlocks(x-self.width//2, y, z-self.depth//2,
                      x+self.width//2, y+self.height, z+self.depth//2,
                      block.AIR)
+        
+    def place_ground_safe(self, x, y, z):
+        """Génère une zone de blocs pour servir de bases aux objets potentiellement générés au dessus des lacs"""
+        mc.setBlocks(x-1, y, z-1, x+1, y, z+1, block.STONE_BRICK)
+        mc.setBlocks(x-1, y-1, z-1, x+1, y-2, z+1, block.MOSS_STONE)
         
     def generate_roof(self):
         """Génère le plafond de la pièce"""
@@ -117,27 +133,27 @@ class Room:
                          self.liquid_block)
             print('filled ground with liquid')
             bridge_block = block.STONE if self.theme == 'hell' else WOOD_BLOCK
+            i, j, k = self.pos_entrance
             if self.orientation == 'x':
                 mc.setBlocks(*self.pos_doors[0],
-                             *self.pos_entrance[:2], self.pos_entrance[2]+1, # tout ça pour changer z de 1
+                             i, j, k+1,
                              bridge_block)
-                print('created x bridge')
             else:
                 mc.setBlocks(*self.pos_doors[2],
-                             *self.pos_entrance[1:], self.pos_entrance[0]+1, # tout ça pour changer x de 1
+                             i+1, j, k,
                              bridge_block)
-                print('created z bridge')
         elif self.type == 'normal':
             mc.setBlocks(x-self.width//2, y, z-self.depth//2,
-                     x+self.width//2, y, z+self.depth//2,
-                        FLOOR_BLOCK)
+                         x+self.width//2, y, z+self.depth//2,
+                         FLOOR_BLOCK)
             for quart in range(4):
                 if random.randint(0, 100) < 5:
                     self.generate_lake(quart)
         else:
             mc.setBlocks(x-self.width//2, y, z-self.depth//2,
-                     x+self.width//2, y, z+self.depth//2,
-                        FLOOR_BLOCK)
+                         x+self.width//2, y, z+self.depth//2,
+                         FLOOR_BLOCK)
+        mc.setBlock(x, y, z, block.BEDROCK) # pour les tests il faut connaitre le centre de la salle
             
     def generate_lake(self, quart):
         """Génère un lac sur le quart <quart> du sol"""
@@ -152,10 +168,10 @@ class Room:
                          self.liquid_block)
         elif quart == 1:
             mc.setBlocks(x-self.width//2, y-2, z+self.depth//2,
-                         x-2, y-1, z+2,
+                         x-2, y, z+2,
                          block.AIR)
             mc.setBlocks(x-self.width//2, y-2, z+self.depth//2,
-                         x-2, y, z+2,
+                         x-2, y-1, z+2,
                          self.liquid_block)
         elif quart == 2:
             mc.setBlocks(x+self.width//2, y-2, z-self.depth//2,
@@ -195,13 +211,9 @@ class Room:
         print('Entrance placed. Started exit generation')
         if self.type == "bridge":
             if self.orientation == 'x':
-                print('placing x door for bridge')
                 self.place_door(*self.pos_doors[0])
-                print('placing done')
             else:
-                print('placing z door for bridge')
                 self.place_door(*self.pos_doors[2])
-                print('placing done')
         elif 'one exit' in self.tags:
             self.place_door(*self.pos_doors[random.randint(0, 2)])
         else:
@@ -217,26 +229,27 @@ class Room:
         """
         print('door opened')
         if z == self.center[2]:
+            self.generation_points.append((x, y, z, 'x'))
             mc.setBlocks(x, y+1, z, x, y+2, z+1, block.AIR)
-            # pour l'instant la porte se casse après avoir été posée pour une raison inconnue
-            # if 'locked' in self.tags:
-            #     mc.setBlock(x, y+1, z, block.DOOR_IRON)
-            #     mc.setBlock(x, y+1, z+1, block.DOOR_IRON)
-            # else:
-            #     mc.setBlock(x, y+1, z, block.DOOR_WOOD)
-            #     mc.setBlock(x, y+1, z+1, block.DOOR_WOOD)
+            # pour l'instant la porte se casse après avoir été posée malgré le sleep
+            time.sleep(1)
+            if 'locked' in self.tags:
+                mc.setBlock(x, y+1, z, block.DOOR_IRON)
+                mc.setBlock(x, y+1, z+1, block.DOOR_IRON)
+            else:
+                mc.setBlock(x, y+1, z, block.DOOR_WOOD)
+                mc.setBlock(x, y+1, z+1, block.DOOR_WOOD)
         else:
+            self.generation_points.append((x, y, z, 'z'))
             mc.setBlocks(x, y+1, z, x+1, y+2, z, block.AIR)
-            # pour l'instant la porte se casse après avoir été posée pour une raison inconnue
-            # if 'locked' in self.tags:
-            #     mc.setBlock(x, y+1, z, block.DOOR_IRON)
-            #     mc.setBlock(x+1, y+1, z, block.DOOR_IRON)
-            # else:
-            #     mc.setBlock(x, y+1, z, block.DOOR_WOOD)
-            #     mc.setBlock(x+1, y+1, z, block.DOOR_WOOD)
-        
-        # ici il faudra peut-être faire un appel à une suite de génération en donnant la porte créée comme nouvelle porte d'entrée
-        # ce serait mieux que cet appel ai lieu hors de cette fonction mais ça va être compliqué. Peut-être un return ?
+            # pour l'instant la porte se casse après avoir été posée malgré le sleep
+            time.sleep(1)
+            if 'locked' in self.tags:
+                mc.setBlock(x, y+1, z, block.DOOR_IRON)
+                mc.setBlock(x+1, y+1, z, block.DOOR_IRON)
+            else:
+                mc.setBlock(x, y+1, z, block.DOOR_WOOD)
+                mc.setBlock(x+1, y+1, z, block.DOOR_WOOD)
 
     def generate_treasures(self):
         """Génère des trésors dans la pièce"""
@@ -248,6 +261,7 @@ class Room:
                 self.place_chest_with_stuff(x, y, z)
             elif random.randint(0, 100) < 75:
                 mc.setBlock(x, y, z, random.choice(block_treasure_list))
+                self.place_ground_safe(x, y-1, z)
 
     def place_chest_with_stuff(self, x, y ,z):
         """
@@ -257,11 +271,12 @@ class Room:
         """
         # pas de méthode permettant de remplir le coffre. Pas de hopper ni spawn item pour les remplir en trichant un peu.
         mc.setBlock(x, y, z, block.CHEST)
+        self.place_ground_safe(x, y-1, z)
 
     def generate_traps(self):
         """Génère des pièges dans la pièce"""
         print('started placing traps')
-        trap_list = ('cobweb', 'pit', 'lava fall', 'shulker')
+        trap_list = ('cobweb', 'pit', 'pit', 'lava fall', 'lava fall', 'shulker') # reduced probability for cobweb because worst one.
         # abandonné : anvil (no entity falling anvil), tnt floor (no block pressure plate), tnt chest (no trapped chest)
         type_piege = random.sample(trap_list, random.randint(1, 2))
         print('traps are', type_piege)
@@ -279,15 +294,15 @@ class Room:
         """
         DOESN'T WORK ENTIERLY BECAUSE MCPI
 
-        Place des toiles d'araignées dans la pièce
+        Place des toiles d'araignées dans la pièce (le piège le plus insuportable)
         """
         # spawnEntity ne fonctionne pas...
         x, y, z = self.center
-        x -= self.width//2+1
+        x -= self.width//2
         y += 1
-        z -= self.depth//2+1
-        for i in range(self.width-1):
-            for j in range(self.depth-1):
+        z -= self.depth//2
+        for i in range(self.width):
+            for j in range(self.depth):
                 for k in range(self.height-1):
                     if random.randint(0, 100) < 25:
                         mc.setBlock(x+i, y+k, z+j, block.COBWEB)
@@ -316,18 +331,24 @@ class Room:
 
     def place_lavafall_trap(self):
         """pose des chutes de lave dans la pièce devant les portes"""
-        print('placing lavafall traps')
         for door in self.pos_doors:
             x, y, z = door
             if x < self.center[0]:
-                mc.setBlocks(x+1, y+self.height, z, x+1, y+self.height, z+1, block.LAVA_FLOWING)
+                mc.setBlocks(x+1, y+self.height, z, x+1, y+self.height, z+1, block.LAVA)
+                time.sleep(1.5) # pour laisser à la lave le temps de s'écouler
+                mc.setBlocks(x+1, y+self.height, z, x+1, y+self.height, z+1, block.STONE)
             elif x > self.center[0]:
-                mc.setBlocks(x-1, y+self.height, z, x-1, y+self.height, z+1, block.LAVA_FLOWING)
+                mc.setBlocks(x-1, y+self.height, z, x-1, y+self.height, z+1, block.LAVA)
+                time.sleep(1.5)
+                mc.setBlocks(x-1, y+self.height, z, x-1, y+self.height, z+1, block.STONE)
             elif z < self.center[2]:
-                mc.setBlocks(x, y+self.height, z+1, x+1, y+self.height, z+1, block.LAVA_FLOWING)
+                mc.setBlocks(x, y+self.height, z+1, x+1, y+self.height, z+1, block.LAVA)
+                time.sleep(1.5)
+                mc.setBlocks(x, y+self.height, z+1, x+1, y+self.height, z+1, block.STONE)
             elif z > self.center[2]:
-                mc.setBlocks(x, y+self.height, z-1, x+1, y+self.height, z-1, block.LAVA_FLOWING)
-        print('done')
+                mc.setBlocks(x, y+self.height, z-1, x+1, y+self.height, z-1, block.LAVA)
+                time.sleep(1.5)
+                mc.setBlocks(x, y+self.height, z-1, x+1, y+self.height, z-1, block.STONE)
 
     def place_shulker_trap(self):
         """
@@ -347,46 +368,44 @@ class Room:
         print('started enhancements generation')
         decor_functions_list = (self.place_fire, self.place_pillar, self.place_cuve, self.place_fall)
 
-        if self.type == 'boss':
-            generate_deco = random.choice(decor_functions_list)
-            x = self.center[0] - self.width//2
-            y = self.center[1]
-            z = self.center[2] - self.depth//2
-            for i in range(self.width):
-                if i%8 == 0:
-                    generate_deco(x+i, y, z+4)
-                    generate_deco(x+i, y, z-4)
-            for i in range(self.depth):
-                if i%8 == 0:
-                    generate_deco(x+4, y, z+i)
-                    generate_deco(x-4, y, z+i)
-        elif self.type == 'spawn':
+        if 'locked' in self.tags:
+            place = self.pos_stuff[random.randint(0, 4)]
+        # if self.type == 'boss': # pas aboutit du tout
+        #     generate_deco = random.choice(decor_functions_list)
+        #     # rangées double en x
+        #     x, y, z = self.center
+        #     x -= self.width//2
+        #     for i in range(self.width):
+        #         if i%4 == 0:
+        #             generate_deco(x+i, y+1, z+4)
+        #             generate_deco(x+i, y+1, z-4)
+        #     # rangée double en z
+        #     x, y, z = self.center
+        #     z -= self.depth//2
+        #     for i in range(self.depth):
+        #         if i%4 == 0 and i != 0:
+        #             generate_deco(x+4, y+1, z+i)
+        #             generate_deco(x-4, y+1, z+i)
+        elif self.type == 'spawn' or self.type == 'boss':
             generate_deco = random.choice(decor_functions_list)
             for place in self.pos_stuff:
                 x, y, z = place
                 if (x, y-1, z) != self.center:
                     generate_deco(x, y, z)
         else:
-            print('generation for bridge and normal')
             for place in self.pos_stuff:
                 x, y, z = place
-                print('selected place')
-                if self.type == 'normal' and mc.getBlock(x, y, z) == block.AIR.id or self.type == 'bridge': # removing line for bridge because seem to cause crash
-                    print('checked for air')
+                if True: #if mc.getBlock(x, y, z) == block.AIR.id: # bridge crash source
                     if random.randint(0, 100) < 50:
-                        print('random is true')
                         if self.type == 'normal':
                             generate_deco = random.choice(decor_functions_list)
                         else:
-                            print('choosed fall because bridge')
                             generate_deco = self.place_fall
                         generate_deco(x, y, z)
-                else:
-                    print('block found. Place is alerady taken')
-        print('ended enhancements generation')
 
     def place_fire(self, x, y, z):
         """créé un pilier avec du feu en haut"""
+        self.place_ground_safe(x, y-1, z)
         mc.setBlock(x+1, y, z, block.STAIRS_COBBLESTONE.id, 1)
         mc.setBlock(x-1, y, z, block.STAIRS_COBBLESTONE.id, 0)
         mc.setBlock(x, y, z+1, block.STAIRS_COBBLESTONE.id, 3)
@@ -401,29 +420,39 @@ class Room:
 
     def place_pillar(self, x, y, z):
         """place un pilier du sol au plafond"""
-        for i in range(self.height):
+        self.place_ground_safe(x, y-1, z)
+        mc.setBlock(x+1, y, z, block.STAIRS_SANDSTONE.id, 1)
+        mc.setBlock(x-1, y, z, block.STAIRS_SANDSTONE.id, 0)
+        mc.setBlock(x, y, z+1, block.STAIRS_SANDSTONE.id, 3)
+        mc.setBlock(x, y, z-1, block.STAIRS_SANDSTONE.id, 2)
+        for i in range(self.height-2):
             mc.setBlock(x, y+i, z, block.NETHER_BRICK)
         mc.setBlock(x+1, y+self.height//2, z, block.TORCH.id, 1)
         mc.setBlock(x-1, y+self.height//2, z, block.TORCH.id, 2)
         mc.setBlock(x, y+self.height//2, z+1, block.TORCH.id, 3)
         mc.setBlock(x, y+self.height//2, z-1, block.TORCH.id, 4)
+        mc.setBlock(x+1, y+self.height-2, z, block.STAIRS_SANDSTONE.id, 5)
+        mc.setBlock(x-1, y+self.height-2, z, block.STAIRS_SANDSTONE.id, 4)
+        mc.setBlock(x, y+self.height-2, z+1, block.STAIRS_SANDSTONE.id, 7)
+        mc.setBlock(x, y+self.height-2, z-1, block.STAIRS_SANDSTONE.id, 6)
 
     def place_cuve(self, x, y, z):
         """place une cuve de liquide"""
+        self.place_ground_safe(x, y-1, z)
         mc.setBlock(x+1, y, z, block.STAIRS_COBBLESTONE.id, 1)
         mc.setBlock(x-1, y, z, block.STAIRS_COBBLESTONE.id, 0)
         mc.setBlock(x, y, z+1, block.STAIRS_COBBLESTONE.id, 3)
         mc.setBlock(x, y, z-1, block.STAIRS_COBBLESTONE.id, 2)
         mc.setBlock(x, y, z, self.liquid_block)
+        mc.setBlock(x, y-1, z, block.GLOWSTONE_BLOCK)
 
     def place_fall(self, x, y, z):
         """place une chute de liquide"""
-        print('placing fall')
-        mc.setBlocks(x, y-1, z, x, y+self.height, z, block.AIR)
-        mc.setBlock(x, y+self.height, z, self.liquid_block)
-        if self.theme == 'winter':
-            mc.setBlocks(x, y-1, z, x, y+self.height, z, self.liquid_block)
-        print('ended placing fall')
+        if not (self.type == 'bridge' and (x, y-1, z) == self.center):
+            mc.setBlocks(x, y-1, z, x, y+self.height-1, z, block.AIR)
+            mc.setBlock(x, y+self.height-1, z, self.liquid_block)
+            if self.theme == 'winter':
+                mc.setBlocks(x, y-1, z, x, y+self.height-1, z, self.liquid_block)
 
     def summon_monsters(self):
         """
@@ -458,41 +487,44 @@ class Dungeon:
     '''
     Le donjon génère plusieurs salles liées entre-elles
     '''
-    def __init__(self, x, y, z, width, height, depth):
+    SPAWN_ROOM_SIZE = 20 # la salle d'apparition est toujours carrée
+
+    def __init__(self, x, y, z, average_size=10):
         self.x = x
         self.y = y
         self.z = z
-        self.width = width
-        self.height = height
-        self.depth = depth
+        self.average_size = average_size
         
     def generate(self):
         """Créé le donjon"""
         pass
         
-    def choose_random_room(self):
-        """Choisit une salle aléatoire"""
-        pass
-
     def generate_spawn_room(self):
         """
         Salle d'apparition. Le joueur se trouve au milieu au début.
         - 4 portes possibles
         - minimum 1 porte existante
         """
-        mc.setBlocks(self.x - self.width//2, self.y, self.z - self.depth//2,
-                     self.x + self.width//2 -1, self.y+7, self.z + self.depth // 2 -1, 
-                     WALL_BLOCK)
-        mc.setBlocks(self.x - self.width//2 +1, self.y, self.z - self.depth//2 +1,
-                     self.x + self.width//2, self.y+7, self.z + self.depth // 2, 
-                     block.AIR)
-        
-def test():
+        size = self.SPAWN_ROOM_SIZE
+        spawn_room = Room((self.x, self.y, self.z), size, 6, size, (self.x-size//2, self.y, self.z), is_spawn=True)
+        spawn_room.generate()
+        list_pos_new_rooms = spawn_room.get_next_generation_points()
+
+
+
+def test_room():
     """programme de test"""
     x, y, z = mc.player.getTilePos()
     y -= 1
     room = Room((x, y, z), 20, 8, 20, (x-10, y, z))
-    print('type', room.type.upper(), room.tags)
+    print('Generated room', room.type.upper(), room.tags, 'with theme', room.theme)
     room.generate()
 
-test()
+def test_dungeon():
+    """programme de test"""
+    x, y, z = mc.player.getTilePos()
+    y -= 1
+    dungeon = Dungeon((x, y, z), 20, 8, 20)
+    dungeon.generate()
+
+test_room()
