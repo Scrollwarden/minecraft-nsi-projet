@@ -80,9 +80,20 @@ class Room:
 
         self.liquid_block = block.ICE if self.theme == 'winter' else block.LAVA if self.theme == 'hell' else block.WATER
     
-    def get_generation_points(self):
-        """Renvoie les points de la pièe à partir desquels d'autres pièces peuvent se générer"""
-        return self.generation_points
+    def yield_generation_point(self):
+        """
+        Renvoie un point de la pièce à partir duquel une autre pièce se générer.
+        Sous forme de tuple ((x, y, z), 'direction')
+        """
+        for point in self.generation_points:
+            if point[0] < self.center[0]:
+                yield ((point[0]+1, point[1], point[2]), '+x')
+            elif point[0] > self.center[0]:
+                yield ((point[0]-1, point[1], point[2]), '-x')
+            elif point[2] < self.center[2]:
+                yield ((point[0], point[1], point[2]+1), '+z')
+            elif point[2] > self.center[2]:
+                yield ((point[0], point[1], point[2]-1), '-z')
 
     def generate(self):
         """Créé la salle"""
@@ -229,7 +240,6 @@ class Room:
         """
         print('door opened')
         if z == self.center[2]:
-            self.generation_points.append((x, y, z, 'x'))
             mc.setBlocks(x, y+1, z, x, y+2, z+1, block.AIR)
             # pour l'instant la porte se casse après avoir été posée malgré le sleep
             time.sleep(1)
@@ -240,7 +250,6 @@ class Room:
                 mc.setBlock(x, y+1, z, block.DOOR_WOOD)
                 mc.setBlock(x, y+1, z+1, block.DOOR_WOOD)
         else:
-            self.generation_points.append((x, y, z, 'z'))
             mc.setBlocks(x, y+1, z, x+1, y+2, z, block.AIR)
             # pour l'instant la porte se casse après avoir été posée malgré le sleep
             time.sleep(1)
@@ -494,10 +503,33 @@ class Dungeon:
         self.y = y
         self.z = z
         self.average_size = average_size
+        self.current_room = None # salle actuelle de la génération
         
     def generate(self):
         """Créé le donjon"""
-        pass
+        self.generate_spawn_room()
+        nb_rooms = 0
+        while nb_rooms < self.average_size:
+            for door in self.current_room.yield_generation_point():
+                door_direction = door[1]
+                door_pos = door[0]
+                new_room_size = 20 # pour l'instant toutes les salles sont pareilles (c'est plus facile pour avoir les portes au bon endroit)
+                if door_direction == '+x':
+                    new_room_center = (door_pos[0] + new_room_size//2, door_pos[1], door_pos[2])
+                elif door_direction == '-x':
+                    new_room_center = (door_pos[0] - new_room_size//2, door_pos[1], door_pos[2])
+                elif door_direction == '+z':
+                    new_room_center = (door_pos[0], door_pos[1], door_pos[2] + new_room_size//2)
+                elif door_direction == '-z':
+                    new_room_center = (door_pos[0], door_pos[1], door_pos[2] - new_room_size//2)
+                else:
+                    raise ValueError("Direction de porte invalide")
+                
+                new_room = Room(new_room_center, new_room_size, random.randint(6, 10), new_room_size, door)
+                nb_rooms += 1
+                new_room.generate()
+                # et là il faut récupérer la nouvelle salle comme salle courante et recommencer.
+                
         
     def generate_spawn_room(self):
         """
@@ -508,7 +540,7 @@ class Dungeon:
         size = self.SPAWN_ROOM_SIZE
         spawn_room = Room((self.x, self.y, self.z), size, 6, size, (self.x-size//2, self.y, self.z), is_spawn=True)
         spawn_room.generate()
-        list_pos_new_rooms = spawn_room.get_next_generation_points()
+        self.current_room = spawn_room
 
 
 
