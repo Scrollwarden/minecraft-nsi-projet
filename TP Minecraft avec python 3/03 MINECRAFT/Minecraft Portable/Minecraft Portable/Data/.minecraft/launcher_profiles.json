@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "(Default)": {
+      "name": "(Default)",
+      "lastVersionId": "1.6.4"
+    }
+  },
+  "selectedProfile": "(Default)",
+  "clientToken": "9b89679a-722f-4291-a9df-655399058fec",
+  "authenticationDatabase": {}
+}
