@@ -1,0 +1,206 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x793e6a32, pid=1108, tid=1120
+#
+# JRE version: 6.0_45-b06
+# Java VM: Java HotSpot(TM) Client VM (20.45-b01 mixed mode, sharing windows-x86 )
+# Problematic frame:
+# C  0x793e6a32
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00cb9800):  JavaThread "Minecraft main thread" [_thread_in_native, id=1120, stack(0x014b0000,0x015b0000)]
+
+siginfo: ExceptionCode=0xc0000005, writing address 0x00000024
+
+Registers:
+EAX=0x00009e39, EBX=0x7db3c000, ECX=0x00000000, EDX=0x00000000
+ESP=0x015af320, EBP=0x015af368, ESI=0x00000000, EDI=0x00cb9800
+EIP=0x793e6a32, EFLAGS=0x00210206
+
+Top of Stack: (sp=0x015af320)
+0x015af320:   7d58f6c0 00000018 fffffb88 0000320b
+0x015af330:   015af398 00cb9800 015af368 79104423
+0x015af340:   7db3c000 7c000128 7940b950 7f4f80c0
+0x015af350:   015af398 00cb9800 015af368 7a8a2de5
+0x015af360:   015af37c 00000000 015af3a8 10009fb4
+0x015af370:   00cb9928 7a8a2db5 10009fb4 018379eb
+0x015af380:   00cb9928 015af398 7a8a2db0 00000000
+0x015af390:   3c8a1078 471271a8 5bdb74c0 ffffffb9 
+
+Instructions: (pc=0x793e6a32)
+0x793e6a12:   0c 15 03 00 01 ba 01 00 00 00 89 d8 e8 1d db ff
+0x793e6a22:   ff 89 c6 a1 48 38 7f 7a 83 c0 01 a3 48 38 7f 7a
+0x793e6a32:   89 46 24 e9 fa fc ff ff 8d b6 00 00 00 00 a1 40
+0x793e6a42:   95 7f 7a 85 c0 0f 85 c3 00 00 00 0f b6 05 d0 9f 
+
+
+Register to memory mapping:
+
+EAX=0x00009e39 is an unknown value
+EBX=0x7db3c000 is an unknown value
+ECX=0x00000000 is an unknown value
+EDX=0x00000000 is an unknown value
+ESP=0x015af320 is pointing into the stack for thread: 0x00cb9800
+EBP=0x015af368 is pointing into the stack for thread: 0x00cb9800
+ESI=0x00000000 is an unknown value
+EDI=0x00cb9800 is a thread
+
+
+Stack: [0x014b0000,0x015b0000],  sp=0x015af320,  free space=1020k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  0x793e6a32
+C  [lwjgl.dll+0x9fb4]  _Java_org_lwjgl_opengl_NVPrimitiveRestart_nglPrimitiveRestartNV@16+0x4
+J  bfa.a()V
+j  net.minecraft.client.main.Main.main([Ljava/lang/String;)V+768
+v  ~StubRoutines::call_stub
+V  [jvm.dll+0xfb88b]
+V  [jvm.dll+0x18d551]
+V  [jvm.dll+0xfb90d]
+V  [jvm.dll+0x960f6]
+V  [jvm.dll+0x9df33]
+C  [javaw.exe+0x2155]  EntryPoint+0xffffffff
+C  [javaw.exe+0x8624]  EntryPoint+0xffffffff
+C  [kernel32.dll+0x2d990]  BaseThreadInitThunk+0x10
+C  [ntdll.dll+0x567f7]  RtlUserThreadStart+0x27
+C  [ntdll.dll+0x56a50]  RtlCreateUserThread+0x0
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+J  org.lwjgl.opengl.GL11.nglEndList(J)V
+J  bfa.a()V
+J  bfl.a(Lof;Z)Z
+J  bfe.a(FJ)V
+J  bfe.b(F)V
+J  atv.S()V
+j  atv.d()V+88
+j  net.minecraft.client.main.Main.main([Ljava/lang/String;)V+768
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x04cc3c00 JavaThread "Client write thread" [_thread_blocked, id=1260, stack(0x10160000,0x10260000)]
+  0x04cc3800 JavaThread "Client read thread" [_thread_in_native, id=1256, stack(0x10050000,0x10150000)]
+  0x0415d000 JavaThread "Thread-11" daemon [_thread_in_native, id=1220, stack(0x0fe10000,0x0ff10000)]
+  0x05629c00 JavaThread "LWJGL Timer" daemon [_thread_blocked, id=1208, stack(0x0fae0000,0x0fbe0000)]
+  0x04d22800 JavaThread "Thread-6" [_thread_blocked, id=1176, stack(0x0ef30000,0x0f030000)]
+  0x04cb1000 JavaThread "Thread-5" [_thread_blocked, id=1172, stack(0x0d600000,0x0d700000)]
+  0x04aca400 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=1164, stack(0x0d3a0000,0x0d4a0000)]
+  0x04a91c00 JavaThread "Timer hack thread" daemon [_thread_blocked, id=1160, stack(0x0d290000,0x0d390000)]
+  0x041aac00 JavaThread "Snooper Timer" daemon [_thread_blocked, id=1156, stack(0x04980000,0x04a80000)]
+  0x00d26000 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=1148, stack(0x03ea0000,0x03fa0000)]
+  0x00d24400 JavaThread "C1 CompilerThread0" daemon [_thread_blocked, id=1144, stack(0x03d90000,0x03e90000)]
+  0x00d22c00 JavaThread "Attach Listener" daemon [_thread_blocked, id=1140, stack(0x03c80000,0x03d80000)]
+  0x00d21800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=1136, stack(0x03b70000,0x03c70000)]
+  0x00d1b000 JavaThread "Finalizer" daemon [_thread_blocked, id=1132, stack(0x03a60000,0x03b60000)]
+  0x00d19c00 JavaThread "Reference Handler" daemon [_thread_blocked, id=1128, stack(0x03950000,0x03a50000)]
+=>0x00cb9800 JavaThread "Minecraft main thread" [_thread_in_native, id=1120, stack(0x014b0000,0x015b0000)]
+
+Other Threads:
+  0x00cdd800 VMThread [stack: 0x03840000,0x03940000] [id=1124]
+  0x00d2d000 WatcherThread [stack: 0x03fb0000,0x040b0000] [id=1152]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 44800K, used 18074K [0x3b930000, 0x3e9c0000, 0x463d0000)
+  eden space 39872K,  40% used [0x3b930000, 0x3c90a5b8, 0x3e020000)
+  from space 4928K,  37% used [0x3e4f0000, 0x3e6bc260, 0x3e9c0000)
+  to   space 4928K,   0% used [0x3e020000, 0x3e020000, 0x3e4f0000)
+ tenured generation   total 99404K, used 72647K [0x463d0000, 0x4c4e3000, 0x5b930000)
+   the space 99404K,  73% used [0x463d0000, 0x4aac1d80, 0x4aac1e00, 0x4c4e3000)
+ compacting perm gen  total 12288K, used 10635K [0x5b930000, 0x5c530000, 0x5f930000)
+   the space 12288K,  86% used [0x5b930000, 0x5c392e00, 0x5c392e00, 0x5c530000)
+    ro space 10240K,  51% used [0x5f930000, 0x5fe63000, 0x5fe63000, 0x60330000)
+    rw space 12288K,  55% used [0x60330000, 0x609ce4f8, 0x609ce600, 0x60f30000)
+
+Code Cache  [0x015c0000, 0x01ba8000, 0x035c0000)
+ total_blobs=2673 nmethods=2354 adapters=253 free_code_cache=27380480 largest_free_block=256
+
+Dynamic libraries:
+0x00400000 - 0x00425000 	C:\Program Files\Java\jre6\bin\javaw.exe
+0x7bc00000 - 0x7bea9000 	C:\windows\system32\ntdll.dll
+0x7b600000 - 0x7b929000 	C:\windows\system32\kernel32.dll
+0x7b000000 - 0x7b348000 	C:\windows\system32\kernelbase.dll
+0x61740000 - 0x61832000 	C:\windows\system32\ADVAPI32.dll
+0x6a280000 - 0x6a4cd000 	C:\Program Files\Java\jre6\bin\msvcrt.dll
+0x6bc00000 - 0x6bc99000 	C:\windows\system32\sechost.dll
+0x70b40000 - 0x70df9000 	C:\windows\system32\ucrtbase.dll
+0x6ed00000 - 0x6f389000 	C:\windows\system32\USER32.dll
+0x6c9c0000 - 0x6cf59000 	C:\windows\system32\gdi32.dll
+0x6bcc0000 - 0x6be60000 	C:\windows\system32\setupapi.dll
+0x62fc0000 - 0x631d3000 	C:\windows\system32\rpcrt4.dll
+0x63480000 - 0x6349b000 	C:\windows\system32\version.dll
+0x71200000 - 0x71251000 	C:\windows\system32\imm32.dll
+0x6e800000 - 0x6ea45000 	C:\Program Files\Java\jre6\bin\msvcr71.dll
+0x6d810000 - 0x6dac0000 	C:\Program Files\Java\jre6\bin\client\jvm.dll
+0x00dc0000 - 0x00f26000 	C:\windows\system32\WINMM.dll
+0x6a040000 - 0x6a0a2000 	C:\windows\system32\msacm32.dll
+0x00f30000 - 0x01396000 	C:\windows\system32\ole32.dll
+0x68500000 - 0x68640000 	C:\windows\system32\combase.dll
+0x6d7c0000 - 0x6d7cc000 	C:\Program Files\Java\jre6\bin\verify.dll
+0x6d330000 - 0x6d34f000 	C:\Program Files\Java\jre6\bin\java.dll
+0x6d800000 - 0x6d80f000 	C:\Program Files\Java\jre6\bin\zip.dll
+0x10000000 - 0x1004c000 	C:\users\matthew\Bureau\NSI\NSI projets\TP Minecraft avec python 3\Server TP minecraft\TP Minecraft avec python 3\03 MINECRAFT\Minecraft Portable\Minecraft Portable\Data\.minecraft\versions\1.6.4\1.6.4-natives-315955211842300\lwjgl.dll
+0x7a820000 - 0x7a938000 	C:\windows\system32\OPENGL32.dll
+0x041d0000 - 0x04675000 	C:\windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.2600.2982_none_deadbeef\COMCTL32.dll
+0x7f470000 - 0x7f500000 	C:\windows\system32\winex11.drv
+0x68700000 - 0x68788000 	C:\windows\system32\uxtheme.dll
+0x6d610000 - 0x6d623000 	C:\Program Files\Java\jre6\bin\net.dll
+0x7f130000 - 0x7f168000 	C:\windows\system32\WS2_32.dll
+0x7f110000 - 0x7f12b000 	C:\windows\system32\iphlpapi.dll
+0x6d630000 - 0x6d639000 	C:\Program Files\Java\jre6\bin\nio.dll
+0x6d000000 - 0x6d14c000 	C:\Program Files\Java\jre6\bin\awt.dll
+0x7f0c0000 - 0x7f0fd000 	C:\windows\system32\WINSPOOL.DRV
+0x0f040000 - 0x0f0a5000 	C:\users\matthew\Bureau\NSI\NSI projets\TP Minecraft avec python 3\Server TP minecraft\TP Minecraft avec python 3\03 MINECRAFT\Minecraft Portable\Minecraft Portable\data\.minecraft\versions\1.6.4\1.6.4-natives-315955211842300\OpenAL32.dll
+0x7c640000 - 0x7d000000 	C:\windows\system32\SHELL32.dll
+0x64a40000 - 0x64b29000 	C:\windows\system32\shlwapi.dll
+0x63bc0000 - 0x63c04000 	C:\windows\system32\shcore.dll
+0x67d40000 - 0x67db9000 	C:\windows\system32\mmdevapi.dll
+0x64ec0000 - 0x652b9000 	C:\windows\system32\oleaut32.dll
+0x7d690000 - 0x7d6b6000 	C:\windows\system32\winepulse.drv
+0x682c0000 - 0x683e7000 	C:\windows\system32\dsound.dll
+0x6d7a0000 - 0x6d7a8000 	C:\Program Files\Java\jre6\bin\sunmscapi.dll
+0x0f820000 - 0x0fad9000 	C:\windows\system32\CRYPT32.dll
+0x66240000 - 0x66288000 	C:\windows\system32\bcrypt.dll
+0x6d560000 - 0x6d569000 	C:\Program Files\Java\jre6\bin\management.dll
+0x0d500000 - 0x0d50f000 	C:\windows\system32\PSAPI.DLL
+
+VM Arguments:
+jvm_args: -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx512M -Djava.library.path=C:\users\matthew\Bureau\NSI\NSI projets\TP Minecraft avec python 3\Server TP minecraft\TP Minecraft avec python 3\03 MINECRAFT\Minecraft Portable\Minecraft Portable\data\.minecraft\versions\1.6.4\1.6.4-natives-315955211842300 
+java_command: net.minecraft.client.main.Main --username HERRIOT --session 1337535510N --version 1.6.4 --gameDir C:\users\matthew\Bureau\NSI\NSI projets\TP Minecraft avec python 3\Server TP minecraft\TP Minecraft avec python 3\03 MINECRAFT\Minecraft Portable\Minecraft Portable\data\.minecraft --assetsDir C:\users\matthew\Bureau\NSI\NSI projets\TP Minecraft avec python 3\Server TP minecraft\TP Minecraft avec python 3\03 MINECRAFT\Minecraft Portable\Minecraft Portable\data\.minecraft\assets\virtual\legacy
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\WindowsPowershell\v1.0;C:\Program Files\Java\jre6\bin
+USERNAME=matthew
+SHELL=/bin/bash
+DISPLAY=:0
+MACHTYPE=x86_64-pc-linux-gnu
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 158 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 Build 7601 Service Pack 1
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 158 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 34809120k(24111952k free), swap 34809124k(26208840k free)
+
+vm_info: Java HotSpot(TM) Client VM (20.45-b01) for windows-x86 JRE (1.6.0_45-b06), built on Mar 26 2013 13:40:03 by "java_re" with MS VC++ 7.1 (VS2003)
+
+time: Sun Jan 05 21:19:31 2025
+elapsed time: 143 seconds
+

@@ -14759,3 +14759,248 @@ net.minecraft.server.v1_6_R3.ExceptionWorldConflict: The save is being accessed 
 2025-01-05 20:52:25 [SEVERE] 	at java.lang.Thread.run(Unknown Source)
 2025-01-05 20:52:25 [INFO] Saving chunks for level 'world_nether'/Nether
 2025-01-05 20:52:25 [INFO] Saving chunks for level 'world_the_end'/The End
+2025-01-05 21:11:25 [INFO] Starting minecraft server version 1.6.4
+2025-01-05 21:11:25 [INFO] Loading properties
+2025-01-05 21:11:25 [INFO] Default game type: CREATIVE
+2025-01-05 21:11:25 [INFO] Generating keypair
+2025-01-05 21:11:25 [INFO] Starting Minecraft server on *:25565
+2025-01-05 21:11:26 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R2.0-b2918jnks (MC: 1.6.4) (Implementing API version 1.6.4-R2.0)
+2025-01-05 21:11:26 [INFO] [RaspberryJuice] Loading RaspberryJuice v1.3
+2025-01-05 21:11:26 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-01-05 21:11:26 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2025-01-05 21:11:26 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-01-05 21:11:26 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2025-01-05 21:11:26 [INFO] Preparing level "world"
+2025-01-05 21:11:26 [INFO] Preparing start region for level 0 (Seed: 2455753326185401600)
+2025-01-05 21:11:26 [SEVERE] Exception in thread "Thread-6" 
+2025-01-05 21:11:26 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-05 21:11:26 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+2025-01-05 21:11:26 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:795)
+2025-01-05 21:11:26 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:734)
+2025-01-05 21:11:26 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2025-01-05 21:11:26 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2025-01-05 21:11:26 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2025-01-05 21:11:26 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-05 21:11:26 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2025-01-05 21:11:26 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2025-01-05 21:11:26 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+2025-01-05 21:11:26 [SEVERE] 	... 5 more
+2025-01-05 21:11:27 [INFO] Preparing start region for level 1 (Seed: 2455753326185401600)
+2025-01-05 21:11:28 [INFO] Preparing start region for level 2 (Seed: 2455753326185401600)
+2025-01-05 21:11:28 [INFO] [RaspberryJuice] Enabling RaspberryJuice v1.3
+2025-01-05 21:11:28 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2025-01-05 21:11:28 [INFO] Done (2,031s)! For help, type "help" or "?"
+2025-01-05 21:12:23 [INFO] HERRIOT[/127.0.0.1:47720] logged in with entity id 30 at ([world] -737.5938977384548, 64.0, -993.7773713906041)
+2025-01-05 21:12:28 [INFO] Starting input thread!
+2025-01-05 21:12:28 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:37290.
+2025-01-05 21:12:28 [INFO] Starting output thread!
+2025-01-05 21:12:29 [INFO] [INFO] The dungeon is generating. Please wait (it can take some time).[m
+2025-01-05 21:12:41 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 21:12:41 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 21:12:44 [INFO] HERRIOT issued server command: /gamemode survival
+2025-01-05 21:12:44 [INFO] HERRIOT: Set own game mode to SURVIVAL mode[m
+2025-01-05 21:12:48 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 21:12:54 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 21:13:03 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@df824a
+2025-01-05 21:13:03 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@6a2f81
+2025-01-05 21:13:09 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 21:13:17 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 21:13:24 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 21:13:59 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 21:14:06 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 21:14:14 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 21:14:21 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 21:14:56 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 21:15:02 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 21:15:05 [INFO] Disconnecting /192.168.1.20:37364: Protocol error
+2025-01-05 21:15:05 [INFO] /192.168.1.20:37364 lost connection
+2025-01-05 21:15:09 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 21:15:15 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 21:15:30 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 21:15:37 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 21:15:43 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 21:15:50 [INFO] Dommage pour vous.[m
+2025-01-05 21:16:35 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 21:16:42 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 21:16:52 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 21:16:59 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 21:17:03 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 21:17:04 [INFO] §eHERRIOT left the game.
+2025-01-05 21:17:06 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 21:17:14 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 21:17:18 [INFO] HERRIOT[/127.0.0.1:33984] logged in with entity id 339 at ([world] -721.3672673227338, 64.0, -987.9757069584159)
+2025-01-05 21:17:47 [INFO] HERRIOT issued server command: /gamemode survival
+2025-01-05 21:17:47 [INFO] HERRIOT: Set own game mode to SURVIVAL mode[m
+2025-01-05 21:17:49 [INFO] Oh. je ne sais pas si vous avez ouvert un coffre ?[m
+2025-01-05 21:17:55 [INFO] Vous etes decu hein ?[m
+2025-01-05 21:18:02 [INFO] Vos collegues aventuriers ont tout pris.[m
+2025-01-05 21:18:08 [INFO] Ca coute cher de refournir le donjon a chaque fois.[m
+2025-01-05 21:18:15 [INFO] Et cette annee on est en budget limite.[m
+2025-01-05 21:18:22 [INFO] C'est bien triste.[m
+2025-01-05 21:18:22 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:37290.
+2025-01-05 21:19:31 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 21:19:32 [INFO] §eHERRIOT left the game.
+2025-01-05 21:19:43 [INFO] HERRIOT[/127.0.0.1:35918] logged in with entity id 540 at ([world] -695.082415204552, 64.0, -985.7055156371264)
+2025-01-05 21:21:42 [INFO] HERRIOT issued server command: /gamemode survival
+2025-01-05 21:21:42 [INFO] HERRIOT: Set own game mode to SURVIVAL mode[m
+2025-01-05 21:21:51 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 21:21:51 [INFO] §eHERRIOT left the game.
+2025-01-05 21:22:02 [INFO] HERRIOT[/127.0.0.1:38558] logged in with entity id 711 at ([world] -746.9468378130016, 64.0, -929.6316741175068)
+2025-01-05 21:22:09 [INFO] HERRIOT issued server command: /gamemode survival
+2025-01-05 21:22:09 [INFO] HERRIOT: Set own game mode to SURVIVAL mode[m
+2025-01-05 21:24:18 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 21:24:18 [INFO] §eHERRIOT left the game.
+2025-01-05 21:24:30 [INFO] HERRIOT[/127.0.0.1:47694] logged in with entity id 899 at ([world] -758.0092435767205, 64.0, -986.032964668051)
+2025-01-05 21:24:39 [INFO] HERRIOT issued server command: /gamemode survival
+2025-01-05 21:24:39 [INFO] HERRIOT: Set own game mode to SURVIVAL mode[m
+2025-01-05 21:26:33 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 21:26:33 [INFO] §eHERRIOT left the game.
+2025-01-05 21:26:44 [INFO] HERRIOT[/127.0.0.1:58844] logged in with entity id 1038 at ([world] -674.528476568549, 64.0, -972.2382095445697)
+2025-01-05 21:27:55 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:51538.
+2025-01-05 21:27:55 [INFO] Starting input thread!
+2025-01-05 21:27:55 [INFO] Starting output thread!
+2025-01-05 21:27:55 [INFO] [INFO] The dungeon is generating. Please wait (it can take some time).[m
+2025-01-05 21:28:05 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 21:28:07 [INFO] HERRIOT issued server command: /gamemode survival
+2025-01-05 21:28:07 [INFO] HERRIOT: Set own game mode to SURVIVAL mode[m
+2025-01-05 21:28:21 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 21:28:36 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 21:28:43 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 21:28:49 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 21:29:04 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 21:29:12 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 21:29:19 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 21:29:54 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 21:30:01 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 21:30:06 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 21:30:06 [INFO] §eHERRIOT left the game.
+2025-01-05 21:30:09 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 21:30:16 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 21:30:21 [INFO] HERRIOT[/127.0.0.1:40206] logged in with entity id 1301 at ([world] -716.9139889563295, 64.0, -949.6060187724961)
+2025-01-05 21:30:51 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 21:30:57 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 21:31:00 [INFO] HERRIOT issued server command: /gamemode survival
+2025-01-05 21:31:00 [INFO] HERRIOT: Set own game mode to SURVIVAL mode[m
+2025-01-05 21:31:04 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 21:31:10 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 21:31:25 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 21:31:32 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 21:31:38 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 21:31:45 [INFO] Dommage pour vous.[m
+2025-01-05 21:32:30 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 21:32:37 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 21:32:47 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 21:32:54 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 21:33:01 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 21:33:09 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 21:33:44 [INFO] Oh. je ne sais pas si vous avez ouvert un coffre ?[m
+2025-01-05 21:33:50 [INFO] Vous etes decu hein ?[m
+2025-01-05 21:33:57 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 21:33:57 [INFO] §eHERRIOT left the game.
+2025-01-05 21:33:57 [INFO] Vos collegues aventuriers ont tout pris.[m
+2025-01-05 21:34:03 [INFO] Ca coute cher de refournir le donjon a chaque fois.[m
+2025-01-05 21:34:10 [INFO] Et cette annee on est en budget limite.[m
+2025-01-05 21:34:17 [INFO] C'est bien triste.[m
+2025-01-05 21:34:17 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:51538.
+2025-01-05 21:37:29 [INFO] HERRIOT[/127.0.0.1:39920] logged in with entity id 1531 at ([world] -699.6370081331189, 64.0, -1019.5867838033271)
+2025-01-05 21:37:40 [INFO] HERRIOT issued server command: /gamemode survival
+2025-01-05 21:37:40 [INFO] HERRIOT: Set own game mode to SURVIVAL mode[m
+2025-01-05 21:40:03 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 21:40:04 [INFO] §eHERRIOT left the game.
+2025-01-05 21:40:18 [INFO] HERRIOT[/127.0.0.1:58268] logged in with entity id 1727 at ([world] -624.8165735772661, 64.0, -993.1831202808612)
+2025-01-05 21:40:30 [INFO] HERRIOT issued server command: /gamemode survival
+2025-01-05 21:40:30 [INFO] HERRIOT: Set own game mode to SURVIVAL mode[m
+2025-01-05 21:44:15 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 21:44:15 [INFO] §eHERRIOT left the game.
+2025-01-05 21:44:36 [INFO] HERRIOT[/127.0.0.1:57530] logged in with entity id 1953 at ([world] -736.6386450497607, 64.0, -1006.201125568495)
+2025-01-05 21:44:42 [INFO] HERRIOT issued server command: /gamemode survival
+2025-01-05 21:44:42 [INFO] HERRIOT: Set own game mode to SURVIVAL mode[m
+2025-01-05 21:47:14 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 21:47:15 [INFO] §eHERRIOT left the game.
+2025-01-05 21:47:27 [INFO] HERRIOT[/127.0.0.1:56486] logged in with entity id 2058 at ([world] -698.638767480806, 64.0, -993.2656350491402)
+2025-01-05 21:48:48 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 21:48:49 [INFO] §eHERRIOT left the game.
+2025-01-05 21:49:03 [INFO] HERRIOT[/127.0.0.1:40994] logged in with entity id 2237 at ([world] -756.5860808459076, 64.0, -1001.8527718384519)
+2025-01-05 21:50:44 [INFO] HERRIOT issued server command: /tp 10000 ~ -10000
+2025-01-05 21:50:44 [INFO] HERRIOT: Teleported HERRIOT to 10000,50, 122,40, -9999,50[m
+2025-01-05 21:50:50 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 21:58:08 [INFO] HERRIOT issued server command: /tp HERRIOT -10000 ~ 10000
+2025-01-05 21:58:08 [INFO] HERRIOT: Teleported HERRIOT to -9999,50, 63,00, 10000,50[m
+2025-01-05 21:58:14 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 21:58:40 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 21:58:40 [INFO] §eHERRIOT left the game.
+2025-01-05 21:58:58 [INFO] HERRIOT[/127.0.0.1:42464] logged in with entity id 9385 at ([world] -9999.5, 78.09950005525175, 10000.5)
+2025-01-05 21:59:18 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:57234.
+2025-01-05 21:59:18 [INFO] Starting input thread!
+2025-01-05 21:59:18 [INFO] Starting output thread!
+2025-01-05 21:59:19 [INFO] [INFO] The dungeon is generating. Please wait (it can take some time).[m
+2025-01-05 21:59:26 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 21:59:33 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:57234.
+2025-01-05 22:00:07 [INFO] Disconnecting /192.168.1.20:55074: Protocol error
+2025-01-05 22:00:07 [INFO] /192.168.1.20:55074 lost connection
+2025-01-05 22:03:09 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:39588.
+2025-01-05 22:03:09 [INFO] Starting input thread!
+2025-01-05 22:03:09 [INFO] Starting output thread!
+2025-01-05 22:03:09 [INFO] [INFO] The dungeon is generating. Please wait (it can take some time).[m
+2025-01-05 22:03:27 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 22:03:30 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 22:03:37 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 22:03:44 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 22:03:59 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 22:04:07 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 22:04:14 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 22:04:49 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 22:04:56 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 22:05:04 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 22:05:10 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 22:05:45 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 22:05:52 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 22:05:58 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 22:06:05 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 22:06:20 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 22:06:26 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 22:06:33 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 22:06:40 [INFO] Dommage pour vous.[m
+2025-01-05 22:07:25 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 22:07:32 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 22:07:42 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 22:07:49 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 22:07:55 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 22:08:03 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 22:08:08 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:39588.
+2025-01-05 22:08:09 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:38284.
+2025-01-05 22:08:09 [INFO] Starting input thread!
+2025-01-05 22:08:09 [INFO] Starting output thread!
+2025-01-05 22:08:09 [INFO] [INFO] The dungeon is generating. Please wait (it can take some time).[m
+2025-01-05 22:08:14 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 22:08:32 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 22:08:45 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 22:08:52 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 22:08:59 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 22:09:14 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 22:09:22 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 22:09:29 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 22:10:04 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 22:10:11 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 22:10:19 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 22:10:25 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 22:10:53 [INFO] HERRIOT issued server command: /tp HERRIOT 10116 63 -10268
+2025-01-05 22:10:53 [INFO] HERRIOT: Teleported HERRIOT to 10116,50, 63,50, -10267,50[m
+2025-01-05 22:11:00 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 22:11:07 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 22:11:13 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 22:11:20 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 22:11:35 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 22:11:41 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 22:11:48 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 22:11:55 [INFO] Dommage pour vous.[m
+2025-01-05 22:12:09 [INFO] HERRIOT issued server command: /gamemode survival
+2025-01-05 22:12:09 [INFO] HERRIOT: Set own game mode to SURVIVAL mode[m
+2025-01-05 22:12:20 [INFO] HERRIOT issued server command: /gamerule keepInventory true
+2025-01-05 22:12:20 [INFO] HERRIOT: Game rule keepInventory has been set to: true[m
+2025-01-05 22:12:25 [INFO] Connection reset
+2025-01-05 22:12:25 [INFO] HERRIOT lost connection: disconnect.quitting
+2025-01-05 22:12:25 [INFO] §eHERRIOT left the game.
+2025-01-05 22:12:40 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 22:12:47 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 22:12:50 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:38284.

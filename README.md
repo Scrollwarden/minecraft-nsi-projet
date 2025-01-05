@@ -77,12 +77,12 @@ Dans ce cas, vous êtes condamnés à errer dans les entrailles du donjon jusqu'
 NOTE : pour vous mettre en créatif, tapez dans la fenêtre de commande du server bukkit `gamemode creative <votre_nom>`.
 Lorsque vous voulez commencer l'exploration du donjon, lancez la commande `gamemode survival <votre_nom>`.
 _  
-****
+
 **Génération**
 Le donjon se génère "à l'envers", c'est à dire que les portes de la salle de départ sembleront mener directement à l'extérieur
 jusqu'à ce que le donjon soit entièrement généré.  
 Ne commencez donc pas l'exploration trop tôt. Attendez d'être téléportés au centre de la salle de départ.
-****
+
 **Items**  
 Avant de commencer à explorer le donjon, vous aurez besoin des items suivants :
 - Blocs (de planches par exemple). Certaines zones des salles peuvent être difficiles à atteindre et vous pouvez vous retrouver coincés à certains moments.
@@ -90,12 +90,12 @@ Avant de commencer à explorer le donjon, vous aurez besoin des items suivants :
 - Épée. Elle sera utile dans certaines salles malgré le fait que les outils utilisés ne permettent pas l'apparitions de créatures.
 - Torches. Elles sont optionnelles, mais certaines pièces peuvent être très sombres.  
 En vous connectant en temps que HERRIOT vous devriez posséder ces items dans votre inventaire.
-****
+
 **Règles**  
 Il n'y a pas de règles obligatoires à suivre, mais les propositions suivantes peuvent améliorer votre expérience de jeu.  
 Le donjon à été pensé de telle sorte que vous n'avez jamais besoin de creuser un mur ou de casser une porte.
 Par ailleur, les portes de fer n'ont pas nécessairement toutes une clef, mais cela fait partie du jeu. Vous devez choisir quelle porte ouvrir, ou trouver des clefs dans des salles sans portes. Vous êtes sensé laisser la torche là où vous l'avez posé tant que vous voulez conserver la porte ouverte. Explorez la pièce, puis reprenez la clef lorsque vous avez fini pour ouvrir la porte suivante.
-****
+
 **Trésors cachés**  
 Certaines décorations peuvent cacher dans leur base des trésors ou des clefs. Lorsque vous êtes dans une salle au trésor ou dans une salle fermée à clef,
 testez les structures suivantes :
@@ -105,7 +105,8 @@ testez les structures suivantes :
 
 ## 4. Bugs connus
 Les bugs suivants ont été répertoriés sous Linux Mint :
-- **Minecraft Crash.** Le jeu peut freeze et crash au bout d'un certain temps visiblement aléatoire. Ce bug semble lié à la machine sur laquelle le projet à été développé.
+- **Minecraft Out Of Memory.** Le jeu peut freeze et crash au bout d'un certain temps visiblement aléatoire. De nombreux messages Out Of Memory sont envoyés avant.
+Ce bug semble lié à la machine sur laquelle le projet à été développé ou peut provenir du setup en lui-même. Si ce bug est observé sur d'autres machines, une installation propre du setup depuis zéro résoudra peut-être le problème.
 
 ## 5. Crédits
 ### Créateurs

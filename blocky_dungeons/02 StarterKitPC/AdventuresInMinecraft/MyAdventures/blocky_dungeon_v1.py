@@ -1,5 +1,11 @@
 '''
-Generate a random dungeon
+Ce programme est le programme principal de BLOCKY DUNGEONS.
+Pour modifier les paramètres, voir dungeons_settings.py
+
+Generate a random dungeon in minecraft 1.6.4
+
+Author : Matthew Batt
+Creation : 03/01/2025
 '''
 
 import mcpi.minecraft as minecraft
@@ -321,8 +327,8 @@ class Room:
         x -= self.width//2-1
         y += 1
         z -= self.depth//2-1
-        for i in range(self.width-1):
-            for j in range(self.depth-1):
+        for i in range(self.width-2):
+            for j in range(self.depth-2):
                 for k in range(self.height-1):
                     if random.randint(0, 100) < 25:
                         mc.setBlock(x+i, y+k, z+j, block.COBWEB)
@@ -573,14 +579,14 @@ class Dungeon:
             x, y, z = door[0]
             door_direction = door[1]
             if random.randint(0, 100) < 75:
-                # on vérifie la présence de blocs de pierre pour savoir s'il y a accès à une salle ou à l'extérieur
-                if door_direction == '-x' and not mc.getBlock(x, y, z) == FLOOR_BLOCK.id:
+                # on vérifie la présence de blocs de pierre pour savoir s'il y a accès à une salle ou à l'extérieur (les portes sont dans les murs et non dans le sol)
+                if door_direction == '-x' and not mc.getBlock(x, y, z) == WALL_BLOCK.id:
                     mc.setBlocks(x-1, y, z, x-1, y+2, z+1, block.STONE_BRICK)
-                elif door_direction == '+x' and not mc.getBlock(x, y, z) == FLOOR_BLOCK.id:
+                elif door_direction == '+x' and not mc.getBlock(x, y, z) == WALL_BLOCK.id:
                     mc.setBlocks(x+1, y, z, x+1, y+2, z+1, block.STONE_BRICK)
-                elif door_direction == '-z' and not mc.getBlock(x, y, z) == FLOOR_BLOCK.id:
+                elif door_direction == '-z' and not mc.getBlock(x, y, z) == WALL_BLOCK.id:
                     mc.setBlocks(x, y, z-1, x+1, y+2, z-1, block.STONE_BRICK)
-                elif door_direction == '+z' and not mc.getBlock(x, y, z) == FLOOR_BLOCK.id:
+                elif door_direction == '+z' and not mc.getBlock(x, y, z) == WALL_BLOCK.id:
                     mc.setBlocks(x, y, z+1, x+1, y+2, z+1, block.STONE_BRICK)
         
     def generate_spawn_room(self):
