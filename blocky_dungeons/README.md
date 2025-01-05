@@ -77,24 +77,24 @@ Dans ce cas, vous êtes condamnés à errer dans les entrailles du donjon jusqu'
 NOTE : pour vous mettre en créatif, tapez dans la fenêtre de commande du server bukkit `gamemode creative <votre_nom>`.
 Lorsque vous voulez commencer l'exploration du donjon, lancez la commande `gamemode survival <votre_nom>`.
 _  
-****
+  
 **Génération**
 Le donjon se génère "à l'envers", c'est à dire que les portes de la salle de départ sembleront mener directement à l'extérieur
 jusqu'à ce que le donjon soit entièrement généré.  
 Ne commencez donc pas l'exploration trop tôt. Attendez d'être téléportés au centre de la salle de départ.
-****
+  
 **Items**  
 Avant de commencer à explorer le donjon, vous aurez besoin des items suivants :
 - Blocs (de planches par exemple). Certaines zones des salles peuvent être difficiles à atteindre et vous pouvez vous retrouver coincés à certains moments.
 - Pioche. Les trésors sont présents sous forme de blocs de valeur que vous voudrez récupérer.
 - Épée. Elle sera utile dans certaines salles malgré le fait que les outils utilisés ne permettent pas l'apparitions de créatures.
 - Torches. Elles sont optionnelles, mais certaines pièces peuvent être très sombres.  
-****
+  
 **Règles**  
 Il n'y a pas de règles obligatoires à suivre, mais les propositions suivantes peuvent améliorer votre expérience de jeu.  
 Le donjon à été pensé de telle sorte que vous n'avez jamais besoin de creuser un mur ou de casser une porte.
 Par ailleur, les portes de fer n'ont pas nécessairement toutes une clef, mais cela fait partie du jeu. Vous devez choisir quelle porte ouvrir, ou trouver des clefs dans des salles sans portes. Vous êtes sensé laisser la torche là où vous l'avez posé tant que vous voulez conserver la porte ouverte. Explorez la pièce, puis reprenez la clef lorsque vous avez fini pour ouvrir la porte suivante.
-****
+  
 **Trésors cachés**  
 Certaines décorations peuvent cacher dans leur base des trésors ou des clefs. Lorsque vous êtes dans une salle au trésor ou dans une salle fermée à clef,
 testez les structures suivantes :
@@ -138,4 +138,4 @@ Il a publié son premier jeu vidéo le 11 novembre 2023. Il s'agissait de The ga
 Depuis, d'autres projets ont été menés (très majoritairement dans le cadre des *Concours de Tests de NSI*) et l'équipe s'est agrandie.
 
 ### Inspirations
-Le principe du monologue du *Maître du donjon* est inspiré du monologue des IA dans Portal 2. Le contenu est entièrement inventé en revanche.  
+Le principe du monologue du *Maître du donjon* est inspiré du monologue des IA dans Portal 2. Le contenu est entièrement inventé en revanche.
