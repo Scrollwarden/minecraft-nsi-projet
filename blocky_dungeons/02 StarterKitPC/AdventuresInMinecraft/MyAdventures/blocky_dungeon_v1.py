@@ -8,12 +8,9 @@ import mcpi.entity as entity
 import random
 import time
 
-mc = minecraft.Minecraft.create()
+from dungeons_settings import *
 
-WALL_BLOCK = block.COBBLESTONE
-FLOOR_BLOCK = block.STONE_BRICK
-ROOF_BLOCK = block.STONE
-WOOD_BLOCK = block.WOOD_PLANKS
+mc = minecraft.Minecraft.create()
 
 ENTITY_BOSS_LIST = (entity.WITHER_SKELETON, entity.ILLUSIONER, entity.ENDERMAN, entity.EVOKER)
 ENTITY_MONSTER_LVL1_LIST = (entity.ZOMBIE, entity.SKELETON, entity.SLIME, entity.SPIDER)
@@ -23,7 +20,7 @@ ENTITY_MONSTER_LVL3_LIST = (entity.VEX, entity.VINDICATOR, entity.BLAZE)
 class Room:
     '''
     Une salle du donjon.
-    Les salles mesurent au minimum 15×15×6 blocs.
+    Les salles mesurent au minimum 15×15×6 blocs. Des valeurs inférieures peuvent causer des générations étranges.
     
     INPUT
     - pos (tuple[int, int, int]) : coordonnées du centre de la salle
@@ -321,12 +318,12 @@ class Room:
         """
         # spawnEntity ne fonctionne pas...
         x, y, z = self.center
-        x -= self.width//2+1
+        x -= self.width//2-1
         y += 1
-        z -= self.depth//2+1
-        for i in range(self.width-2):
+        z -= self.depth//2-1
+        for i in range(self.width-1):
             for j in range(self.depth-1):
-                for k in range(self.height-2):
+                for k in range(self.height-1):
                     if random.randint(0, 100) < 25:
                         mc.setBlock(x+i, y+k, z+j, block.COBWEB)
         # mc.spawnEntity(x, y+2*(self.height//3), z, entity.CAVE_SPIDER)
@@ -359,28 +356,24 @@ class Room:
             if x < self.center[0]:
                 mc.setBlocks(x+1, y+self.height, z, x+1, y+self.height, z+1, block.LAVA)
                 time.sleep(1.5) # pour laisser à la lave le temps de s'écouler
-                mc.setBlocks(x+1, y+self.height, z, x+1, y+self.height, z+1, block.STONE)
+                mc.setBlocks(x+1, y+self.height, z, x+1, y+self.height, z+1, ROOF_BLOCK)
             elif x > self.center[0]:
                 mc.setBlocks(x-1, y+self.height, z, x-1, y+self.height, z+1, block.LAVA)
                 time.sleep(1.5)
-                mc.setBlocks(x-1, y+self.height, z, x-1, y+self.height, z+1, block.STONE)
+                mc.setBlocks(x-1, y+self.height, z, x-1, y+self.height, z+1, ROOF_BLOCK)
             elif z < self.center[2]:
                 mc.setBlocks(x, y+self.height, z+1, x+1, y+self.height, z+1, block.LAVA)
                 time.sleep(1.5)
-                mc.setBlocks(x, y+self.height, z+1, x+1, y+self.height, z+1, block.STONE)
+                mc.setBlocks(x, y+self.height, z+1, x+1, y+self.height, z+1, ROOF_BLOCK)
             elif z > self.center[2]:
                 mc.setBlocks(x, y+self.height, z-1, x+1, y+self.height, z-1, block.LAVA)
                 time.sleep(1.5)
-                mc.setBlocks(x, y+self.height, z-1, x+1, y+self.height, z-1, block.STONE)
+                mc.setBlocks(x, y+self.height, z-1, x+1, y+self.height, z-1, ROOF_BLOCK)
     
     def generate_enhancements(self):
         """place des décorations dans la pièce"""
         decor_functions_list = (self.place_fire, self.place_pillar, self.place_cuve, self.place_fall)
 
-        if 'locked' in self.tags:
-            x, y, z = self.pos_stuff[random.randint(1, 4)] # centre exclu
-            self.place_ground_safe(x, y-1, z)
-            mc.setBlock(x, y, z, block.TORCH_REDSTONE.id, 5) # permet d'ouvrir une porte en fer
         if self.type == 'boss':
             x, y, z = self.center
             self.place_boss_fall(x, y, z)
@@ -400,6 +393,11 @@ class Room:
                         else:
                             generate_deco = self.place_fall
                         generate_deco(x, y, z)
+        if 'locked' in self.tags:
+            x, y, z = self.pos_stuff[random.randint(1, 4)] # centre exclu
+            mc.setBlocks(x, y+self.height-1, z, x, y+self.height+1, z, ROOF_BLOCK) # pour boucher les chutes de liquide
+            self.place_ground_safe(x, y-1, z)
+            mc.setBlock(x, y, z, block.TORCH_REDSTONE.id, 5) # permet d'ouvrir une porte en fer
 
     def place_boss_fall(self, x, y, z):
         """place des chutes de liquide autour du centre de la salle"""
@@ -407,25 +405,25 @@ class Room:
                         x+ self.width//3, y+self.height+1, z+self.depth//3,
                         self.liquid_block)
         mc.setBlocks(x-2, y, z+self.depth//3,
-                        x+2, y+self.height, z+self.depth//3,
+                        x+2, y+self.height+1, z+self.depth//3,
                         block.AIR)
         mc.setBlocks(x- self.width//3, y-1, z-self.depth//3,
                         x+ self.width//3, y+self.height+1, z-self.depth//3,
                         self.liquid_block)
         mc.setBlocks(x-2, y, z-self.depth//3,
-                        x+2, y+self.height, z-self.depth//3,
+                        x+2, y+self.height+1, z-self.depth//3,
                         block.AIR)
         mc.setBlocks(x+self.width//3, y-1, z- self.depth//3,
                         x+self.width//3, y+self.height+1, z+ self.depth//3,
                         self.liquid_block)
         mc.setBlocks(x+self.width//3, y, z-2,
-                        x+self.width//3, y+self.height, z+2,
+                        x+self.width//3, y+self.height+1, z+2,
                         block.AIR)
         mc.setBlocks(x-self.width//3, y-1, z- self.depth//3,
                         x-self.width//3, y+self.height+1, z+ self.depth//3,
                         self.liquid_block)
         mc.setBlocks(x-self.width//3, y, z-2,
-                        x-self.width//3, y+self.height, z+2,
+                        x-self.width//3, y+self.height+1, z+2,
                         block.AIR)
 
     def place_fire(self, x, y, z):
@@ -451,7 +449,7 @@ class Room:
         mc.setBlock(x, y, z+1, block.STAIRS_SANDSTONE.id, 3)
         mc.setBlock(x, y, z-1, block.STAIRS_SANDSTONE.id, 2)
         for i in range(self.height-2):
-            mc.setBlock(x, y+i, z, block.NETHER_BRICK)
+            mc.setBlock(x, y+1+i, z, block.NETHER_BRICK)
         mc.setBlock(x+1, y+self.height//2, z, block.TORCH.id, 1)
         mc.setBlock(x-1, y+self.height//2, z, block.TORCH.id, 2)
         mc.setBlock(x, y+self.height//2, z+1, block.TORCH.id, 3)
@@ -514,10 +512,14 @@ class Dungeon:
     Ces salles finissent soit en cul-e-sac soit en sortie.
     Il est possible qu'un donjon n'ai aucune sortie.
     Dans ce cas, vous êtes condamnés à y périr.
-    '''
-    SPAWN_ROOM_SIZE = 21 # la salle d'apparition est toujours carrée
 
-    def __init__(self, x, y, z, average_size=2):
+    INPUTS
+    - x, y, z : coordonnées du centre de la salle d'apparition
+    - average_size : taille moyenne du donjon
+    '''
+    SPAWN_ROOM_SIZE = ROOM_SIZE # la salle d'apparition est toujours carrée
+
+    def __init__(self, x, y, z, average_size=10):
         self.x = x
         self.y = y
         self.z = z
@@ -542,7 +544,7 @@ class Dungeon:
         for door in current_room.yield_generation_point():
             door_direction = door[1]
             door_pos = door[0]
-            new_room_size = 21 # pour l'instant toutes les salles sont pareilles (c'est plus facile pour avoir les portes au bon endroit)
+            new_room_size = ROOM_SIZE # pour l'instant toutes les salles sont pareilles (c'est plus facile pour avoir les portes au bon endroit)
             if door_direction == '-x':
                 new_room_center = (door_pos[0] + new_room_size//2, door_pos[1], door_pos[2])
             elif door_direction == '+x':
@@ -554,7 +556,7 @@ class Dungeon:
             else:
                 raise ValueError("Direction de porte invalide")
             
-            print(self.generated_rooms, new_room_center)
+            # print(self.generated_rooms, new_room_center)
             if not new_room_center in self.generated_rooms:
                 new_room = Room(new_room_center, new_room_size, random.randint(6, 10), new_room_size, door_pos)
                 print('Generating room', new_room.type.upper(), new_room.tags, 'with theme', new_room.theme)
@@ -572,13 +574,13 @@ class Dungeon:
             door_direction = door[1]
             if random.randint(0, 100) < 75:
                 # on vérifie la présence de blocs de pierre pour savoir s'il y a accès à une salle ou à l'extérieur
-                if door_direction == '-x' and not mc.getBlock(x, y, z) == block.COBBLESTONE.id:
+                if door_direction == '-x' and not mc.getBlock(x, y, z) == FLOOR_BLOCK.id:
                     mc.setBlocks(x-1, y, z, x-1, y+2, z+1, block.STONE_BRICK)
-                elif door_direction == '+x' and not mc.getBlock(x, y, z) == block.COBBLESTONE.id:
+                elif door_direction == '+x' and not mc.getBlock(x, y, z) == FLOOR_BLOCK.id:
                     mc.setBlocks(x+1, y, z, x+1, y+2, z+1, block.STONE_BRICK)
-                elif door_direction == '-z' and not mc.getBlock(x, y, z) == block.COBBLESTONE.id:
+                elif door_direction == '-z' and not mc.getBlock(x, y, z) == FLOOR_BLOCK.id:
                     mc.setBlocks(x, y, z-1, x+1, y+2, z-1, block.STONE_BRICK)
-                elif door_direction == '+z' and not mc.getBlock(x, y, z) == block.COBBLESTONE.id:
+                elif door_direction == '+z' and not mc.getBlock(x, y, z) == FLOOR_BLOCK.id:
                     mc.setBlocks(x, y, z+1, x+1, y+2, z+1, block.STONE_BRICK)
         
     def generate_spawn_room(self):
@@ -671,9 +673,11 @@ def main():
     """programme principal. Génère un donjon là où se trouve le joueur."""
     x, y, z = mc.player.getTilePos()
     y -= 1
-    dungeon = Dungeon(x, y, z, 4)
+    mc.postToChat('[INFO] The dungeon is generating. Please wait (it can take some time).')
+    dungeon = Dungeon(x, y, z, DUNGEON_SIZE)
     dungeon.generate()
     mc.player.setPos(x, y+1, z)
-    evil_monologue()
+    if not SKIP_MONOLOGUE:
+        evil_monologue()
 
 main()
