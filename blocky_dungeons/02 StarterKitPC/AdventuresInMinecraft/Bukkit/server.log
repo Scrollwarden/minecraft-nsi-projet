@@ -12544,3 +12544,2218 @@ java.lang.NullPointerException
 2025-01-04 16:58:06 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:54876.
 2025-01-04 16:58:06 [INFO] Starting input thread!
 2025-01-04 16:58:06 [INFO] Starting output thread!
+2025-01-04 17:44:22 [INFO] Starting minecraft server version 1.6.4
+2025-01-04 17:44:22 [INFO] Loading properties
+2025-01-04 17:44:22 [INFO] Default game type: CREATIVE
+2025-01-04 17:44:22 [INFO] Generating keypair
+2025-01-04 17:44:22 [INFO] Starting Minecraft server on *:25565
+2025-01-04 17:44:23 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R2.0-b2918jnks (MC: 1.6.4) (Implementing API version 1.6.4-R2.0)
+2025-01-04 17:44:23 [INFO] [RaspberryJuice] Loading RaspberryJuice v1.3
+2025-01-04 17:44:23 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-01-04 17:44:23 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2025-01-04 17:44:23 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-01-04 17:44:23 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2025-01-04 17:44:23 [INFO] Preparing level "world"
+2025-01-04 17:44:23 [INFO] Preparing start region for level 0 (Seed: 2455753326185401600)
+2025-01-04 17:44:23 [SEVERE] Exception in thread "Thread-6" 
+2025-01-04 17:44:23 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-04 17:44:23 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+2025-01-04 17:44:23 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:795)
+2025-01-04 17:44:23 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:734)
+2025-01-04 17:44:23 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2025-01-04 17:44:23 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2025-01-04 17:44:23 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2025-01-04 17:44:23 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-04 17:44:23 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2025-01-04 17:44:23 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2025-01-04 17:44:23 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+2025-01-04 17:44:23 [SEVERE] 	... 5 more
+2025-01-04 17:44:24 [INFO] Preparing start region for level 1 (Seed: 2455753326185401600)
+2025-01-04 17:44:24 [INFO] Preparing start region for level 2 (Seed: 2455753326185401600)
+2025-01-04 17:44:25 [INFO] [RaspberryJuice] Enabling RaspberryJuice v1.3
+2025-01-04 17:44:25 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2025-01-04 17:44:25 [INFO] Done (2,067s)! For help, type "help" or "?"
+2025-01-04 17:45:06 [INFO] HERRIOT[/127.0.0.1:60016] logged in with entity id 31 at ([world] -75.37296726625891, 64.0, -205.4624538274921)
+2025-01-04 17:46:13 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:34314.
+2025-01-04 17:46:13 [INFO] Starting input thread!
+2025-01-04 17:46:13 [INFO] Starting output thread!
+2025-01-04 17:47:01 [INFO] Starting minecraft server version 1.6.4
+2025-01-04 17:47:01 [INFO] Loading properties
+2025-01-04 17:47:01 [INFO] Default game type: CREATIVE
+2025-01-04 17:47:01 [INFO] Generating keypair
+2025-01-04 17:47:01 [INFO] Starting Minecraft server on *:25565
+2025-01-04 17:47:02 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R2.0-b2918jnks (MC: 1.6.4) (Implementing API version 1.6.4-R2.0)
+2025-01-04 17:47:02 [INFO] [RaspberryJuice] Loading RaspberryJuice v1.3
+2025-01-04 17:47:02 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-01-04 17:47:02 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2025-01-04 17:47:02 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-01-04 17:47:02 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2025-01-04 17:47:02 [INFO] Preparing level "world"
+2025-01-04 17:47:02 [INFO] Preparing start region for level 0 (Seed: 2455753326185401600)
+2025-01-04 17:47:02 [SEVERE] Exception in thread "Thread-6" 
+2025-01-04 17:47:02 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-04 17:47:02 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+2025-01-04 17:47:02 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:795)
+2025-01-04 17:47:02 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:734)
+2025-01-04 17:47:02 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2025-01-04 17:47:02 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2025-01-04 17:47:02 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2025-01-04 17:47:02 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-04 17:47:02 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2025-01-04 17:47:02 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2025-01-04 17:47:02 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+2025-01-04 17:47:02 [SEVERE] 	... 5 more
+2025-01-04 17:47:03 [INFO] Preparing start region for level 1 (Seed: 2455753326185401600)
+2025-01-04 17:47:03 [INFO] Preparing start region for level 2 (Seed: 2455753326185401600)
+2025-01-04 17:47:04 [INFO] [RaspberryJuice] Enabling RaspberryJuice v1.3
+2025-01-04 17:47:04 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2025-01-04 17:47:04 [INFO] Done (2,071s)! For help, type "help" or "?"
+2025-01-04 17:47:21 [INFO] HERRIOT[/127.0.0.1:58066] logged in with entity id 31 at ([world] -75.37296726625891, 64.0, -205.4624538274921)
+2025-01-04 17:47:30 [INFO] Starting input thread!
+2025-01-04 17:47:30 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:41492.
+2025-01-04 17:47:30 [INFO] Starting output thread!
+2025-01-04 17:47:31 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:41492.
+2025-01-04 17:49:57 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:53260.
+2025-01-04 17:49:57 [INFO] Starting input thread!
+2025-01-04 17:49:57 [INFO] Starting output thread!
+2025-01-04 17:49:58 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:53260.
+2025-01-04 17:52:18 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:60540.
+2025-01-04 17:52:18 [INFO] Starting input thread!
+2025-01-04 17:52:18 [INFO] Starting output thread!
+2025-01-04 17:52:19 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:60540.
+2025-01-04 17:53:07 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:53246.
+2025-01-04 17:53:07 [INFO] Starting input thread!
+2025-01-04 17:53:07 [INFO] Starting output thread!
+2025-01-04 17:53:08 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:53246.
+2025-01-04 17:58:01 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:51466.
+2025-01-04 17:58:01 [INFO] Starting input thread!
+2025-01-04 17:58:01 [INFO] Starting output thread!
+2025-01-04 18:03:24 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-04 18:03:24 [INFO] ßeHERRIOT left the game.
+2025-01-04 18:03:24 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-04 18:03:24 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:51466.
+2025-01-04 18:03:39 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-04 18:03:42 [INFO] CONSOLE: Stopping the server..[m
+2025-01-04 18:03:42 [INFO] Stopping server
+2025-01-04 18:03:42 [INFO] [RaspberryJuice] Disabling RaspberryJuice v1.3
+2025-01-04 18:03:42 [SEVERE] java.net.SocketException: socket closed
+2025-01-04 18:03:42 [INFO] Saving players
+2025-01-04 18:03:42 [SEVERE] 	at java.net.PlainSocketImpl.socketAccept(Native Method)
+2025-01-04 18:03:42 [WARNING] DSCT: socket closed
+2025-01-04 18:03:42 [INFO] Closing listening thread
+2025-01-04 18:03:42 [INFO] Saving worlds
+2025-01-04 18:03:42 [SEVERE] 	at java.net.PlainSocketImpl.accept(Unknown Source)
+2025-01-04 18:03:42 [INFO] Saving chunks for level 'world'/Overworld
+2025-01-04 18:03:42 [SEVERE] 	at java.net.ServerSocket.implAccept(Unknown Source)
+2025-01-04 18:03:42 [SEVERE] 	at java.net.ServerSocket.accept(Unknown Source)
+2025-01-04 18:03:42 [SEVERE] 	at net.zhuoweizhang.raspberryjuice.ServerListenerThread.run(ServerListenerThread.java:27)
+2025-01-04 18:03:42 [SEVERE] 	at java.lang.Thread.run(Unknown Source)
+2025-01-04 18:03:43 [INFO] Saving chunks for level 'world_nether'/Nether
+2025-01-04 18:03:43 [INFO] Saving chunks for level 'world_the_end'/The End
+2025-01-04 18:04:07 [INFO] Starting minecraft server version 1.6.4
+2025-01-04 18:04:07 [INFO] Loading properties
+2025-01-04 18:04:07 [INFO] Default game type: CREATIVE
+2025-01-04 18:04:07 [INFO] Generating keypair
+2025-01-04 18:04:07 [INFO] Starting Minecraft server on *:25565
+2025-01-04 18:04:08 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R2.0-b2918jnks (MC: 1.6.4) (Implementing API version 1.6.4-R2.0)
+2025-01-04 18:04:08 [INFO] [RaspberryJuice] Loading RaspberryJuice v1.3
+2025-01-04 18:04:08 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-01-04 18:04:08 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2025-01-04 18:04:08 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-01-04 18:04:08 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2025-01-04 18:04:08 [INFO] Preparing level "world"
+2025-01-04 18:04:08 [INFO] Preparing start region for level 0 (Seed: 2455753326185401600)
+2025-01-04 18:04:08 [SEVERE] Exception in thread "Thread-6" 
+2025-01-04 18:04:08 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-04 18:04:08 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+2025-01-04 18:04:08 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:795)
+2025-01-04 18:04:08 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:734)
+2025-01-04 18:04:08 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2025-01-04 18:04:08 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2025-01-04 18:04:08 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2025-01-04 18:04:08 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-04 18:04:08 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2025-01-04 18:04:08 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2025-01-04 18:04:08 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+2025-01-04 18:04:08 [SEVERE] 	... 5 more
+2025-01-04 18:04:09 [INFO] Preparing spawn area: 89%
+2025-01-04 18:04:09 [INFO] Preparing start region for level 1 (Seed: 2455753326185401600)
+2025-01-04 18:04:10 [INFO] Preparing start region for level 2 (Seed: 2455753326185401600)
+2025-01-04 18:04:10 [INFO] [RaspberryJuice] Enabling RaspberryJuice v1.3
+2025-01-04 18:04:10 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2025-01-04 18:04:10 [INFO] Done (2,289s)! For help, type "help" or "?"
+2025-01-04 18:04:22 [INFO] HERRIOT[/127.0.0.1:48446] logged in with entity id 82 at ([world] -86.0, 63.0, -206.0)
+2025-01-04 18:04:31 [INFO] Starting input thread!
+2025-01-04 18:04:31 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:53110.
+2025-01-04 18:04:31 [INFO] Starting output thread!
+2025-01-04 18:06:20 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-04 18:06:20 [INFO] ßeHERRIOT left the game.
+2025-01-04 18:06:20 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-04 18:06:20 [WARNING] [RaspberryJuice] Task #2 for RaspberryJuice v1.3 generated an exception
+java.lang.NullPointerException
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:189)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:106)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:87)
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:122)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:524)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2025-01-04 18:06:20 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:53110.
+2025-01-04 18:06:38 [INFO] HERRIOT[/127.0.0.1:38094] logged in with entity id 368 at ([world] -86.0, 63.0, -206.0)
+2025-01-04 18:10:30 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:39882.
+2025-01-04 18:10:30 [INFO] Starting input thread!
+2025-01-04 18:10:30 [INFO] Starting output thread!
+2025-01-04 18:10:34 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-04 18:10:34 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:39882.
+2025-01-04 18:12:26 [INFO] Connection reset
+2025-01-04 18:12:26 [INFO] HERRIOT lost connection: disconnect.quitting
+2025-01-04 18:12:26 [INFO] ßeHERRIOT left the game.
+2025-01-04 18:12:33 [INFO] CONSOLE: Stopping the server..[m
+2025-01-04 18:12:33 [INFO] Stopping server
+2025-01-04 18:12:33 [INFO] [RaspberryJuice] Disabling RaspberryJuice v1.3
+2025-01-04 18:12:33 [SEVERE] java.net.SocketException: socket closed
+2025-01-04 18:12:33 [INFO] Saving players
+2025-01-04 18:12:33 [SEVERE] 	at java.net.PlainSocketImpl.socketAccept(Native Method)
+2025-01-04 18:12:33 [WARNING] DSCT: socket closed
+2025-01-04 18:12:34 [INFO] Closing listening thread
+2025-01-04 18:12:34 [INFO] Saving worlds
+2025-01-04 18:12:34 [SEVERE] 	at java.net.PlainSocketImpl.accept(Unknown Source)
+2025-01-04 18:12:34 [INFO] Saving chunks for level 'world'/Overworld
+2025-01-04 18:12:34 [SEVERE] 	at java.net.ServerSocket.implAccept(Unknown Source)
+2025-01-04 18:12:34 [SEVERE] 	at java.net.ServerSocket.accept(Unknown Source)
+2025-01-04 18:12:34 [SEVERE] 	at net.zhuoweizhang.raspberryjuice.ServerListenerThread.run(ServerListenerThread.java:27)
+2025-01-04 18:12:34 [SEVERE] 	at java.lang.Thread.run(Unknown Source)
+2025-01-04 18:12:34 [INFO] Saving chunks for level 'world_nether'/Nether
+2025-01-04 18:12:34 [INFO] Saving chunks for level 'world_the_end'/The End
+2025-01-04 18:22:04 [INFO] Starting minecraft server version 1.6.4
+2025-01-04 18:22:04 [INFO] Loading properties
+2025-01-04 18:22:04 [INFO] Default game type: CREATIVE
+2025-01-04 18:22:04 [INFO] Generating keypair
+2025-01-04 18:22:04 [INFO] Starting Minecraft server on *:25565
+2025-01-04 18:22:05 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R2.0-b2918jnks (MC: 1.6.4) (Implementing API version 1.6.4-R2.0)
+2025-01-04 18:22:05 [INFO] [RaspberryJuice] Loading RaspberryJuice v1.3
+2025-01-04 18:22:05 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-01-04 18:22:05 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2025-01-04 18:22:05 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-01-04 18:22:05 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2025-01-04 18:22:05 [INFO] Preparing level "world"
+2025-01-04 18:22:05 [INFO] Preparing start region for level 0 (Seed: 2455753326185401600)
+2025-01-04 18:22:05 [SEVERE] Exception in thread "Thread-6" 
+2025-01-04 18:22:05 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-04 18:22:05 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+2025-01-04 18:22:05 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:795)
+2025-01-04 18:22:05 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:734)
+2025-01-04 18:22:05 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2025-01-04 18:22:05 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2025-01-04 18:22:05 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2025-01-04 18:22:05 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-04 18:22:05 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2025-01-04 18:22:05 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2025-01-04 18:22:05 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+2025-01-04 18:22:05 [SEVERE] 	... 5 more
+2025-01-04 18:22:06 [INFO] Preparing start region for level 1 (Seed: 2455753326185401600)
+2025-01-04 18:22:07 [INFO] Preparing start region for level 2 (Seed: 2455753326185401600)
+2025-01-04 18:22:07 [INFO] [RaspberryJuice] Enabling RaspberryJuice v1.3
+2025-01-04 18:22:07 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2025-01-04 18:22:07 [INFO] Done (2,214s)! For help, type "help" or "?"
+2025-01-04 18:22:23 [INFO] HERRIOT[/127.0.0.1:37374] logged in with entity id 77 at ([world] -96.79769758198046, 78.06251923318331, -237.16577071631824)
+2025-01-04 18:22:39 [INFO] HERRIOT issued server command: /tp HERRIOT -1000 ~ 1000
+2025-01-04 18:22:39 [INFO] HERRIOT: Teleported HERRIOT to -999,50, 78,06, 1000,50[m
+2025-01-04 18:22:46 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-04 18:24:45 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:48270.
+2025-01-04 18:24:45 [INFO] Starting input thread!
+2025-01-04 18:24:45 [INFO] Starting output thread!
+2025-01-04 18:24:46 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:48270.
+2025-01-04 18:26:26 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-04 18:26:26 [INFO] ßeHERRIOT left the game.
+2025-01-04 18:26:42 [INFO] HERRIOT[/127.0.0.1:42166] logged in with entity id 4817 at ([world] -1016.5777354351076, 64.0, 1367.5693111855987)
+2025-01-04 18:31:38 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:54604.
+2025-01-04 18:31:38 [INFO] Starting input thread!
+2025-01-04 18:31:38 [INFO] Starting output thread!
+2025-01-04 18:31:39 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:54604.
+2025-01-04 18:34:28 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-04 18:34:28 [INFO] ßeHERRIOT left the game.
+2025-01-04 18:41:06 [INFO] HERRIOT[/127.0.0.1:60542] logged in with entity id 5139 at ([world] -1024.8356730172318, 64.0, 1368.0433874408343)
+2025-01-04 18:43:28 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:40104.
+2025-01-04 18:43:28 [INFO] Starting input thread!
+2025-01-04 18:43:28 [INFO] Starting output thread!
+2025-01-04 18:43:29 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:40104.
+2025-01-04 18:47:07 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:52180.
+2025-01-04 18:47:07 [INFO] Starting input thread!
+2025-01-04 18:47:07 [INFO] Starting output thread!
+2025-01-04 18:47:08 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:52180.
+2025-01-04 18:47:45 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:60280.
+2025-01-04 18:47:45 [INFO] Starting input thread!
+2025-01-04 18:47:45 [INFO] Starting output thread!
+2025-01-04 18:47:46 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:60280.
+2025-01-04 18:49:14 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:46998.
+2025-01-04 18:49:14 [INFO] Starting input thread!
+2025-01-04 18:49:14 [INFO] Starting output thread!
+2025-01-04 18:49:14 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:46998.
+2025-01-04 18:51:52 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:57460.
+2025-01-04 18:51:52 [INFO] Starting input thread!
+2025-01-04 18:51:52 [INFO] Starting output thread!
+2025-01-04 18:51:52 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:57460.
+2025-01-04 18:52:24 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:54878.
+2025-01-04 18:52:24 [INFO] Starting input thread!
+2025-01-04 18:52:24 [INFO] Starting output thread!
+2025-01-04 18:52:25 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:54878.
+2025-01-04 18:53:13 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:40950.
+2025-01-04 18:53:13 [INFO] Starting input thread!
+2025-01-04 18:53:13 [INFO] Starting output thread!
+2025-01-04 18:53:17 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:40950.
+2025-01-04 18:54:08 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:53972.
+2025-01-04 18:54:08 [INFO] Starting input thread!
+2025-01-04 18:54:08 [INFO] Starting output thread!
+2025-01-04 18:54:09 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:53972.
+2025-01-04 18:55:21 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:32864.
+2025-01-04 18:55:21 [INFO] Starting input thread!
+2025-01-04 18:55:21 [INFO] Starting output thread!
+2025-01-04 18:55:22 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:32864.
+2025-01-04 18:56:14 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:37770.
+2025-01-04 18:56:14 [INFO] Starting input thread!
+2025-01-04 18:56:14 [INFO] Starting output thread!
+2025-01-04 18:56:15 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:37770.
+2025-01-04 18:56:32 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:40584.
+2025-01-04 18:56:32 [INFO] Starting input thread!
+2025-01-04 18:56:32 [INFO] Starting output thread!
+2025-01-04 18:56:38 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:40584.
+2025-01-04 18:57:22 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:45486.
+2025-01-04 18:57:22 [INFO] Starting input thread!
+2025-01-04 18:57:22 [INFO] Starting output thread!
+2025-01-04 18:57:23 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:45486.
+2025-01-04 18:59:57 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:55574.
+2025-01-04 18:59:57 [INFO] Starting input thread!
+2025-01-04 18:59:57 [INFO] Starting output thread!
+2025-01-04 18:59:58 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:55574.
+2025-01-04 19:00:57 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:39052.
+2025-01-04 19:00:57 [INFO] Starting input thread!
+2025-01-04 19:00:57 [INFO] Starting output thread!
+2025-01-04 19:00:58 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:39052.
+2025-01-04 19:01:26 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:50516.
+2025-01-04 19:01:26 [INFO] Starting input thread!
+2025-01-04 19:01:26 [INFO] Starting output thread!
+2025-01-04 19:01:26 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:50516.
+2025-01-04 19:01:48 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:57004.
+2025-01-04 19:01:48 [INFO] Starting input thread!
+2025-01-04 19:01:48 [INFO] Starting output thread!
+2025-01-04 19:01:48 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:57004.
+2025-01-04 19:06:09 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:53188.
+2025-01-04 19:06:09 [INFO] Starting input thread!
+2025-01-04 19:06:09 [INFO] Starting output thread!
+2025-01-04 19:06:15 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:53188.
+2025-01-04 19:07:11 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:53136.
+2025-01-04 19:07:11 [INFO] Starting input thread!
+2025-01-04 19:07:11 [INFO] Starting output thread!
+2025-01-04 19:07:11 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:53136.
+2025-01-04 19:08:05 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:55778.
+2025-01-04 19:08:05 [INFO] Starting input thread!
+2025-01-04 19:08:05 [INFO] Starting output thread!
+2025-01-04 19:08:06 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:55778.
+2025-01-04 19:08:29 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:41978.
+2025-01-04 19:08:29 [INFO] Starting input thread!
+2025-01-04 19:08:29 [INFO] Starting output thread!
+2025-01-04 19:08:30 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:41978.
+2025-01-04 19:12:05 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:48004.
+2025-01-04 19:12:05 [INFO] Starting input thread!
+2025-01-04 19:12:05 [INFO] Starting output thread!
+2025-01-04 19:12:06 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:48004.
+2025-01-04 19:13:13 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:56452.
+2025-01-04 19:13:13 [INFO] Starting input thread!
+2025-01-04 19:13:13 [INFO] Starting output thread!
+2025-01-04 19:13:14 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:56452.
+2025-01-04 19:14:00 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:56440.
+2025-01-04 19:14:00 [INFO] Starting input thread!
+2025-01-04 19:14:00 [INFO] Starting output thread!
+2025-01-04 19:14:01 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:56440.
+2025-01-04 19:14:21 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:33356.
+2025-01-04 19:14:21 [INFO] Starting input thread!
+2025-01-04 19:14:21 [INFO] Starting output thread!
+2025-01-04 19:14:23 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:33356.
+2025-01-04 19:14:35 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:37344.
+2025-01-04 19:14:35 [INFO] Starting input thread!
+2025-01-04 19:14:35 [INFO] Starting output thread!
+2025-01-04 19:14:37 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:37344.
+2025-01-04 19:15:05 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:40756.
+2025-01-04 19:15:05 [INFO] Starting input thread!
+2025-01-04 19:15:05 [INFO] Starting output thread!
+2025-01-04 19:15:07 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:40756.
+2025-01-04 19:15:26 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:38740.
+2025-01-04 19:15:26 [INFO] Starting input thread!
+2025-01-04 19:15:26 [INFO] Starting output thread!
+2025-01-04 19:15:30 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:38740.
+2025-01-04 19:16:05 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:42966.
+2025-01-04 19:16:05 [INFO] Starting input thread!
+2025-01-04 19:16:05 [INFO] Starting output thread!
+2025-01-04 19:16:06 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:42966.
+2025-01-04 19:16:16 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:39192.
+2025-01-04 19:16:16 [INFO] Starting input thread!
+2025-01-04 19:16:16 [INFO] Starting output thread!
+2025-01-04 19:16:18 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:39192.
+2025-01-04 19:22:53 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:59690.
+2025-01-04 19:22:53 [INFO] Starting input thread!
+2025-01-04 19:22:53 [INFO] Starting output thread!
+2025-01-04 19:22:55 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:59690.
+2025-01-04 19:23:07 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:40454.
+2025-01-04 19:23:07 [INFO] Starting input thread!
+2025-01-04 19:23:07 [INFO] Starting output thread!
+2025-01-04 19:23:12 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:40454.
+2025-01-04 19:23:18 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:38878.
+2025-01-04 19:23:18 [INFO] Starting input thread!
+2025-01-04 19:23:18 [INFO] Starting output thread!
+2025-01-04 19:23:24 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:38878.
+2025-01-04 19:24:51 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:35732.
+2025-01-04 19:24:51 [INFO] Starting input thread!
+2025-01-04 19:24:51 [INFO] Starting output thread!
+2025-01-04 19:24:55 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:35732.
+2025-01-04 19:25:35 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:58896.
+2025-01-04 19:25:35 [INFO] Starting input thread!
+2025-01-04 19:25:35 [INFO] Starting output thread!
+2025-01-04 19:25:39 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:58896.
+2025-01-04 19:25:46 [INFO] Connection reset
+2025-01-04 19:25:46 [INFO] HERRIOT lost connection: disconnect.quitting
+2025-01-04 19:25:46 [INFO] ßeHERRIOT left the game.
+2025-01-04 19:25:52 [INFO] CONSOLE: Stopping the server..[m
+2025-01-04 19:25:52 [INFO] Stopping server
+2025-01-04 19:25:52 [INFO] [RaspberryJuice] Disabling RaspberryJuice v1.3
+2025-01-04 19:25:52 [SEVERE] java.net.SocketException: socket closed
+2025-01-04 19:25:52 [WARNING] DSCT: socket closed
+2025-01-04 19:25:52 [INFO] Saving players
+2025-01-04 19:25:52 [SEVERE] 	at java.net.PlainSocketImpl.socketAccept(Native Method)
+2025-01-04 19:25:52 [INFO] Closing listening thread
+2025-01-04 19:25:52 [INFO] Saving worlds
+2025-01-04 19:25:52 [SEVERE] 	at java.net.PlainSocketImpl.accept(Unknown Source)
+2025-01-04 19:25:52 [INFO] Saving chunks for level 'world'/Overworld
+2025-01-04 19:25:52 [SEVERE] 	at java.net.ServerSocket.implAccept(Unknown Source)
+2025-01-04 19:25:52 [SEVERE] 	at java.net.ServerSocket.accept(Unknown Source)
+2025-01-04 19:25:52 [SEVERE] 	at net.zhuoweizhang.raspberryjuice.ServerListenerThread.run(ServerListenerThread.java:27)
+2025-01-04 19:25:52 [SEVERE] 	at java.lang.Thread.run(Unknown Source)
+2025-01-04 19:25:52 [INFO] Saving chunks for level 'world_nether'/Nether
+2025-01-04 19:25:52 [INFO] Saving chunks for level 'world_the_end'/The End
+2025-01-05 09:01:30 [INFO] Starting minecraft server version 1.6.4
+2025-01-05 09:01:30 [INFO] Loading properties
+2025-01-05 09:01:30 [INFO] Default game type: CREATIVE
+2025-01-05 09:01:30 [INFO] Generating keypair
+2025-01-05 09:01:30 [INFO] Starting Minecraft server on *:25565
+2025-01-05 09:01:31 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R2.0-b2918jnks (MC: 1.6.4) (Implementing API version 1.6.4-R2.0)
+2025-01-05 09:01:31 [INFO] [RaspberryJuice] Loading RaspberryJuice v1.3
+2025-01-05 09:01:31 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-01-05 09:01:31 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2025-01-05 09:01:31 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-01-05 09:01:31 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2025-01-05 09:01:31 [INFO] Preparing level "world"
+2025-01-05 09:01:31 [INFO] Preparing start region for level 0 (Seed: 2455753326185401600)
+2025-01-05 09:01:31 [SEVERE] Exception in thread "Thread-6" 
+2025-01-05 09:01:31 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-05 09:01:31 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+2025-01-05 09:01:31 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:795)
+2025-01-05 09:01:31 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:734)
+2025-01-05 09:01:31 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2025-01-05 09:01:31 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2025-01-05 09:01:31 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2025-01-05 09:01:31 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-05 09:01:31 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2025-01-05 09:01:31 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2025-01-05 09:01:31 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+2025-01-05 09:01:31 [SEVERE] 	... 5 more
+2025-01-05 09:01:32 [INFO] Preparing spawn area: 97%
+2025-01-05 09:01:32 [INFO] Preparing start region for level 1 (Seed: 2455753326185401600)
+2025-01-05 09:01:33 [INFO] Preparing start region for level 2 (Seed: 2455753326185401600)
+2025-01-05 09:01:33 [INFO] [RaspberryJuice] Enabling RaspberryJuice v1.3
+2025-01-05 09:01:33 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2025-01-05 09:01:33 [INFO] Done (2,226s)! For help, type "help" or "?"
+2025-01-05 09:01:50 [INFO] HERRIOT[/127.0.0.1:46434] logged in with entity id 77 at ([world] -1016.4230654044962, 64.0, 1367.4670347650358)
+2025-01-05 09:02:05 [INFO] HERRIOT issued server command: /summon
+2025-01-05 09:02:09 [INFO] HERRIOT issued server command: /help
+2025-01-05 09:02:21 [INFO] HERRIOT issued server command: /help 2
+2025-01-05 09:02:31 [INFO] HERRIOT issued server command: /help 3
+2025-01-05 09:02:35 [INFO] HERRIOT issued server command: /help 4
+2025-01-05 09:02:42 [INFO] HERRIOT issued server command: /help 5
+2025-01-05 09:03:00 [INFO] HERRIOT issued server command: /help 3
+2025-01-05 09:03:15 [INFO] HERRIOT issued server command: /me what
+2025-01-05 09:03:15 [INFO] * HERRIOT what[m
+2025-01-05 09:03:30 [INFO] HERRIOT issued server command: /me /give iron_sword
+2025-01-05 09:03:30 [INFO] * HERRIOT /give iron_sword[m
+2025-01-05 09:03:40 [INFO] <HERRIOT> what[m
+2025-01-05 09:04:03 [INFO] <HERRIOT> Aliases[m
+2025-01-05 09:04:07 [INFO] HERRIOT issued server command: /Aliases
+2025-01-05 09:04:15 [INFO] HERRIOT issued server command: /Aliases:
+2025-01-05 09:04:20 [INFO] <HERRIOT> Aliases:[m
+2025-01-05 09:08:01 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:40720.
+2025-01-05 09:08:01 [INFO] Starting input thread!
+2025-01-05 09:08:01 [INFO] Starting output thread!
+2025-01-05 09:08:01 [INFO] /give HERRIOT minecraft:stone_sword[m
+2025-01-05 09:08:01 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:40720.
+2025-01-05 09:12:34 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:54632.
+2025-01-05 09:12:34 [INFO] Starting input thread!
+2025-01-05 09:12:34 [INFO] Starting output thread!
+2025-01-05 09:12:34 [WARNING] [RaspberryJuice] Task #2 for RaspberryJuice v1.3 generated an exception
+java.lang.NullPointerException
+	at net.minecraft.server.v1_6_R3.Chunk.a(Chunk.java:418)
+	at net.minecraft.server.v1_6_R3.World.setTypeIdAndData(World.java:301)
+	at org.bukkit.craftbukkit.v1_6_R3.block.CraftBlock.setTypeIdAndData(CraftBlock.java:121)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:126)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:106)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:87)
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:122)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:524)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2025-01-05 09:12:34 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:54632.
+2025-01-05 09:14:22 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:60738.
+2025-01-05 09:14:22 [INFO] Starting input thread!
+2025-01-05 09:14:22 [INFO] Starting output thread!
+2025-01-05 09:14:22 [WARNING] [RaspberryJuice] Task #2 for RaspberryJuice v1.3 generated an exception
+java.lang.NullPointerException
+	at net.minecraft.server.v1_6_R3.Chunk.a(Chunk.java:383)
+	at net.minecraft.server.v1_6_R3.World.setTypeIdAndData(World.java:301)
+	at org.bukkit.craftbukkit.v1_6_R3.block.CraftBlock.setTypeIdAndData(CraftBlock.java:121)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:126)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:106)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:87)
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:122)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:524)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2025-01-05 09:14:22 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:60738.
+2025-01-05 09:15:05 [WARNING] Failed to handle packet for HERRIOT/127.0.0.1: java.lang.NullPointerException
+java.lang.NullPointerException
+	at net.minecraft.server.v1_6_R3.World.rayTrace(World.java:830)
+	at net.minecraft.server.v1_6_R3.World.rayTrace(World.java:686)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.a(PlayerConnection.java:1005)
+	at net.minecraft.server.v1_6_R3.Packet18ArmAnimation.handle(SourceFile:41)
+	at net.minecraft.server.v1_6_R3.NetworkManager.b(NetworkManager.java:296)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.e(PlayerConnection.java:116)
+	at net.minecraft.server.v1_6_R3.ServerConnection.b(SourceFile:37)
+	at net.minecraft.server.v1_6_R3.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:592)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2025-01-05 09:15:05 [INFO] ßeHERRIOT left the game.
+2025-01-05 09:15:17 [INFO] HERRIOT[/127.0.0.1:34358] logged in with entity id 147 at ([world] -1016.4230654044962, 64.0, 1367.4670347650358)
+2025-01-05 09:15:27 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:56268.
+2025-01-05 09:15:27 [INFO] Starting input thread!
+2025-01-05 09:15:27 [INFO] Starting output thread!
+2025-01-05 09:15:27 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:56268.
+2025-01-05 09:15:50 [INFO] Connection reset
+2025-01-05 09:15:50 [INFO] HERRIOT lost connection: disconnect.quitting
+2025-01-05 09:15:50 [INFO] ßeHERRIOT left the game.
+2025-01-05 09:15:56 [INFO] HERRIOT[/127.0.0.1:57820] logged in with entity id 200 at ([world] -1016.3169951899378, 64.0, 1367.7811813931116)
+2025-01-05 09:16:01 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:45140.
+2025-01-05 09:16:01 [INFO] Starting input thread!
+2025-01-05 09:16:01 [INFO] Starting output thread!
+2025-01-05 09:16:01 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:45140.
+2025-01-05 09:16:30 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:46420.
+2025-01-05 09:16:30 [INFO] Starting input thread!
+2025-01-05 09:16:30 [INFO] Starting output thread!
+2025-01-05 09:16:30 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:46420.
+2025-01-05 09:16:35 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:46434.
+2025-01-05 09:16:35 [INFO] Starting input thread!
+2025-01-05 09:16:35 [INFO] Starting output thread!
+2025-01-05 09:16:35 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:46434.
+2025-01-05 09:17:02 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:34662.
+2025-01-05 09:17:02 [INFO] Starting input thread!
+2025-01-05 09:17:02 [INFO] Starting output thread!
+2025-01-05 09:17:02 [WARNING] [RaspberryJuice] Task #2 for RaspberryJuice v1.3 generated an exception
+java.lang.NullPointerException
+	at net.minecraft.server.v1_6_R3.Chunk.a(Chunk.java:418)
+	at net.minecraft.server.v1_6_R3.World.setTypeIdAndData(World.java:301)
+	at org.bukkit.craftbukkit.v1_6_R3.block.CraftBlock.setTypeIdAndData(CraftBlock.java:121)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.setCuboid(RemoteSession.java:223)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:133)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:106)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:87)
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:122)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:524)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2025-01-05 09:17:02 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:34662.
+2025-01-05 09:17:05 [WARNING] Failed to handle packet for HERRIOT/127.0.0.1: java.lang.NullPointerException
+java.lang.NullPointerException
+	at net.minecraft.server.v1_6_R3.World.rayTrace(World.java:830)
+	at net.minecraft.server.v1_6_R3.World.rayTrace(World.java:686)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.a(PlayerConnection.java:1005)
+	at net.minecraft.server.v1_6_R3.Packet18ArmAnimation.handle(SourceFile:41)
+	at net.minecraft.server.v1_6_R3.NetworkManager.b(NetworkManager.java:296)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.e(PlayerConnection.java:116)
+	at net.minecraft.server.v1_6_R3.ServerConnection.b(SourceFile:37)
+	at net.minecraft.server.v1_6_R3.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:592)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2025-01-05 09:17:05 [INFO] ßeHERRIOT left the game.
+2025-01-05 09:17:12 [INFO] CONSOLE: Stopping the server..[m
+2025-01-05 09:17:12 [INFO] Stopping server
+2025-01-05 09:17:12 [INFO] [RaspberryJuice] Disabling RaspberryJuice v1.3
+2025-01-05 09:17:12 [SEVERE] java.net.SocketException: socket closed
+2025-01-05 09:17:12 [INFO] Saving players
+2025-01-05 09:17:12 [WARNING] DSCT: socket closed
+2025-01-05 09:17:12 [INFO] Saving worlds
+2025-01-05 09:17:12 [SEVERE] 	at java.net.PlainSocketImpl.socketAccept(Native Method)
+2025-01-05 09:17:12 [INFO] Saving chunks for level 'world'/Overworld
+2025-01-05 09:17:12 [INFO] Closing listening thread
+2025-01-05 09:17:12 [SEVERE] 	at java.net.PlainSocketImpl.accept(Unknown Source)
+2025-01-05 09:17:12 [SEVERE] 	at java.net.ServerSocket.implAccept(Unknown Source)
+2025-01-05 09:17:12 [SEVERE] 	at java.net.ServerSocket.accept(Unknown Source)
+2025-01-05 09:17:12 [SEVERE] 	at net.zhuoweizhang.raspberryjuice.ServerListenerThread.run(ServerListenerThread.java:27)
+2025-01-05 09:17:12 [SEVERE] 	at java.lang.Thread.run(Unknown Source)
+2025-01-05 09:17:12 [INFO] Saving chunks for level 'world_nether'/Nether
+2025-01-05 09:17:12 [INFO] Saving chunks for level 'world_the_end'/The End
+2025-01-05 09:17:21 [INFO] Starting minecraft server version 1.6.4
+2025-01-05 09:17:21 [INFO] Loading properties
+2025-01-05 09:17:21 [INFO] Default game type: CREATIVE
+2025-01-05 09:17:21 [INFO] Generating keypair
+2025-01-05 09:17:21 [INFO] Starting Minecraft server on *:25565
+2025-01-05 09:17:22 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R2.0-b2918jnks (MC: 1.6.4) (Implementing API version 1.6.4-R2.0)
+2025-01-05 09:17:22 [INFO] [RaspberryJuice] Loading RaspberryJuice v1.3
+2025-01-05 09:17:22 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-01-05 09:17:22 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2025-01-05 09:17:22 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-01-05 09:17:22 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2025-01-05 09:17:22 [INFO] Preparing level "world"
+2025-01-05 09:17:22 [INFO] Preparing start region for level 0 (Seed: 2455753326185401600)
+2025-01-05 09:17:22 [SEVERE] Exception in thread "Thread-6" 
+2025-01-05 09:17:22 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-05 09:17:22 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+2025-01-05 09:17:22 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:795)
+2025-01-05 09:17:22 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:734)
+2025-01-05 09:17:22 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2025-01-05 09:17:22 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2025-01-05 09:17:22 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2025-01-05 09:17:22 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-05 09:17:22 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2025-01-05 09:17:22 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2025-01-05 09:17:22 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+2025-01-05 09:17:22 [SEVERE] 	... 5 more
+2025-01-05 09:17:23 [INFO] Preparing spawn area: 90%
+2025-01-05 09:17:23 [INFO] Preparing start region for level 1 (Seed: 2455753326185401600)
+2025-01-05 09:17:24 [INFO] Preparing start region for level 2 (Seed: 2455753326185401600)
+2025-01-05 09:17:24 [INFO] [RaspberryJuice] Enabling RaspberryJuice v1.3
+2025-01-05 09:17:24 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2025-01-05 09:17:24 [INFO] Done (2,334s)! For help, type "help" or "?"
+2025-01-05 09:17:32 [INFO] HERRIOT[/127.0.0.1:41874] logged in with entity id 77 at ([world] -1016.5374276890441, 64.0, 1367.315248831178)
+2025-01-05 09:17:42 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:51102.
+2025-01-05 09:17:42 [INFO] Starting input thread!
+2025-01-05 09:17:42 [INFO] Starting output thread!
+2025-01-05 09:17:42 [WARNING] [RaspberryJuice] Task #2 for RaspberryJuice v1.3 generated an exception
+java.lang.NullPointerException
+	at net.minecraft.server.v1_6_R3.Chunk.a(Chunk.java:418)
+	at net.minecraft.server.v1_6_R3.World.setTypeIdAndData(World.java:301)
+	at org.bukkit.craftbukkit.v1_6_R3.block.CraftBlock.setTypeIdAndData(CraftBlock.java:121)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.setCuboid(RemoteSession.java:223)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:133)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:106)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:87)
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:122)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:524)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2025-01-05 09:17:42 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:51102.
+2025-01-05 09:17:59 [WARNING] Failed to handle packet for HERRIOT/127.0.0.1: java.lang.NullPointerException
+java.lang.NullPointerException
+	at net.minecraft.server.v1_6_R3.World.rayTrace(World.java:830)
+	at net.minecraft.server.v1_6_R3.World.rayTrace(World.java:686)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.a(PlayerConnection.java:1005)
+	at net.minecraft.server.v1_6_R3.Packet18ArmAnimation.handle(SourceFile:41)
+	at net.minecraft.server.v1_6_R3.NetworkManager.b(NetworkManager.java:296)
+	at net.minecraft.server.v1_6_R3.PlayerConnection.e(PlayerConnection.java:116)
+	at net.minecraft.server.v1_6_R3.ServerConnection.b(SourceFile:37)
+	at net.minecraft.server.v1_6_R3.DedicatedServerConnection.b(SourceFile:30)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:592)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2025-01-05 09:17:59 [INFO] ßeHERRIOT left the game.
+2025-01-05 09:18:05 [INFO] HERRIOT[/127.0.0.1:48258] logged in with entity id 130 at ([world] -1017.1492171736517, 64.0, 1367.4858711665663)
+2025-01-05 09:19:55 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:46702.
+2025-01-05 09:19:55 [INFO] Starting input thread!
+2025-01-05 09:19:55 [INFO] Starting output thread!
+2025-01-05 09:19:55 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:46702.
+2025-01-05 09:20:08 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:57748.
+2025-01-05 09:20:08 [INFO] Starting input thread!
+2025-01-05 09:20:08 [INFO] Starting output thread!
+2025-01-05 09:20:08 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:57748.
+2025-01-05 09:22:38 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:45532.
+2025-01-05 09:22:38 [INFO] Starting input thread!
+2025-01-05 09:22:38 [INFO] Starting output thread!
+2025-01-05 09:22:38 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:45532.
+2025-01-05 09:22:52 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:41296.
+2025-01-05 09:22:52 [INFO] Starting input thread!
+2025-01-05 09:22:52 [INFO] Starting output thread!
+2025-01-05 09:22:52 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:41296.
+2025-01-05 09:23:38 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:35788.
+2025-01-05 09:23:38 [INFO] Starting input thread!
+2025-01-05 09:23:38 [INFO] Starting output thread!
+2025-01-05 09:23:38 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:35788.
+2025-01-05 09:24:11 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:55010.
+2025-01-05 09:24:11 [INFO] Starting input thread!
+2025-01-05 09:24:11 [INFO] Starting output thread!
+2025-01-05 09:24:11 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:55010.
+2025-01-05 09:24:34 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:50416.
+2025-01-05 09:24:34 [INFO] Starting input thread!
+2025-01-05 09:24:34 [INFO] Starting output thread!
+2025-01-05 09:24:34 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:50416.
+2025-01-05 09:25:47 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:56102.
+2025-01-05 09:25:47 [INFO] Starting input thread!
+2025-01-05 09:25:47 [INFO] Starting output thread!
+2025-01-05 09:25:47 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:56102.
+2025-01-05 09:26:04 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:60304.
+2025-01-05 09:26:04 [INFO] Starting input thread!
+2025-01-05 09:26:04 [INFO] Starting output thread!
+2025-01-05 09:26:04 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:60304.
+2025-01-05 09:32:44 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:42594.
+2025-01-05 09:32:44 [INFO] Starting input thread!
+2025-01-05 09:32:44 [INFO] Starting output thread!
+2025-01-05 09:32:44 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:42594.
+2025-01-05 09:33:04 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:47128.
+2025-01-05 09:33:04 [INFO] Starting output thread!
+2025-01-05 09:33:04 [INFO] Starting input thread!
+2025-01-05 09:33:05 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:47128.
+2025-01-05 09:33:30 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:52090.
+2025-01-05 09:33:30 [INFO] Starting input thread!
+2025-01-05 09:33:30 [INFO] Starting output thread!
+2025-01-05 09:33:30 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:52090.
+2025-01-05 09:37:24 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:58204.
+2025-01-05 09:37:24 [INFO] Starting input thread!
+2025-01-05 09:37:24 [INFO] Starting output thread!
+2025-01-05 09:37:27 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:58204.
+2025-01-05 09:41:13 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:49662.
+2025-01-05 09:41:13 [INFO] Starting input thread!
+2025-01-05 09:41:13 [INFO] Starting output thread!
+2025-01-05 09:41:19 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:49662.
+2025-01-05 09:44:39 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:60360.
+2025-01-05 09:44:39 [INFO] Starting input thread!
+2025-01-05 09:44:39 [INFO] Starting output thread!
+2025-01-05 09:44:41 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:60360.
+2025-01-05 09:46:25 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:47908.
+2025-01-05 09:46:25 [INFO] Starting input thread!
+2025-01-05 09:46:25 [INFO] Starting output thread!
+2025-01-05 09:46:27 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:47908.
+2025-01-05 09:47:34 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:60000.
+2025-01-05 09:47:34 [INFO] Starting input thread!
+2025-01-05 09:47:34 [INFO] Starting output thread!
+2025-01-05 09:47:37 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:60000.
+2025-01-05 09:54:56 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:46804.
+2025-01-05 09:54:56 [INFO] Starting input thread!
+2025-01-05 09:54:56 [INFO] Starting output thread!
+2025-01-05 09:54:58 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:46804.
+2025-01-05 09:55:58 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:41708.
+2025-01-05 09:55:58 [INFO] Starting input thread!
+2025-01-05 09:55:58 [INFO] Starting output thread!
+2025-01-05 09:55:59 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:41708.
+2025-01-05 09:57:36 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:37618.
+2025-01-05 09:57:36 [INFO] Starting input thread!
+2025-01-05 09:57:36 [INFO] Starting output thread!
+2025-01-05 09:57:43 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:37618.
+2025-01-05 10:00:00 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:55428.
+2025-01-05 10:00:00 [INFO] Starting input thread!
+2025-01-05 10:00:00 [INFO] Starting output thread!
+2025-01-05 10:00:02 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:55428.
+2025-01-05 10:00:38 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:34932.
+2025-01-05 10:00:38 [INFO] Starting input thread!
+2025-01-05 10:00:38 [INFO] Starting output thread!
+2025-01-05 10:00:40 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:34932.
+2025-01-05 10:01:54 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:52972.
+2025-01-05 10:01:54 [INFO] Starting input thread!
+2025-01-05 10:01:54 [INFO] Starting output thread!
+2025-01-05 10:01:58 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:52972.
+2025-01-05 10:03:43 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:43840.
+2025-01-05 10:03:43 [INFO] Starting input thread!
+2025-01-05 10:03:43 [INFO] Starting output thread!
+2025-01-05 10:03:44 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:43840.
+2025-01-05 10:04:50 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:46440.
+2025-01-05 10:04:50 [INFO] Starting input thread!
+2025-01-05 10:04:50 [INFO] Starting output thread!
+2025-01-05 10:04:53 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:46440.
+2025-01-05 10:07:03 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:36448.
+2025-01-05 10:07:03 [INFO] Starting input thread!
+2025-01-05 10:07:03 [INFO] Starting output thread!
+2025-01-05 10:07:04 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:36448.
+2025-01-05 10:07:29 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:38756.
+2025-01-05 10:07:29 [INFO] Starting input thread!
+2025-01-05 10:07:29 [INFO] Starting output thread!
+2025-01-05 10:07:33 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:38756.
+2025-01-05 10:07:46 [INFO] HERRIOT issued server command: /time set day
+2025-01-05 10:07:46 [INFO] HERRIOT: Set time to 0[m
+2025-01-05 10:10:39 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:42068.
+2025-01-05 10:10:39 [INFO] Starting input thread!
+2025-01-05 10:10:39 [INFO] Starting output thread!
+2025-01-05 10:10:41 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:42068.
+2025-01-05 10:11:03 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:54592.
+2025-01-05 10:11:03 [INFO] Starting input thread!
+2025-01-05 10:11:03 [INFO] Starting output thread!
+2025-01-05 10:11:06 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:54592.
+2025-01-05 10:11:19 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:52782.
+2025-01-05 10:11:19 [INFO] Starting input thread!
+2025-01-05 10:11:19 [INFO] Starting output thread!
+2025-01-05 10:11:21 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:52782.
+2025-01-05 10:13:43 [INFO] HERRIOT issued server command: /spawnpoint
+2025-01-05 10:13:43 [INFO] HERRIOT: Set HERRIOT's spawnpoint to -1026.2120470397997, 64.0, 1369.512499988079[m
+2025-01-05 10:13:53 [INFO] HERRIOT issued server command: /gamemode survival
+2025-01-05 10:13:53 [INFO] HERRIOT: Set own game mode to SURVIVAL mode[m
+2025-01-05 10:14:51 [INFO] HERRIOT tried to swim in lava
+2025-01-05 10:15:54 [INFO] HERRIOT tried to swim in lava
+2025-01-05 10:16:46 [INFO] HERRIOT tried to swim in lava
+2025-01-05 10:17:41 [INFO] HERRIOT tried to swim in lava
+2025-01-05 10:18:36 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:46064.
+2025-01-05 10:18:36 [INFO] Starting input thread!
+2025-01-05 10:18:36 [INFO] Starting output thread!
+2025-01-05 10:18:38 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:46064.
+2025-01-05 10:19:05 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:45376.
+2025-01-05 10:19:05 [INFO] Starting input thread!
+2025-01-05 10:19:05 [INFO] Starting output thread!
+2025-01-05 10:19:06 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:45376.
+2025-01-05 10:19:15 [INFO] HERRIOT suffocated in a wall
+2025-01-05 10:20:10 [INFO] HERRIOT issued server command: /gamemode creative
+2025-01-05 10:20:10 [INFO] HERRIOT: Set own game mode to CREATIVE mode[m
+2025-01-05 10:20:51 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:52720.
+2025-01-05 10:20:51 [INFO] Starting input thread!
+2025-01-05 10:20:51 [INFO] Starting output thread!
+2025-01-05 10:20:53 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:52720.
+2025-01-05 10:21:55 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:59848.
+2025-01-05 10:21:55 [INFO] Starting input thread!
+2025-01-05 10:21:55 [INFO] Starting output thread!
+2025-01-05 10:21:56 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:59848.
+2025-01-05 10:22:28 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:34048.
+2025-01-05 10:22:28 [INFO] Starting input thread!
+2025-01-05 10:22:28 [INFO] Starting output thread!
+2025-01-05 10:22:35 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:34048.
+2025-01-05 10:26:06 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:54306.
+2025-01-05 10:26:06 [INFO] Starting input thread!
+2025-01-05 10:26:06 [INFO] Starting output thread!
+2025-01-05 10:26:08 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:54306.
+2025-01-05 10:27:39 [INFO] HERRIOT issued server command: /gamemode survival
+2025-01-05 10:27:39 [INFO] HERRIOT: Set own game mode to SURVIVAL mode[m
+2025-01-05 10:29:40 [INFO] HERRIOT issued server command: /gamemode creative
+2025-01-05 10:29:40 [INFO] HERRIOT: Set own game mode to CREATIVE mode[m
+2025-01-05 10:34:51 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 10:34:51 [INFO] ßeHERRIOT left the game.
+2025-01-05 10:57:21 [INFO] HERRIOT[/127.0.0.1:41844] logged in with entity id 779 at ([world] -1007.9683118632965, 63.0, 1441.5952936098972)
+2025-01-05 10:59:31 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:41922.
+2025-01-05 10:59:31 [INFO] Starting input thread!
+2025-01-05 10:59:31 [INFO] Starting output thread!
+2025-01-05 10:59:33 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:41922.
+2025-01-05 11:00:16 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:58552.
+2025-01-05 11:00:16 [INFO] Starting input thread!
+2025-01-05 11:00:16 [INFO] Starting output thread!
+2025-01-05 11:00:17 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:58552.
+2025-01-05 11:01:21 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:53416.
+2025-01-05 11:01:21 [INFO] Starting input thread!
+2025-01-05 11:01:21 [INFO] Starting output thread!
+2025-01-05 11:01:24 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:53416.
+2025-01-05 11:04:01 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:58850.
+2025-01-05 11:04:01 [INFO] Starting input thread!
+2025-01-05 11:04:01 [INFO] Starting output thread!
+2025-01-05 11:04:02 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:58850.
+2025-01-05 11:06:30 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:57562.
+2025-01-05 11:06:30 [INFO] Starting input thread!
+2025-01-05 11:06:30 [INFO] Starting output thread!
+2025-01-05 11:06:34 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:57562.
+2025-01-05 11:08:20 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:52578.
+2025-01-05 11:08:20 [INFO] Starting input thread!
+2025-01-05 11:08:20 [INFO] Starting output thread!
+2025-01-05 11:08:24 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:52578.
+2025-01-05 11:10:14 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:42652.
+2025-01-05 11:10:14 [INFO] Starting input thread!
+2025-01-05 11:10:14 [INFO] Starting output thread!
+2025-01-05 11:10:18 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:42652.
+2025-01-05 11:14:57 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:46920.
+2025-01-05 11:14:57 [INFO] Starting input thread!
+2025-01-05 11:14:57 [INFO] Starting output thread!
+2025-01-05 11:14:58 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:46920.
+2025-01-05 11:16:06 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:58938.
+2025-01-05 11:16:06 [INFO] Starting input thread!
+2025-01-05 11:16:06 [INFO] Starting output thread!
+2025-01-05 11:16:07 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:58938.
+2025-01-05 11:17:03 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:55486.
+2025-01-05 11:17:03 [INFO] Starting input thread!
+2025-01-05 11:17:03 [INFO] Starting output thread!
+2025-01-05 11:17:04 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:55486.
+2025-01-05 11:18:45 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:53576.
+2025-01-05 11:18:45 [INFO] Starting input thread!
+2025-01-05 11:18:45 [INFO] Starting output thread!
+2025-01-05 11:18:46 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:53576.
+2025-01-05 11:23:53 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:58788.
+2025-01-05 11:23:53 [INFO] Starting input thread!
+2025-01-05 11:23:53 [INFO] Starting output thread!
+2025-01-05 11:23:54 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:58788.
+2025-01-05 11:24:25 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:46460.
+2025-01-05 11:24:25 [INFO] Starting input thread!
+2025-01-05 11:24:25 [INFO] Starting output thread!
+2025-01-05 11:24:32 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:46460.
+2025-01-05 11:27:11 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:57250.
+2025-01-05 11:27:11 [INFO] Starting input thread!
+2025-01-05 11:27:11 [INFO] Starting output thread!
+2025-01-05 11:27:16 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:57250.
+2025-01-05 11:30:35 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:41896.
+2025-01-05 11:30:35 [INFO] Starting input thread!
+2025-01-05 11:30:35 [INFO] Starting output thread!
+2025-01-05 11:30:46 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 11:30:46 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:41896.
+2025-01-05 11:35:38 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:52204.
+2025-01-05 11:35:38 [INFO] Starting input thread!
+2025-01-05 11:35:38 [INFO] Starting output thread!
+2025-01-05 11:35:44 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 11:35:45 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:52204.
+2025-01-05 11:47:37 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:55686.
+2025-01-05 11:47:37 [INFO] Starting input thread!
+2025-01-05 11:47:37 [INFO] Starting output thread!
+2025-01-05 11:47:37 [INFO] (evil deep voice) Vous voil√†[m
+2025-01-05 11:47:37 [INFO] (evil Gandalf voice) Vous[m
+2025-01-05 11:47:37 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 11:47:45 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 11:47:46 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:55686.
+2025-01-05 11:48:17 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 11:48:17 [INFO] ßeHERRIOT left the game.
+2025-01-05 11:49:44 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:56336.
+2025-01-05 11:49:44 [INFO] Starting input thread!
+2025-01-05 11:49:44 [INFO] Starting output thread!
+2025-01-05 11:49:44 [WARNING] [RaspberryJuice] Task #2 for RaspberryJuice v1.3 generated an exception
+java.lang.NullPointerException
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:168)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:106)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:87)
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:122)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:524)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2025-01-05 11:49:50 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:56336.
+2025-01-05 11:50:03 [INFO] HERRIOT[/127.0.0.1:45574] logged in with entity id 1384 at ([world] -1011.7192981951905, 63.0, 1447.0259667785358)
+2025-01-05 11:56:40 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:45948.
+2025-01-05 11:56:40 [INFO] Starting input thread!
+2025-01-05 11:56:40 [INFO] Starting output thread!
+2025-01-05 11:56:41 [INFO] (evil deep voice) Vous voil√†. pauvre mortel. enferm√© dans mon terrible donjon ![m
+2025-01-05 11:56:41 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 11:56:41 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 11:56:41 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:45948.
+2025-01-05 11:58:20 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:56738.
+2025-01-05 11:58:20 [INFO] Starting input thread!
+2025-01-05 11:58:20 [INFO] Starting output thread!
+2025-01-05 11:58:21 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 11:58:21 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 11:58:21 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 11:58:21 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:56738.
+2025-01-05 11:58:55 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:33810.
+2025-01-05 11:58:55 [INFO] Starting input thread!
+2025-01-05 11:58:55 [INFO] Starting output thread!
+2025-01-05 11:58:56 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 11:58:56 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 11:58:56 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 11:58:56 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:33810.
+2025-01-05 11:59:28 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:59454.
+2025-01-05 11:59:28 [INFO] Starting input thread!
+2025-01-05 11:59:28 [INFO] Starting output thread!
+2025-01-05 11:59:29 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 11:59:29 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 11:59:29 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 11:59:42 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 11:59:42 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:59454.
+2025-01-05 12:00:19 [INFO] HERRIOT issued server command: /time set day
+2025-01-05 12:00:19 [INFO] HERRIOT: Set time to 0[m
+2025-01-05 12:01:10 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 12:01:10 [INFO] ßeHERRIOT left the game.
+2025-01-05 12:01:43 [INFO] HERRIOT[/127.0.0.1:37062] logged in with entity id 1715 at ([world] -1001.4597569865241, 63.0, 1465.806381726719)
+2025-01-05 12:03:36 [INFO] HERRIOT issued server command: /tp HERRIOT -1000 ~ 1000
+2025-01-05 12:03:36 [INFO] HERRIOT: Teleported HERRIOT to -999,50, 86,70, 1000,50[m
+2025-01-05 12:03:51 [INFO] HERRIOT issued server command: /tp HERRIOT 1000 ~ -1000
+2025-01-05 12:03:51 [INFO] HERRIOT: Teleported HERRIOT to 1000,50, 86,70, -999,50[m
+2025-01-05 12:03:58 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 12:04:40 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:50306.
+2025-01-05 12:04:40 [INFO] Starting input thread!
+2025-01-05 12:04:40 [INFO] Starting output thread!
+2025-01-05 12:04:40 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 12:04:40 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 12:04:40 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 12:04:44 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 12:04:52 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:50306.
+2025-01-05 12:06:08 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:47946.
+2025-01-05 12:06:08 [INFO] Starting input thread!
+2025-01-05 12:06:08 [INFO] Starting output thread!
+2025-01-05 12:06:09 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 12:06:09 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 12:06:09 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 12:06:17 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 12:06:30 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:47946.
+2025-01-05 12:07:55 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 12:08:13 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:57242.
+2025-01-05 12:08:13 [INFO] Starting input thread!
+2025-01-05 12:08:13 [INFO] Starting output thread!
+2025-01-05 12:08:14 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 12:08:14 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 12:08:14 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 12:08:17 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 12:08:20 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:57242.
+2025-01-05 12:10:35 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 12:10:35 [INFO] ßeHERRIOT left the game.
+2025-01-05 12:13:06 [INFO] HERRIOT[/127.0.0.1:49460] logged in with entity id 5706 at ([world] 948.3648189481559, 75.19422807331466, -773.9572908479067)
+2025-01-05 12:13:36 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:37826.
+2025-01-05 12:13:36 [INFO] Starting input thread!
+2025-01-05 12:13:36 [INFO] Starting output thread!
+2025-01-05 12:13:37 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 12:13:37 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 12:13:37 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 12:13:44 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 12:13:44 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:37826.
+2025-01-05 12:30:53 [INFO] Connection reset
+2025-01-05 12:30:53 [INFO] HERRIOT lost connection: disconnect.quitting
+2025-01-05 12:30:53 [INFO] ßeHERRIOT left the game.
+2025-01-05 12:31:00 [INFO] CONSOLE: Stopping the server..[m
+2025-01-05 12:31:00 [INFO] Stopping server
+2025-01-05 12:31:00 [INFO] [RaspberryJuice] Disabling RaspberryJuice v1.3
+2025-01-05 12:31:00 [SEVERE] java.net.SocketException: socket closed
+2025-01-05 12:31:00 [INFO] Saving players
+2025-01-05 12:31:00 [WARNING] DSCT: socket closed
+2025-01-05 12:31:00 [SEVERE] 	at java.net.PlainSocketImpl.socketAccept(Native Method)
+2025-01-05 12:31:00 [INFO] Saving worlds
+2025-01-05 12:31:00 [SEVERE] 	at java.net.PlainSocketImpl.accept(Unknown Source)
+2025-01-05 12:31:00 [INFO] Closing listening thread
+2025-01-05 12:31:00 [SEVERE] 	at java.net.ServerSocket.implAccept(Unknown Source)
+2025-01-05 12:31:00 [INFO] Saving chunks for level 'world'/Overworld
+2025-01-05 12:31:00 [SEVERE] 	at java.net.ServerSocket.accept(Unknown Source)
+2025-01-05 12:31:00 [SEVERE] 	at net.zhuoweizhang.raspberryjuice.ServerListenerThread.run(ServerListenerThread.java:27)
+2025-01-05 12:31:00 [SEVERE] 	at java.lang.Thread.run(Unknown Source)
+2025-01-05 12:31:01 [INFO] Saving chunks for level 'world_nether'/Nether
+2025-01-05 12:31:01 [INFO] Saving chunks for level 'world_the_end'/The End
+2025-01-05 13:04:17 [INFO] Starting minecraft server version 1.6.4
+2025-01-05 13:04:17 [INFO] Loading properties
+2025-01-05 13:04:17 [INFO] Default game type: CREATIVE
+2025-01-05 13:04:17 [INFO] Generating keypair
+2025-01-05 13:04:17 [INFO] Starting Minecraft server on *:25565
+2025-01-05 13:04:17 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R2.0-b2918jnks (MC: 1.6.4) (Implementing API version 1.6.4-R2.0)
+2025-01-05 13:04:18 [INFO] [RaspberryJuice] Loading RaspberryJuice v1.3
+2025-01-05 13:04:18 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-01-05 13:04:18 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2025-01-05 13:04:18 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-01-05 13:04:18 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2025-01-05 13:04:18 [INFO] Preparing level "world"
+2025-01-05 13:04:18 [INFO] Preparing start region for level 0 (Seed: 2455753326185401600)
+2025-01-05 13:04:19 [INFO] Preparing spawn area: 73%
+2025-01-05 13:04:19 [INFO] Preparing start region for level 1 (Seed: 2455753326185401600)
+2025-01-05 13:04:20 [INFO] Preparing start region for level 2 (Seed: 2455753326185401600)
+2025-01-05 13:04:20 [INFO] [RaspberryJuice] Enabling RaspberryJuice v1.3
+2025-01-05 13:04:20 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2025-01-05 13:04:20 [INFO] Done (2,485s)! For help, type "help" or "?"
+2025-01-05 13:04:21 [SEVERE] Exception in thread "Thread-6" 
+2025-01-05 13:04:21 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-05 13:04:21 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+2025-01-05 13:04:21 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:795)
+2025-01-05 13:04:21 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:734)
+2025-01-05 13:04:21 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2025-01-05 13:04:21 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2025-01-05 13:04:21 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2025-01-05 13:04:21 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-05 13:04:21 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2025-01-05 13:04:21 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2025-01-05 13:04:21 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+2025-01-05 13:04:21 [SEVERE] 	... 5 more
+2025-01-05 13:04:28 [INFO] HERRIOT[/127.0.0.1:45676] logged in with entity id 77 at ([world] 982.8207835466031, 63.0, -781.4256554908823)
+2025-01-05 13:04:42 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:38924.
+2025-01-05 13:04:42 [INFO] Starting input thread!
+2025-01-05 13:04:42 [INFO] Starting output thread!
+2025-01-05 13:04:43 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 13:04:43 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 13:04:43 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 13:04:47 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 13:04:47 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:38924.
+2025-01-05 13:07:39 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:46760.
+2025-01-05 13:07:39 [INFO] Starting input thread!
+2025-01-05 13:07:39 [INFO] Starting output thread!
+2025-01-05 13:07:40 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 13:07:40 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 13:07:40 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 13:07:44 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 13:07:44 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:46760.
+2025-01-05 13:09:03 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:46646.
+2025-01-05 13:09:03 [INFO] Starting input thread!
+2025-01-05 13:09:03 [INFO] Starting output thread!
+2025-01-05 13:09:03 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 13:09:03 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 13:09:03 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 13:09:06 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 13:09:07 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:46646.
+2025-01-05 13:11:53 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:33512.
+2025-01-05 13:11:53 [INFO] Starting input thread!
+2025-01-05 13:11:53 [INFO] Starting output thread!
+2025-01-05 13:11:58 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 13:11:58 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 13:11:58 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 13:11:58 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 13:11:58 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:33512.
+2025-01-05 13:22:39 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:51086.
+2025-01-05 13:22:39 [INFO] Starting input thread!
+2025-01-05 13:22:39 [INFO] Starting output thread!
+2025-01-05 13:22:41 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 13:22:49 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 13:22:49 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 13:22:49 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 13:22:49 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:51086.
+2025-01-05 13:26:17 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 13:26:17 [INFO] ßeHERRIOT left the game.
+2025-01-05 13:28:20 [INFO] HERRIOT[/127.0.0.1:44384] logged in with entity id 971 at ([world] 1122.300000011921, 67.0, -712.2252802855147)
+2025-01-05 13:29:20 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:43368.
+2025-01-05 13:29:20 [INFO] Starting input thread!
+2025-01-05 13:29:20 [INFO] Starting output thread!
+2025-01-05 13:29:28 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 13:29:34 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 13:29:34 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 13:29:34 [INFO] (evil laugh) AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 13:29:34 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:43368.
+2025-01-05 13:31:32 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 13:31:32 [INFO] ßeHERRIOT left the game.
+2025-01-05 13:50:15 [INFO] HERRIOT[/127.0.0.1:48756] logged in with entity id 1265 at ([world] 1077.4085655305107, 66.0, -711.7275974634182)
+2025-01-05 14:15:31 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:47810.
+2025-01-05 14:15:31 [INFO] Starting input thread!
+2025-01-05 14:15:31 [INFO] Starting output thread!
+2025-01-05 14:15:36 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 14:15:36 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 14:15:36 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 14:15:36 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 14:15:45 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 14:15:48 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 14:15:50 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 14:16:20 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 14:16:22 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 14:16:25 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 14:16:26 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 14:16:56 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 14:16:58 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 14:16:59 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 14:17:01 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 14:17:11 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 14:17:12 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 14:17:14 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 14:17:16 [INFO] Dommage pour vous.[m
+2025-01-05 14:17:56 [INFO] Vous. Vous etes pas bien bavard hein.[m
+2025-01-05 14:17:58 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 14:18:03 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 14:18:05 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 14:18:06 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 14:18:09 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 14:18:09 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:47810.
+2025-01-05 14:24:18 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:53168.
+2025-01-05 14:24:18 [INFO] Starting input thread!
+2025-01-05 14:24:18 [INFO] Starting output thread!
+2025-01-05 14:24:20 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 14:24:27 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 14:24:30 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 14:24:36 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 14:24:51 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 14:24:58 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 14:24:58 [INFO] ßeHERRIOT left the game.
+2025-01-05 14:24:59 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 14:25:06 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 14:25:13 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:53168.
+2025-01-05 14:25:36 [INFO] HERRIOT[/127.0.0.1:40234] logged in with entity id 1667 at ([world] 1152.1718167761858, 66.0, -712.697681894003)
+2025-01-05 14:34:26 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:42676.
+2025-01-05 14:34:26 [INFO] Starting input thread!
+2025-01-05 14:34:26 [INFO] Starting output thread!
+2025-01-05 14:34:36 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 14:34:36 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 14:34:36 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 14:34:40 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 14:34:55 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 14:35:03 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 14:35:10 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 14:35:45 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 14:35:52 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 14:36:00 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 14:36:06 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 14:36:41 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 14:36:48 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 14:36:54 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 14:37:01 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 14:37:16 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 14:37:22 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 14:37:29 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 14:37:36 [INFO] Dommage pour vous.[m
+2025-01-05 14:38:21 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 14:38:28 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 14:38:38 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 14:38:45 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 14:38:51 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 14:38:59 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 14:39:34 [INFO] Oh. je ne sais pas si vous avez ouvert un coffre ?[m
+2025-01-05 14:39:41 [INFO] Vous etes decu hein ?[m
+2025-01-05 14:39:47 [INFO] Vos collegues aventuriers ont tout pris.[m
+2025-01-05 14:39:54 [INFO] Ca coute cher de refournir le donjon a chaque fois.[m
+2025-01-05 14:40:00 [INFO] Et cette annee on est en budget limite.[m
+2025-01-05 14:40:07 [INFO] C'est bien triste.[m
+2025-01-05 14:40:07 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:42676.
+2025-01-05 14:40:44 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 14:40:44 [INFO] ßeHERRIOT left the game.
+2025-01-05 14:41:13 [INFO] HERRIOT[/127.0.0.1:44100] logged in with entity id 1821 at ([world] 1122.582631333559, 66.0, -712.5288586319457)
+2025-01-05 14:43:59 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 14:43:59 [INFO] ßeHERRIOT left the game.
+2025-01-05 14:46:43 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:37470.
+2025-01-05 14:46:43 [INFO] Starting input thread!
+2025-01-05 14:46:43 [INFO] Starting output thread!
+2025-01-05 14:46:43 [WARNING] [RaspberryJuice] Task #2 for RaspberryJuice v1.3 generated an exception
+java.lang.NullPointerException
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:168)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:106)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:87)
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:122)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:524)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2025-01-05 14:47:07 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:37470.
+2025-01-05 14:49:42 [SEVERE] net.minecraft.server.v1_6_R3.ExceptionWorldConflict: The save is being accessed from another location, aborting
+2025-01-05 14:49:42 [SEVERE] 	at net.minecraft.server.v1_6_R3.WorldNBTStorage.checkSession(WorldNBTStorage.java:68)
+2025-01-05 14:49:42 [SEVERE] 	at net.minecraft.server.v1_6_R3.World.G(World.java:2598)
+2025-01-05 14:49:42 [SEVERE] 	at net.minecraft.server.v1_6_R3.WorldServer.a(WorldServer.java:780)
+2025-01-05 14:49:42 [SEVERE] 	at net.minecraft.server.v1_6_R3.WorldServer.save(WorldServer.java:764)
+2025-01-05 14:49:42 [SEVERE] 	at net.minecraft.server.v1_6_R3.MinecraftServer.saveChunks(MinecraftServer.java:329)
+2025-01-05 14:49:42 [SEVERE] 	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:492)
+2025-01-05 14:49:42 [SEVERE] 	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+2025-01-05 14:49:42 [SEVERE] 	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2025-01-05 14:49:42 [SEVERE] Encountered an unexpected exception ExceptionWorldConflict
+net.minecraft.server.v1_6_R3.ExceptionWorldConflict: The save is being accessed from another location, aborting
+	at net.minecraft.server.v1_6_R3.WorldNBTStorage.checkSession(WorldNBTStorage.java:68)
+	at net.minecraft.server.v1_6_R3.World.G(World.java:2598)
+	at net.minecraft.server.v1_6_R3.WorldServer.a(WorldServer.java:780)
+	at net.minecraft.server.v1_6_R3.WorldServer.save(WorldServer.java:764)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.saveChunks(MinecraftServer.java:329)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:492)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2025-01-05 14:49:42 [SEVERE] This crash report has been saved to: C:\users\matthew\Bureau\Server TP minecraft\TP Minecraft avec python 3\02 StarterKitPC\AdventuresInMinecraft\Bukkit\.\crash-reports\crash-2025-01-05_14.49.42-server.txt
+2025-01-05 14:50:18 [INFO] CONSOLE: Stopping the server..[m
+2025-01-05 14:50:18 [INFO] Stopping server
+2025-01-05 14:50:18 [INFO] [RaspberryJuice] Disabling RaspberryJuice v1.3
+2025-01-05 14:50:18 [SEVERE] java.net.SocketException: socket closed
+2025-01-05 14:50:18 [WARNING] DSCT: socket closed
+2025-01-05 14:50:18 [INFO] Saving players
+2025-01-05 14:50:18 [SEVERE] 	at java.net.PlainSocketImpl.socketAccept(Native Method)
+2025-01-05 14:50:18 [INFO] Closing listening thread
+2025-01-05 14:50:18 [INFO] Saving worlds
+2025-01-05 14:50:18 [SEVERE] 	at java.net.PlainSocketImpl.accept(Unknown Source)
+2025-01-05 14:50:18 [INFO] Saving chunks for level 'world'/Overworld
+2025-01-05 14:50:18 [SEVERE] 	at java.net.ServerSocket.implAccept(Unknown Source)
+2025-01-05 14:50:18 [SEVERE] 	at java.net.ServerSocket.accept(Unknown Source)
+2025-01-05 14:50:18 [SEVERE] 	at net.zhuoweizhang.raspberryjuice.ServerListenerThread.run(ServerListenerThread.java:27)
+2025-01-05 14:50:18 [SEVERE] 	at java.lang.Thread.run(Unknown Source)
+2025-01-05 14:50:18 [SEVERE] net.minecraft.server.v1_6_R3.ExceptionWorldConflict: The save is being accessed from another location, aborting
+2025-01-05 14:50:18 [SEVERE] 	at net.minecraft.server.v1_6_R3.WorldNBTStorage.checkSession(WorldNBTStorage.java:68)
+2025-01-05 14:50:18 [SEVERE] 	at net.minecraft.server.v1_6_R3.World.G(World.java:2598)
+2025-01-05 14:50:18 [SEVERE] 	at net.minecraft.server.v1_6_R3.WorldServer.a(WorldServer.java:780)
+2025-01-05 14:50:18 [SEVERE] 	at net.minecraft.server.v1_6_R3.WorldServer.save(WorldServer.java:764)
+2025-01-05 14:50:18 [SEVERE] 	at net.minecraft.server.v1_6_R3.MinecraftServer.saveChunks(MinecraftServer.java:329)
+2025-01-05 14:50:18 [SEVERE] 	at net.minecraft.server.v1_6_R3.MinecraftServer.stop(MinecraftServer.java:360)
+2025-01-05 14:50:18 [SEVERE] 	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:452)
+2025-01-05 14:50:18 [SEVERE] 	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2025-01-05 14:50:39 [INFO] Starting minecraft server version 1.6.4
+2025-01-05 14:50:39 [INFO] Loading properties
+2025-01-05 14:50:39 [INFO] Default game type: CREATIVE
+2025-01-05 14:50:39 [INFO] Generating keypair
+2025-01-05 14:50:40 [INFO] Starting Minecraft server on *:25565
+2025-01-05 14:50:40 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R2.0-b2918jnks (MC: 1.6.4) (Implementing API version 1.6.4-R2.0)
+2025-01-05 14:50:40 [INFO] [RaspberryJuice] Loading RaspberryJuice v1.3
+2025-01-05 14:50:40 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-01-05 14:50:40 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2025-01-05 14:50:40 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-01-05 14:50:40 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2025-01-05 14:50:40 [INFO] Preparing level "world"
+2025-01-05 14:50:40 [INFO] Preparing start region for level 0 (Seed: -3266867027989106560)
+2025-01-05 14:50:41 [INFO] Preparing start region for level 1 (Seed: 2455753326185401600)
+2025-01-05 14:50:42 [INFO] Preparing start region for level 2 (Seed: 2455753326185401600)
+2025-01-05 14:50:42 [INFO] [RaspberryJuice] Enabling RaspberryJuice v1.3
+2025-01-05 14:50:42 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2025-01-05 14:50:42 [INFO] Done (2,115s)! For help, type "help" or "?"
+2025-01-05 14:50:43 [SEVERE] Exception in thread "Thread-6" 
+2025-01-05 14:50:43 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-05 14:50:43 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+2025-01-05 14:50:43 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:795)
+2025-01-05 14:50:43 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:734)
+2025-01-05 14:50:43 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2025-01-05 14:50:43 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2025-01-05 14:50:43 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2025-01-05 14:50:43 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-05 14:50:43 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2025-01-05 14:50:43 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2025-01-05 14:50:43 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+2025-01-05 14:50:43 [SEVERE] 	... 5 more
+2025-01-05 14:50:58 [INFO] CONSOLE: Stopping the server..[m
+2025-01-05 14:50:58 [INFO] Stopping server
+2025-01-05 14:50:58 [INFO] [RaspberryJuice] Disabling RaspberryJuice v1.3
+2025-01-05 14:50:58 [SEVERE] java.net.SocketException: socket closed
+2025-01-05 14:50:58 [WARNING] DSCT: socket closed
+2025-01-05 14:50:58 [INFO] Saving players
+2025-01-05 14:50:58 [INFO] Closing listening thread
+2025-01-05 14:50:58 [SEVERE] 	at java.net.PlainSocketImpl.socketAccept(Native Method)
+2025-01-05 14:50:58 [INFO] Saving worlds
+2025-01-05 14:50:58 [SEVERE] 	at java.net.PlainSocketImpl.accept(Unknown Source)
+2025-01-05 14:50:58 [INFO] Saving chunks for level 'world'/Overworld
+2025-01-05 14:50:58 [SEVERE] 	at java.net.ServerSocket.implAccept(Unknown Source)
+2025-01-05 14:50:58 [SEVERE] 	at java.net.ServerSocket.accept(Unknown Source)
+2025-01-05 14:50:58 [SEVERE] 	at net.zhuoweizhang.raspberryjuice.ServerListenerThread.run(ServerListenerThread.java:27)
+2025-01-05 14:50:58 [SEVERE] 	at java.lang.Thread.run(Unknown Source)
+2025-01-05 14:50:59 [INFO] Saving chunks for level 'world_nether'/Nether
+2025-01-05 14:50:59 [INFO] Saving chunks for level 'world_the_end'/The End
+2025-01-05 14:51:32 [INFO] Starting minecraft server version 1.6.4
+2025-01-05 14:51:32 [INFO] Loading properties
+2025-01-05 14:51:32 [INFO] Default game type: CREATIVE
+2025-01-05 14:51:32 [INFO] Generating keypair
+2025-01-05 14:51:32 [INFO] Starting Minecraft server on *:25565
+2025-01-05 14:51:32 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R2.0-b2918jnks (MC: 1.6.4) (Implementing API version 1.6.4-R2.0)
+2025-01-05 14:51:32 [INFO] [RaspberryJuice] Loading RaspberryJuice v1.3
+2025-01-05 14:51:33 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-01-05 14:51:33 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2025-01-05 14:51:33 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-01-05 14:51:33 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2025-01-05 14:51:33 [INFO] Preparing level "world"
+2025-01-05 14:51:33 [INFO] Preparing start region for level 0 (Seed: 2455753326185401600)
+2025-01-05 14:51:33 [SEVERE] Exception in thread "Thread-6" 
+2025-01-05 14:51:33 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-05 14:51:33 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+2025-01-05 14:51:33 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:795)
+2025-01-05 14:51:33 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:734)
+2025-01-05 14:51:33 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2025-01-05 14:51:33 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2025-01-05 14:51:33 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2025-01-05 14:51:33 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-05 14:51:33 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2025-01-05 14:51:33 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2025-01-05 14:51:33 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+2025-01-05 14:51:33 [SEVERE] 	... 5 more
+2025-01-05 14:51:34 [INFO] Preparing start region for level 1 (Seed: 2455753326185401600)
+2025-01-05 14:51:34 [INFO] Preparing start region for level 2 (Seed: 2455753326185401600)
+2025-01-05 14:51:35 [INFO] [RaspberryJuice] Enabling RaspberryJuice v1.3
+2025-01-05 14:51:35 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2025-01-05 14:51:35 [INFO] Done (2,091s)! For help, type "help" or "?"
+2025-01-05 14:51:41 [INFO] HERRIOT[/127.0.0.1:43506] logged in with entity id 31 at ([world] -75.37296726625891, 64.0, -205.4624538274921)
+2025-01-05 14:52:33 [INFO] Starting input thread!
+2025-01-05 14:52:33 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:44226.
+2025-01-05 14:52:33 [INFO] Starting output thread!
+2025-01-05 14:52:42 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 14:52:42 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 14:52:49 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 14:52:56 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 14:53:11 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 14:53:19 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 14:53:26 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 14:54:01 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 14:54:08 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 14:54:16 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 14:54:22 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 14:54:57 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 14:55:04 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 14:55:10 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 14:55:17 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 14:55:32 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 14:55:38 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 14:55:45 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 14:55:52 [INFO] Dommage pour vous.[m
+2025-01-05 14:56:38 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 14:56:44 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 14:56:47 [INFO] HERRIOT issued server command: /tp HERRIOT 38 -1 -529
+2025-01-05 14:56:47 [INFO] HERRIOT: Teleported HERRIOT to 38,50, -0,50, -528,50[m
+2025-01-05 14:56:53 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 14:56:57 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 14:57:01 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 14:57:07 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 14:57:15 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 14:57:46 [INFO] HERRIOT issued server command: /tp HERRIOT -168 64 -280
+2025-01-05 14:57:46 [INFO] HERRIOT: Teleported HERRIOT to -167,50, 64,50, -279,50[m
+2025-01-05 14:57:50 [INFO] Oh. je ne sais pas si vous avez ouvert un coffre ?[m
+2025-01-05 14:57:55 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 14:57:56 [INFO] ßeHERRIOT left the game.
+2025-01-05 14:57:57 [INFO] Vous etes decu hein ?[m
+2025-01-05 14:58:03 [INFO] Vos collegues aventuriers ont tout pris.[m
+2025-01-05 14:58:04 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:44226.
+2025-01-05 15:00:31 [INFO] HERRIOT[/127.0.0.1:54862] logged in with entity id 2635 at ([world] -168.77859461759067, 64.0, -282.1347074352197)
+2025-01-05 15:00:41 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:51738.
+2025-01-05 15:00:41 [INFO] Starting input thread!
+2025-01-05 15:00:41 [INFO] Starting output thread!
+2025-01-05 15:00:45 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 15:00:45 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 15:00:48 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 15:00:55 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 15:01:10 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 15:01:18 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 15:01:25 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 15:02:00 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 15:02:07 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 15:02:15 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 15:02:21 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 15:02:56 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 15:03:03 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 15:03:09 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 15:03:16 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 15:03:31 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 15:03:37 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 15:03:44 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 15:03:51 [INFO] Dommage pour vous.[m
+2025-01-05 15:04:36 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 15:04:43 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 15:04:53 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 15:05:00 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 15:05:06 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 15:05:14 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 15:05:49 [INFO] Oh. je ne sais pas si vous avez ouvert un coffre ?[m
+2025-01-05 15:05:56 [INFO] Vous etes decu hein ?[m
+2025-01-05 15:06:02 [INFO] Vos collegues aventuriers ont tout pris.[m
+2025-01-05 15:06:09 [INFO] Ca coute cher de refournir le donjon a chaque fois.[m
+2025-01-05 15:06:15 [INFO] Et cette annee on est en budget limite.[m
+2025-01-05 15:06:22 [INFO] C'est bien triste.[m
+2025-01-05 15:06:22 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:51738.
+2025-01-05 15:08:49 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:56808.
+2025-01-05 15:08:49 [INFO] Starting input thread!
+2025-01-05 15:08:49 [INFO] Starting output thread!
+2025-01-05 15:08:53 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 15:08:54 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 15:09:00 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 15:09:07 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 15:09:22 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 15:09:30 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 15:09:37 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 15:09:43 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 15:09:43 [INFO] ßeHERRIOT left the game.
+2025-01-05 15:10:01 [INFO] HERRIOT[/127.0.0.1:40900] logged in with entity id 2793 at ([world] -144.83679760446955, 64.0, -287.2822571731145)
+2025-01-05 15:10:12 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 15:10:19 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 15:10:27 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 15:10:33 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 15:11:08 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 15:11:15 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 15:11:21 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 15:11:28 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 15:11:43 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 15:11:49 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 15:11:56 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 15:12:03 [INFO] Dommage pour vous.[m
+2025-01-05 15:12:43 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:56808.
+2025-01-05 15:18:28 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:41960.
+2025-01-05 15:18:28 [INFO] Starting input thread!
+2025-01-05 15:18:28 [INFO] Starting output thread!
+2025-01-05 15:18:33 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 15:18:33 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 15:18:40 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 15:18:46 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 15:19:01 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 15:19:09 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 15:19:16 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 15:19:51 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 15:19:58 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 15:20:06 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 15:20:13 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 15:20:48 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 15:20:54 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 15:21:01 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 15:21:07 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 15:21:22 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 15:21:29 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 15:21:35 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 15:21:42 [INFO] Dommage pour vous.[m
+2025-01-05 15:22:27 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 15:22:34 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 15:22:44 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 15:22:51 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 15:22:58 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 15:23:06 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 15:23:41 [INFO] Oh. je ne sais pas si vous avez ouvert un coffre ?[m
+2025-01-05 15:23:47 [INFO] Vous etes decu hein ?[m
+2025-01-05 15:23:54 [INFO] Vos collegues aventuriers ont tout pris.[m
+2025-01-05 15:24:00 [INFO] Ca coute cher de refournir le donjon a chaque fois.[m
+2025-01-05 15:24:07 [INFO] Et cette annee on est en budget limite.[m
+2025-01-05 15:24:14 [INFO] C'est bien triste.[m
+2025-01-05 15:24:14 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:41960.
+2025-01-05 15:31:36 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:44170.
+2025-01-05 15:31:36 [INFO] Starting input thread!
+2025-01-05 15:31:36 [INFO] Starting output thread!
+2025-01-05 15:31:44 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 15:31:51 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 15:31:58 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 15:32:13 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 15:32:21 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 15:32:28 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 15:33:03 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 15:33:10 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 15:33:18 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 15:33:24 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 15:33:59 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 15:34:06 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 15:34:12 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 15:34:19 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 15:34:34 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 15:34:40 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 15:34:47 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 15:34:54 [INFO] Dommage pour vous.[m
+2025-01-05 15:35:24 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 15:35:25 [INFO] ßeHERRIOT left the game.
+2025-01-05 15:35:39 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 15:35:46 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 15:35:56 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 15:36:03 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 15:36:09 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 15:36:17 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 15:36:52 [INFO] Oh. je ne sais pas si vous avez ouvert un coffre ?[m
+2025-01-05 15:36:59 [INFO] Vous etes decu hein ?[m
+2025-01-05 15:37:05 [INFO] Vos collegues aventuriers ont tout pris.[m
+2025-01-05 15:37:12 [INFO] Ca coute cher de refournir le donjon a chaque fois.[m
+2025-01-05 15:37:18 [INFO] Et cette annee on est en budget limite.[m
+2025-01-05 15:37:25 [INFO] C'est bien triste.[m
+2025-01-05 15:37:25 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:44170.
+2025-01-05 15:45:20 [INFO] HERRIOT[/127.0.0.1:54496] logged in with entity id 2947 at ([world] -168.56641987646339, 64.0, -280.2491683742438)
+2025-01-05 15:45:26 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:39426.
+2025-01-05 15:45:26 [INFO] Starting output thread!
+2025-01-05 15:45:26 [INFO] Starting input thread!
+2025-01-05 15:45:36 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 15:45:40 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 15:45:46 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 15:45:53 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 15:46:08 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 15:46:16 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 15:46:23 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 15:46:58 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 15:47:05 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 15:47:13 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 15:47:19 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 15:47:54 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 15:48:01 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 15:48:07 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 15:48:14 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 15:48:29 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 15:48:35 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 15:48:42 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 15:48:49 [INFO] Dommage pour vous.[m
+2025-01-05 15:49:34 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 15:49:41 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 15:49:51 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 15:49:58 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 15:50:04 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 15:50:12 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 15:50:47 [INFO] Oh. je ne sais pas si vous avez ouvert un coffre ?[m
+2025-01-05 15:50:54 [INFO] Vous etes decu hein ?[m
+2025-01-05 15:51:00 [INFO] Vos collegues aventuriers ont tout pris.[m
+2025-01-05 15:51:07 [INFO] Ca coute cher de refournir le donjon a chaque fois.[m
+2025-01-05 15:51:11 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 15:51:11 [INFO] ßeHERRIOT left the game.
+2025-01-05 15:51:13 [INFO] Et cette annee on est en budget limite.[m
+2025-01-05 15:51:14 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:39426.
+2025-01-05 15:54:19 [INFO] HERRIOT[/127.0.0.1:55472] logged in with entity id 3031 at ([world] -172.32431053602662, 65.1707870772188, -280.4857236987031)
+2025-01-05 15:57:08 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:50850.
+2025-01-05 15:57:08 [INFO] Starting input thread!
+2025-01-05 15:57:08 [INFO] Starting output thread!
+2025-01-05 15:57:31 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 15:57:34 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 15:57:41 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 15:57:48 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 15:58:02 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 15:58:02 [INFO] ßeHERRIOT left the game.
+2025-01-05 15:58:03 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 15:58:05 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:50850.
+2025-01-05 15:58:20 [INFO] HERRIOT[/127.0.0.1:55498] logged in with entity id 3180 at ([world] 17.488578916608922, 72.0, -435.6045264650318)
+2025-01-05 16:03:13 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 16:03:13 [INFO] ßeHERRIOT left the game.
+2025-01-05 16:03:26 [INFO] HERRIOT[/127.0.0.1:43090] logged in with entity id 3557 at ([world] 17.30000001192092, 73.67691092627156, -435.33566087646483)
+2025-01-05 16:05:20 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 16:05:20 [INFO] ßeHERRIOT left the game.
+2025-01-05 16:05:33 [INFO] HERRIOT[/127.0.0.1:34826] logged in with entity id 3712 at ([world] -3.0527798417951963, 72.0, -476.72532463633013)
+2025-01-05 16:11:36 [INFO] Disconnecting /192.168.1.20:39804: Protocol error
+2025-01-05 16:11:36 [INFO] /192.168.1.20:39804 lost connection
+2025-01-05 16:11:41 [INFO] Disconnecting /192.168.1.20:39816: Protocol error
+2025-01-05 16:11:41 [INFO] /192.168.1.20:39816 lost connection
+2025-01-05 16:11:51 [INFO] Disconnecting /192.168.1.20:60236: Protocol error
+2025-01-05 16:11:51 [INFO] /192.168.1.20:60236 lost connection
+2025-01-05 16:12:08 [INFO] Disconnecting /192.168.1.20:59736: Protocol error
+2025-01-05 16:12:08 [INFO] /192.168.1.20:59736 lost connection
+2025-01-05 16:12:42 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 16:12:42 [INFO] ßeHERRIOT left the game.
+2025-01-05 16:13:00 [INFO] HERRIOT[/127.0.0.1:34418] logged in with entity id 3932 at ([world] -15.682106931059844, 72.20000004768372, -392.76072600097433)
+2025-01-05 16:13:06 [INFO] Ma_ster[/192.168.1.20:43566] logged in with entity id 3938 at ([world] -225.5, 64.0, 238.5)
+2025-01-05 16:13:29 [INFO] HERRIOT issued server command: /tp HERRIOT 100 ~ -100
+2025-01-05 16:13:29 [INFO] HERRIOT: Teleported HERRIOT to 100,50, 72,00, -99,50[m
+2025-01-05 16:13:34 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 16:13:45 [INFO] HERRIOT issued server command: /tp Ma_ster HERRIOT
+2025-01-05 16:13:45 [INFO] HERRIOT: Teleported Ma_ster to HERRIOT[m
+2025-01-05 16:14:19 [INFO] HERRIOT issued server command: /deop Ma_ster
+2025-01-05 16:14:19 [INFO] HERRIOT: De-opped Ma_ster[m
+2025-01-05 16:14:19 [INFO] Ma_ster issued server command: /gamemode surcvivbal
+2025-01-05 16:14:28 [INFO] Ma_ster issued server command: /op
+2025-01-05 16:14:32 [INFO] HERRIOT issued server command: /gamemode survival Ma_ster
+2025-01-05 16:14:32 [INFO] HERRIOT: Set Ma_ster's game mode to SURVIVAL mode[m
+2025-01-05 16:17:31 [INFO] HERRIOT issued server command: /tp Ma_ster HERRIOT
+2025-01-05 16:17:31 [INFO] HERRIOT: Teleported Ma_ster to HERRIOT[m
+2025-01-05 16:17:49 [INFO] HERRIOT issued server command: /gamemode adventure HERRIOT
+2025-01-05 16:17:49 [INFO] HERRIOT: Set own game mode to ADVENTURE mode[m
+2025-01-05 16:17:53 [INFO] HERRIOT issued server command: /gamemode adventure Ma_ster
+2025-01-05 16:17:53 [INFO] HERRIOT: Set Ma_ster's game mode to ADVENTURE mode[m
+2025-01-05 16:17:58 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:43796.
+2025-01-05 16:17:58 [INFO] Starting input thread!
+2025-01-05 16:17:58 [INFO] Starting output thread!
+2025-01-05 16:17:58 [INFO] [INFO] The dungeon is generating. Please wait (it can take some time).[m
+2025-01-05 16:18:04 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 16:18:13 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 16:18:16 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 16:18:23 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 16:18:29 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 16:18:38 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 16:18:39 [INFO] HERRIOT issued server command: /tp Ma_ster HERRIOT
+2025-01-05 16:18:39 [INFO] HERRIOT: Teleported Ma_ster to HERRIOT[m
+2025-01-05 16:18:45 [INFO] HERRIOT issued server command: /spawnpoint
+2025-01-05 16:18:45 [INFO] HERRIOT: Set HERRIOT's spawnpoint to 113.84585748791501, 64.0, -82.59885879496794[m
+2025-01-05 16:18:46 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 16:18:51 [INFO] HERRIOT issued server command: /spawnpoint
+2025-01-05 16:18:51 [INFO] HERRIOT: Set HERRIOT's spawnpoint to 114.0157261570365, 64.0, -82.70940776745759[m
+2025-01-05 16:18:53 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 16:19:28 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 16:19:35 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 16:19:43 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 16:19:49 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 16:20:24 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 16:20:31 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 16:20:37 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 16:20:44 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 16:20:59 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 16:21:05 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 16:21:07 [INFO] HERRIOT tried to swim in lava to escape Ma_ster
+2025-01-05 16:21:12 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 16:21:19 [INFO] Dommage pour vous.[m
+2025-01-05 16:22:04 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 16:22:11 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 16:22:21 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 16:22:28 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 16:22:34 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 16:22:42 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 16:23:17 [INFO] Oh. je ne sais pas si vous avez ouvert un coffre ?[m
+2025-01-05 16:23:24 [INFO] Vous etes decu hein ?[m
+2025-01-05 16:23:30 [INFO] Vos collegues aventuriers ont tout pris.[m
+2025-01-05 16:23:37 [INFO] Ca coute cher de refournir le donjon a chaque fois.[m
+2025-01-05 16:23:43 [INFO] Et cette annee on est en budget limite.[m
+2025-01-05 16:23:50 [INFO] C'est bien triste.[m
+2025-01-05 16:23:50 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:43796.
+2025-01-05 16:27:10 [INFO] HERRIOT burned to death
+2025-01-05 16:29:03 [INFO] HERRIOT issued server command: /gamemode creative Ma_ster
+2025-01-05 16:29:03 [INFO] HERRIOT: Set Ma_ster's game mode to CREATIVE mode[m
+2025-01-05 16:29:35 [INFO] HERRIOT issued server command: /gamemode creative
+2025-01-05 16:29:35 [INFO] HERRIOT: Set own game mode to CREATIVE mode[m
+2025-01-05 16:32:18 [INFO] HERRIOT issued server command: /tp Ma_ster HERRIOT
+2025-01-05 16:32:18 [INFO] HERRIOT: Teleported Ma_ster to HERRIOT[m
+2025-01-05 16:34:24 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:60174.
+2025-01-05 16:34:24 [INFO] Starting input thread!
+2025-01-05 16:34:24 [INFO] Starting output thread!
+2025-01-05 16:34:24 [INFO] [INFO] The dungeon is generating. Please wait (it can take some time).[m
+2025-01-05 16:34:37 [INFO] HERRIOT issued server command: /gamemode adventure Ma_st
+2025-01-05 16:34:37 [INFO] Ma_ster issued server command: /gamemode survival
+2025-01-05 16:34:37 [INFO] Ma_ster issued server command: /gamemode survival
+2025-01-05 16:34:37 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 16:34:39 [INFO] HERRIOT issued server command: /gamemode adventure Ma_ster
+2025-01-05 16:34:39 [INFO] HERRIOT: Set Ma_ster's game mode to ADVENTURE mode[m
+2025-01-05 16:34:52 [INFO] HERRIOT issued server command: /gamemode adventure HERRIOT
+2025-01-05 16:34:52 [INFO] HERRIOT: Set own game mode to ADVENTURE mode[m
+2025-01-05 16:35:27 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 16:35:33 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@f1399
+2025-01-05 16:35:34 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 16:35:41 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 16:35:54 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 16:35:56 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 16:36:04 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 16:36:11 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 16:36:36 [INFO] HERRIOT issued server command: /gamemode creative
+2025-01-05 16:36:36 [INFO] HERRIOT: Set own game mode to CREATIVE mode[m
+2025-01-05 16:36:46 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 16:36:53 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 16:37:01 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 16:37:07 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 16:37:26 [INFO] HERRIOT issued server command: /gamemode adventure HERRIOT
+2025-01-05 16:37:26 [INFO] HERRIOT: Set own game mode to ADVENTURE mode[m
+2025-01-05 16:37:42 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 16:37:44 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1f007b7
+2025-01-05 16:37:44 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@18aac7b
+2025-01-05 16:37:49 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 16:37:55 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 16:38:02 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 16:38:17 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 16:38:23 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 16:38:30 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 16:38:37 [INFO] Dommage pour vous.[m
+2025-01-05 16:38:47 [INFO] HERRIOT tried to swim in lava to escape Ma_ster
+2025-01-05 16:38:55 [INFO] Ma_ster tried to swim in lava
+2025-01-05 16:39:20 [INFO] Ma_ster issued server command: /gamemode survival
+2025-01-05 16:39:22 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 16:39:29 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 16:39:31 [INFO] <Ma_ster> ta gueulllllllle[m
+2025-01-05 16:39:39 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 16:39:39 [INFO] <Ma_ster> ahhhhhhhbhhhhy[m
+2025-01-05 16:39:46 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 16:39:52 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 16:40:00 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 16:40:05 [INFO] <Ma_ster> ba moi j'ai fait un fratricide[m
+2025-01-05 16:40:18 [INFO] <Ma_ster> c'est pas mal dÈja[m
+2025-01-05 16:40:22 [INFO] HERRIOT issued server command: /gamemode creative
+2025-01-05 16:40:22 [INFO] HERRIOT: Set own game mode to CREATIVE mode[m
+2025-01-05 16:40:35 [INFO] <Ma_ster> ha vous n'etes pas tres bavardezs[m
+2025-01-05 16:40:35 [INFO] Oh. je ne sais pas si vous avez ouvert un coffre ?[m
+2025-01-05 16:40:42 [INFO] Vous etes decu hein ?[m
+2025-01-05 16:40:48 [INFO] Vos collegues aventuriers ont tout pris.[m
+2025-01-05 16:40:55 [INFO] Ca coute cher de refournir le donjon a chaque fois.[m
+2025-01-05 16:41:01 [INFO] Et cette annee on est en budget limite.[m
+2025-01-05 16:41:08 [INFO] C'est bien triste.[m
+2025-01-05 16:41:08 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:60174.
+2025-01-05 16:41:09 [INFO] HERRIOT issued server command: /tp Ma_ster HERRIOT
+2025-01-05 16:41:09 [INFO] HERRIOT: Teleported Ma_ster to HERRIOT[m
+2025-01-05 16:41:19 [INFO] HERRIOT issued server command: /gamemode adventure HERRIOT
+2025-01-05 16:41:19 [INFO] HERRIOT: Set own game mode to ADVENTURE mode[m
+2025-01-05 16:41:29 [INFO] HERRIOT issued server command: /gamerule keepInventory
+2025-01-05 16:41:37 [INFO] HERRIOT issued server command: /gamemode creative
+2025-01-05 16:41:37 [INFO] HERRIOT: Set own game mode to CREATIVE mode[m
+2025-01-05 16:42:07 [INFO] HERRIOT issued server command: /spawnpoint
+2025-01-05 16:42:07 [INFO] HERRIOT: Set HERRIOT's spawnpoint to 113.8101957407085, 108.0, -81.86684935007169[m
+2025-01-05 16:42:43 [INFO] HERRIOT issued server command: /tp Ma_ster HERRIOT
+2025-01-05 16:42:43 [INFO] HERRIOT: Teleported Ma_ster to HERRIOT[m
+2025-01-05 16:42:52 [INFO] HERRIOT issued server command: /gamemode adventure HERRIOT
+2025-01-05 16:42:52 [INFO] HERRIOT: Set own game mode to ADVENTURE mode[m
+2025-01-05 16:43:04 [INFO] HERRIOT issued server command: /gamemode creative
+2025-01-05 16:43:04 [INFO] HERRIOT: Set own game mode to CREATIVE mode[m
+2025-01-05 16:43:09 [INFO] HERRIOT issued server command: /gamemode adventure HERRIOT
+2025-01-05 16:43:09 [INFO] HERRIOT: Set own game mode to ADVENTURE mode[m
+2025-01-05 16:43:48 [INFO] HERRIOT issued server command: /give HERRIOT REDSTONE_TORCH
+2025-01-05 16:44:00 [INFO] HERRIOT issued server command: /give HERRIOT REDSTONE_TORCH_OFF
+2025-01-05 16:44:00 [INFO] HERRIOT: Gave HERRIOT some 75 (REDSTONE_TORCH_OFF)[m
+2025-01-05 16:44:07 [INFO] HERRIOT issued server command: /give HERRIOT REDSTONE_TORCH_ON
+2025-01-05 16:44:07 [INFO] HERRIOT: Gave HERRIOT some 76 (REDSTONE_TORCH_ON)[m
+2025-01-05 16:45:37 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 16:45:37 [INFO] ßeHERRIOT left the game.
+2025-01-05 16:45:51 [INFO] HERRIOT[/127.0.0.1:60130] logged in with entity id 5719 at ([world] 208.12913788752974, 108.0, -82.48750001192094)
+2025-01-05 16:46:08 [INFO] HERRIOT issued server command: /gamemode adventure HERRIOT
+2025-01-05 16:46:08 [INFO] HERRIOT: Set own game mode to ADVENTURE mode[m
+2025-01-05 16:46:59 [INFO] Ma_ster tried to swim in lava to escape HERRIOT
+2025-01-05 16:47:29 [INFO] HERRIOT issued server command: /tp Ma_ster HERRIOT
+2025-01-05 16:47:29 [INFO] HERRIOT: Teleported Ma_ster to HERRIOT[m
+2025-01-05 16:47:38 [INFO] HERRIOT issued server command: /gamemode creative
+2025-01-05 16:47:38 [INFO] HERRIOT: Set own game mode to CREATIVE mode[m
+2025-01-05 16:48:12 [INFO] HERRIOT issued server command: /gamerule keepInventory True
+2025-01-05 16:48:12 [INFO] HERRIOT: Game rule keepInventory has been set to: True[m
+2025-01-05 16:48:20 [INFO] HERRIOT issued server command: /spawnpoint
+2025-01-05 16:48:20 [INFO] HERRIOT: Set HERRIOT's spawnpoint to 112.46946725261986, 108.0, -82.06349660867089[m
+2025-01-05 16:48:33 [INFO] HERRIOT issued server command: /gamemode adventure HERRIOT
+2025-01-05 16:48:33 [INFO] HERRIOT: Set own game mode to ADVENTURE mode[m
+2025-01-05 16:48:38 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 16:48:46 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 16:48:46 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 16:48:59 [INFO] HERRIOT issued server command: /tp Ma_ster HERRIOT
+2025-01-05 16:48:59 [INFO] HERRIOT: Teleported Ma_ster to HERRIOT[m
+2025-01-05 16:49:06 [INFO] HERRIOT issued server command: /spawnpoint Ma_ster
+2025-01-05 16:49:06 [INFO] HERRIOT: Set Ma_ster's spawnpoint to 115.02048400482738, 108.0, -82.13623757769044[m
+2025-01-05 16:49:12 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 16:49:25 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 16:49:46 [INFO] Ma_ster tried to swim in lava to escape HERRIOT
+2025-01-05 16:50:09 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 16:50:09 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 16:50:18 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 16:50:23 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 16:50:27 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 16:50:32 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 16:50:36 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 16:50:42 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 16:50:50 [INFO] Unknown command. Type "help" for help.[m
+2025-01-05 16:51:32 [INFO] Unknown command. Type "help" for help.[m
+2025-01-05 16:51:35 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 16:51:42 [INFO] Player not found: M_ster[m
+2025-01-05 16:51:52 [INFO] Player not found: M_ster[m
+2025-01-05 16:51:58 [INFO] Unknown command. Type "help" for help.[m
+2025-01-05 16:52:09 [INFO] CONSOLE: Teleported Ma_ster to 112,64, 208,00, -84,17[m
+2025-01-05 16:52:12 [INFO] Ma_ster fell from a high place
+2025-01-05 16:52:39 [INFO] HERRIOT tried to swim in lava
+2025-01-05 16:53:27 [INFO] Ma_ster tried to swim in lava to escape HERRIOT
+2025-01-05 16:54:30 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 16:56:31 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 16:56:39 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 16:58:51 [INFO] HERRIOT tried to swim in lava
+2025-01-05 17:01:08 [INFO] HERRIOT tried to swim in lava to escape Ma_ster
+2025-01-05 17:01:31 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:01:35 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:01:44 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:02:00 [INFO] Ma_ster tried to swim in lava to escape HERRIOT
+2025-01-05 17:04:14 [INFO] Ma_ster tried to swim in lava
+2025-01-05 17:05:37 [INFO] HERRIOT tried to swim in lava
+2025-01-05 17:06:05 [INFO] Ma_ster tried to swim in lava
+2025-01-05 17:06:26 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:06:56 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:07:17 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:07:44 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:08:03 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:08:22 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:08:48 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:08:48 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:09:16 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:09:34 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:09:49 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:10:20 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:10:39 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:11:12 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:11:46 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:11:58 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:12:03 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:12:08 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:12:13 [INFO] HERRIOT issued server command: /gamemode creative
+2025-01-05 17:12:13 [INFO] HERRIOT: Set own game mode to CREATIVE mode[m
+2025-01-05 17:15:31 [INFO] Ma_ster tried to swim in lava
+2025-01-05 17:15:32 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:52680.
+2025-01-05 17:15:32 [INFO] Starting input thread!
+2025-01-05 17:15:32 [INFO] Starting output thread!
+2025-01-05 17:15:33 [INFO] [INFO] The dungeon is generating. Please wait (it can take some time).[m
+2025-01-05 17:15:35 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 17:15:48 [INFO] HERRIOT issued server command: /spawnpoint Ma_ster
+2025-01-05 17:15:48 [INFO] HERRIOT: Set Ma_ster's spawnpoint to 113.68600801925476, 109.24918707874468, -110.33616037264156[m
+2025-01-05 17:15:48 [INFO] HERRIOT issued server command: /spawnpoint
+2025-01-05 17:15:48 [INFO] HERRIOT: Set HERRIOT's spawnpoint to -89.34089109838477, 69.0, 165.8756147109818[m
+2025-01-05 17:16:02 [INFO] HERRIOT issued server command: /gamemode adventure HERRIOT
+2025-01-05 17:16:02 [INFO] HERRIOT: Set own game mode to ADVENTURE mode[m
+2025-01-05 17:16:18 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 17:16:22 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 17:16:24 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 17:16:30 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 17:16:39 [INFO] HERRIOT issued server command: /tp Ma_ster HERRIOT
+2025-01-05 17:16:39 [INFO] HERRIOT: Teleported Ma_ster to HERRIOT[m
+2025-01-05 17:16:45 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 17:16:51 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@9caa86
+2025-01-05 17:16:51 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@17f6ecf
+2025-01-05 17:16:53 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 17:17:00 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 17:17:22 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:17:33 [INFO] HERRIOT issued server command: /spawnpoint Ma_ster
+2025-01-05 17:17:33 [INFO] HERRIOT: Set Ma_ster's spawnpoint to 113.5, 98.65830456875969, -110.5[m
+2025-01-05 17:17:33 [INFO] Ma_ster tried to swim in lava
+2025-01-05 17:17:35 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 17:17:42 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 17:17:43 [INFO] HERRIOT issued server command: /tp Ma_ster HERRIOT
+2025-01-05 17:17:43 [INFO] HERRIOT: Teleported Ma_ster to HERRIOT[m
+2025-01-05 17:17:50 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 17:17:57 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 17:18:05 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:18:16 [INFO] HERRIOT issued server command: /spawnpoint Ma_ster
+2025-01-05 17:18:16 [INFO] HERRIOT: Set Ma_ster's spawnpoint to -227.5, 64.0, 248.5[m
+2025-01-05 17:18:31 [INFO] HERRIOT issued server command: /tp Ma_ster HERRIOT
+2025-01-05 17:18:31 [INFO] HERRIOT: Teleported Ma_ster to HERRIOT[m
+2025-01-05 17:18:32 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 17:18:38 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 17:18:38 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 17:18:38 [INFO] ßeHERRIOT left the game.
+2025-01-05 17:18:45 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 17:18:51 [INFO] Ma_ster burned to death
+2025-01-05 17:18:51 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 17:19:03 [INFO] Ma_ster issued server command: /op
+2025-01-05 17:19:06 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 17:19:07 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:52680.
+2025-01-05 17:19:07 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:59298.
+2025-01-05 17:19:07 [INFO] Starting input thread!
+2025-01-05 17:19:07 [INFO] Starting output thread!
+2025-01-05 17:19:07 [INFO] [INFO] The dungeon is generating. Please wait (it can take some time).[m
+2025-01-05 17:19:11 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 17:19:40 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 17:19:40 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 17:19:47 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 17:19:50 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@ead49b
+2025-01-05 17:19:51 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@12c13c3
+2025-01-05 17:19:52 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@c595f8
+2025-01-05 17:19:52 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1f8e2b8
+2025-01-05 17:19:54 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@eca73f
+2025-01-05 17:19:54 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 17:19:54 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@d84ff0
+2025-01-05 17:19:55 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@168421b
+2025-01-05 17:19:56 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1cc0491
+2025-01-05 17:19:59 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@13fdcec
+2025-01-05 17:20:00 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1c137ba
+2025-01-05 17:20:04 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@f7be68
+2025-01-05 17:20:05 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@6995e5
+2025-01-05 17:20:06 [INFO] HERRIOT[/127.0.0.1:34792] logged in with entity id 6100 at ([world] 80.3517960991775, 102.0, -66.294678071764)
+2025-01-05 17:20:06 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1241f02
+2025-01-05 17:20:09 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 17:20:17 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 17:20:20 [INFO] HERRIOT issued server command: /tp HERRIOT Ma_ster
+2025-01-05 17:20:20 [INFO] HERRIOT: Teleported HERRIOT to Ma_ster[m
+2025-01-05 17:20:24 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 17:20:52 [INFO] HERRIOT issued server command: /gamemode adventure HERRIOT
+2025-01-05 17:20:52 [INFO] HERRIOT: Set own game mode to ADVENTURE mode[m
+2025-01-05 17:20:57 [INFO] HERRIOT issued server command: /spawnpoint
+2025-01-05 17:20:57 [INFO] HERRIOT: Set HERRIOT's spawnpoint to -227.95297063502179, 64.0, 248.61382219917704[m
+2025-01-05 17:20:57 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@9ceb0b
+2025-01-05 17:20:58 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@b3715
+2025-01-05 17:20:59 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@4d648c
+2025-01-05 17:20:59 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 17:20:59 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@10433e5
+2025-01-05 17:21:03 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@eb1ca1
+2025-01-05 17:21:03 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1a4b059
+2025-01-05 17:21:05 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@135d109
+2025-01-05 17:21:06 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@2ecc72
+2025-01-05 17:21:06 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 17:21:06 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@706e35
+2025-01-05 17:21:09 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@15385e8
+2025-01-05 17:21:10 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@7c7b71
+2025-01-05 17:21:11 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@8c630c
+2025-01-05 17:21:11 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@bac5d5
+2025-01-05 17:21:14 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 17:21:17 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@12276d
+2025-01-05 17:21:17 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1da7487
+2025-01-05 17:21:18 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@11868bd
+2025-01-05 17:21:20 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 17:21:22 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1846b86
+2025-01-05 17:21:23 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@af5646
+2025-01-05 17:21:24 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1bae215
+2025-01-05 17:21:27 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@50f476
+2025-01-05 17:21:33 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@5f6c4a
+2025-01-05 17:21:34 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@be8e43
+2025-01-05 17:21:37 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@6e0775
+2025-01-05 17:21:38 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1a8b212
+2025-01-05 17:21:42 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@195d4a
+2025-01-05 17:21:43 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@13bc626
+2025-01-05 17:21:47 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@140ee5f
+2025-01-05 17:21:48 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1e1a4be
+2025-01-05 17:21:49 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@106e0f8
+2025-01-05 17:21:49 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@9bbb55
+2025-01-05 17:21:53 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@27e67b
+2025-01-05 17:21:55 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 17:21:59 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@16c9c75
+2025-01-05 17:22:02 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@193d571
+2025-01-05 17:22:02 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 17:22:08 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 17:22:15 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 17:22:30 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 17:22:32 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:22:36 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 17:22:43 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 17:22:50 [INFO] Dommage pour vous.[m
+2025-01-05 17:23:12 [INFO] Ma_ster tried to swim in lava
+2025-01-05 17:23:35 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 17:23:42 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 17:23:44 [INFO] HERRIOT issued server command: /op
+2025-01-05 17:23:46 [INFO] HERRIOT issued server command: /op Ma_ster
+2025-01-05 17:23:46 [INFO] HERRIOT: Opped Ma_ster[m
+2025-01-05 17:23:52 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 17:23:59 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 17:23:59 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@6d55f
+2025-01-05 17:23:59 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@a27e25
+2025-01-05 17:24:05 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 17:24:13 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 17:24:23 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@160b9df
+2025-01-05 17:24:23 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@14aea70
+2025-01-05 17:24:25 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1655fb9
+2025-01-05 17:24:25 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@6f9a96
+2025-01-05 17:24:31 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@10f7ca9
+2025-01-05 17:24:35 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@3b6934
+2025-01-05 17:24:36 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@78139d
+2025-01-05 17:24:48 [INFO] Oh. je ne sais pas si vous avez ouvert un coffre ?[m
+2025-01-05 17:24:55 [INFO] Vous etes decu hein ?[m
+2025-01-05 17:25:01 [INFO] Vos collegues aventuriers ont tout pris.[m
+2025-01-05 17:25:08 [INFO] Ca coute cher de refournir le donjon a chaque fois.[m
+2025-01-05 17:25:14 [INFO] Et cette annee on est en budget limite.[m
+2025-01-05 17:25:16 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@14fd2b7
+2025-01-05 17:25:17 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@19311fb
+2025-01-05 17:25:21 [INFO] C'est bien triste.[m
+2025-01-05 17:25:21 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:59298.
+2025-01-05 17:25:32 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:25:45 [INFO] HERRIOT issued server command: /gamemode creative
+2025-01-05 17:25:45 [INFO] HERRIOT: Set own game mode to CREATIVE mode[m
+2025-01-05 17:27:02 [INFO] HERRIOT issued server command: /gamemode adventure HERRIOT
+2025-01-05 17:27:02 [INFO] HERRIOT: Set own game mode to ADVENTURE mode[m
+2025-01-05 17:27:24 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:27:24 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:27:45 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:30:12 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:30:20 [INFO] Ma_ster tried to swim in lava to escape HERRIOT
+2025-01-05 17:31:30 [INFO] HERRIOT issued server command: /gamemode survival Ma_ster
+2025-01-05 17:31:30 [INFO] HERRIOT: Set Ma_ster's game mode to SURVIVAL mode[m
+2025-01-05 17:31:40 [INFO] HERRIOT issued server command: /gamemode adventure Ma_ster
+2025-01-05 17:31:40 [INFO] HERRIOT: Set Ma_ster's game mode to ADVENTURE mode[m
+2025-01-05 17:32:11 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:32:49 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 17:32:49 [INFO] ßeHERRIOT left the game.
+2025-01-05 17:33:14 [INFO] HERRIOT[/127.0.0.1:37950] logged in with entity id 6218 at ([world] -245.66654935066586, 64.0, 251.60797328107606)
+2025-01-05 17:35:00 [INFO] HERRIOT issued server command: /gamemode adventure HERRIOT
+2025-01-05 17:35:00 [INFO] HERRIOT: Set own game mode to ADVENTURE mode[m
+2025-01-05 17:35:11 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:35:46 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 17:35:46 [INFO] ßeHERRIOT left the game.
+2025-01-05 17:36:32 [INFO] HERRIOT[/127.0.0.1:53790] logged in with entity id 6225 at ([world] -211.83189140802352, 64.0, 249.5353776636174)
+2025-01-05 17:36:40 [INFO] HERRIOT issued server command: /gamemode creative
+2025-01-05 17:36:44 [INFO] Ma_ster issued server command: /gamemode cerative
+2025-01-05 17:36:44 [INFO] Ma_ster: Set own game mode to SURVIVAL mode[m
+2025-01-05 17:36:52 [INFO] Ma_ster issued server command: /gamemode ceative
+2025-01-05 17:37:01 [INFO] Ma_ster issued server command: /gamemode creative
+2025-01-05 17:37:01 [INFO] Ma_ster: Set own game mode to CREATIVE mode[m
+2025-01-05 17:37:36 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:60808.
+2025-01-05 17:37:36 [INFO] Starting input thread!
+2025-01-05 17:37:36 [INFO] Starting output thread!
+2025-01-05 17:37:36 [INFO] [INFO] The dungeon is generating. Please wait (it can take some time).[m
+2025-01-05 17:38:04 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 17:38:16 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 17:38:18 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 17:38:22 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 17:38:22 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 17:38:29 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 17:38:44 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 17:38:52 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 17:38:59 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 17:39:05 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@d3aa6b
+2025-01-05 17:39:15 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@8216c7
+2025-01-05 17:39:27 [INFO] HERRIOT issued server command: /spawnpoint
+2025-01-05 17:39:27 [INFO] HERRIOT: Set HERRIOT's spawnpoint to -240.23750001192093, 113.0, -12.856862558916479[m
+2025-01-05 17:39:34 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 17:39:35 [INFO] Ma_ster issued server command: /spauwnpoint
+2025-01-05 17:39:36 [INFO] HERRIOT issued server command: /gamemode adventure
+2025-01-05 17:39:36 [INFO] HERRIOT: Set own game mode to ADVENTURE mode[m
+2025-01-05 17:39:40 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@dc98ac
+2025-01-05 17:39:40 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@ab6eb4
+2025-01-05 17:39:41 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 17:39:42 [INFO] Ma_ster issued server command: /spawnpoint
+2025-01-05 17:39:42 [INFO] Ma_ster: Set Ma_ster's spawnpoint to -239.6422962231424, 113.0, -10.976908506233436[m
+2025-01-05 17:39:49 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 17:39:54 [INFO] Ma_ster issued server command: /gamemode adventur
+2025-01-05 17:39:54 [INFO] Ma_ster: Set own game mode to SURVIVAL mode[m
+2025-01-05 17:39:55 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 17:40:06 [INFO] Ma_ster issued server command: /gamemode adventure
+2025-01-05 17:40:07 [INFO] Ma_ster: Set own game mode to ADVENTURE mode[m
+2025-01-05 17:40:15 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:40:29 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@2fd944
+2025-01-05 17:40:29 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1612c97
+2025-01-05 17:40:30 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@19b9cb3
+2025-01-05 17:40:30 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 17:40:32 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@14cd5a0
+2025-01-05 17:40:32 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@15d1bd7
+2025-01-05 17:40:33 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1cee7ef
+2025-01-05 17:40:33 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@dd0a2c
+2025-01-05 17:40:37 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 17:40:43 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 17:40:47 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@dc5396
+2025-01-05 17:40:48 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@f3aebb
+2025-01-05 17:40:48 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@548f12
+2025-01-05 17:40:50 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 17:40:53 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@17ce6e9
+2025-01-05 17:40:54 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@11be35a
+2025-01-05 17:40:58 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1eb42e6
+2025-01-05 17:40:59 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@12ad90
+2025-01-05 17:41:00 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@40fd4a
+2025-01-05 17:41:00 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@b5307c
+2025-01-05 17:41:01 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@18259c6
+2025-01-05 17:41:05 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 17:41:06 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@d41062
+2025-01-05 17:41:07 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@7fa4d1
+2025-01-05 17:41:11 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 17:41:12 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1dc5cf
+2025-01-05 17:41:18 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 17:41:19 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@d97fc8
+2025-01-05 17:41:22 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1543e93
+2025-01-05 17:41:25 [INFO] Dommage pour vous.[m
+2025-01-05 17:41:28 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1ea6b0
+2025-01-05 17:41:29 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@51a54b
+2025-01-05 17:41:34 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@3aee7a
+2025-01-05 17:41:35 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@fe8cba
+2025-01-05 17:41:35 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1c93e36
+2025-01-05 17:41:35 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1138389
+2025-01-05 17:41:36 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@20b39e
+2025-01-05 17:41:40 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@f07c66
+2025-01-05 17:42:10 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 17:42:17 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 17:42:26 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:42:27 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 17:42:30 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@7dbee8
+2025-01-05 17:42:34 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 17:42:34 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1807ce1
+2025-01-05 17:42:40 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 17:42:48 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 17:42:53 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@1b6539d
+2025-01-05 17:43:02 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:43:06 [INFO] [RaspberryJuice] org.bukkit.event.player.PlayerInteractEvent@194a2b5
+2025-01-05 17:43:23 [INFO] Oh. je ne sais pas si vous avez ouvert un coffre ?[m
+2025-01-05 17:43:30 [INFO] Vous etes decu hein ?[m
+2025-01-05 17:43:36 [INFO] Vos collegues aventuriers ont tout pris.[m
+2025-01-05 17:43:43 [INFO] Ca coute cher de refournir le donjon a chaque fois.[m
+2025-01-05 17:43:49 [INFO] Et cette annee on est en budget limite.[m
+2025-01-05 17:43:56 [INFO] C'est bien triste.[m
+2025-01-05 17:43:56 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:60808.
+2025-01-05 17:44:00 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:44:43 [INFO] Ma_ster fell from a high place
+2025-01-05 17:44:57 [INFO] HERRIOT fell from a high place
+2025-01-05 17:45:12 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:45:29 [INFO] Unknown command. Type "help" for help.[m
+2025-01-05 17:45:38 [INFO] CONSOLE: Teleported Ma_ster to -239,01, 213,00, -11,65[m
+2025-01-05 17:45:41 [INFO] Ma_ster fell from a high place
+2025-01-05 17:45:54 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:46:04 [INFO] Ma_ster was slain by HERRIOT
+2025-01-05 17:46:14 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:46:20 [INFO] CONSOLE: Teleported Ma_ster to -238,21, 214,02, -4,95[m
+2025-01-05 17:46:23 [INFO] Ma_ster was doomed to fall by HERRIOT
+2025-01-05 17:46:44 [INFO] HERRIOT was slain by Ma_ster
+2025-01-05 17:46:50 [INFO] HERRIOT issued server command: /gamemode creative
+2025-01-05 17:46:50 [INFO] HERRIOT: Set own game mode to CREATIVE mode[m
+2025-01-05 17:47:29 [INFO] Ma_ster issued server command: /gamemode survivazl
+2025-01-05 17:47:29 [INFO] Ma_ster: Set own game mode to SURVIVAL mode[m
+2025-01-05 17:47:36 [INFO] Ma_ster issued server command: /gamemode creative
+2025-01-05 17:47:36 [INFO] Ma_ster: Set own game mode to CREATIVE mode[m
+2025-01-05 17:49:19 [INFO] Ma_ster issued server command: / tp Ma_ster HERRIOT
+2025-01-05 17:49:26 [INFO] Ma_ster issued server command: /tp Ma_ster HERRIOT
+2025-01-05 17:49:26 [INFO] Ma_ster: Teleported Ma_ster to HERRIOT[m
+2025-01-05 17:50:24 [INFO] HERRIOT lost connection: disconnect.endOfStream
+2025-01-05 17:50:24 [INFO] ßeHERRIOT left the game.
+2025-01-05 17:50:48 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:54594.
+2025-01-05 17:50:48 [INFO] Starting input thread!
+2025-01-05 17:50:48 [INFO] Starting output thread!
+2025-01-05 17:50:48 [INFO] [INFO] The dungeon is generating. Please wait (it can take some time).[m
+2025-01-05 17:50:50 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 17:51:05 [INFO] /127.0.0.1:43028 lost connection
+2025-01-05 17:51:09 [INFO] HERRIOT[/127.0.0.1:43036] logged in with entity id 6549 at ([world] -505.3244472454141, 80.0, 38.788409983708036)
+2025-01-05 17:51:18 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 17:51:22 [INFO] (evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon ![m
+2025-01-05 17:51:29 [INFO] (evil Gandalf voice) Vous. n'en. sortirez. PAAAS ![m
+2025-01-05 17:51:35 [INFO] (evil laugh) MUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH ![m
+2025-01-05 17:51:41 [INFO] HERRIOT issued server command: /gamemode adventure
+2025-01-05 17:51:41 [INFO] HERRIOT: Set own game mode to ADVENTURE mode[m
+2025-01-05 17:51:50 [INFO] (evil deep voice) Et vous savez pourquoi vous etes enferme ici[m
+2025-01-05 17:51:51 [INFO] Ma_ster issued server command: /gamemode adventurE
+2025-01-05 17:51:51 [INFO] Ma_ster: Set own game mode to ADVENTURE mode[m
+2025-01-05 17:51:58 [INFO] Parce que c'est rigolo ! C'est fun. C'est amusant. les donjons et les aventuriers qui risquent leur vie.[m
+2025-01-05 17:52:00 [INFO] Ma_ster issued server command: /spawnpoint
+2025-01-05 17:52:00 [INFO] Ma_ster: Set Ma_ster's spawnpoint to -506.3877582790227, 80.0, 38.841979181672585[m
+2025-01-05 17:52:05 [INFO] Amusez-vous bien MUAHAHAHAHAHA.[m
+2025-01-05 17:52:40 [INFO] Vous etes toujours vivant ??[m
+2025-01-05 17:52:47 [INFO] Ma_ster went up in flames
+2025-01-05 17:52:47 [INFO] D'ailleurs. vous savez ce qu'il y a de bien avec ce monde ?[m
+2025-01-05 17:52:55 [INFO] Les aventuriers comme vous reapparaissent apres leur mort.[m
+2025-01-05 17:53:02 [INFO] Ce qui me permet de les tuer plein de fois et de pleins de facons differentes.[m
+2025-01-05 17:53:37 [INFO] Au fait. desole pour les salles vides hein.[m
+2025-01-05 17:53:43 [INFO] Il y a eu une greve des monstres recemment.[m
+2025-01-05 17:53:50 [INFO] Ils exigent des garanties lors de blessures ou mort causees par les pieges du donjon ...[m
+2025-01-05 17:53:56 [INFO] Quand meme. les propres pieges de mon donjon ! Ils pourraient faire attention a ou ils marchent.[m
+2025-01-05 17:54:11 [INFO] Tiens. ca me fait penser que vous devez trouver les pieges un peu redondants.[m
+2025-01-05 17:54:18 [INFO] Je suis d'accord. J'ai eu pleeiinns d'idees tres amusantes. mais...[m
+2025-01-05 17:54:23 [INFO] Ma_ster tried to swim in lava
+2025-01-05 17:54:24 [INFO] Vous etes arrives avant que je finisse.[m
+2025-01-05 17:54:31 [INFO] Dommage pour vous.[m
+2025-01-05 17:55:16 [INFO] Vous. Vous etes pas bien bavard hein ?[m
+2025-01-05 17:55:23 [INFO] J'en ai connu des qui criaient a la moindre occasion.[m
+2025-01-05 17:55:33 [INFO] Enfin. vous au moins vous visitez. Ca fait plaisir de voir qu'on respecte mon travail.[m
+2025-01-05 17:55:40 [INFO] La plupart des autres se suicident ou meurent betement sans avoir vu la moitie des salles.[m
+2025-01-05 17:55:47 [INFO] Il y en a meme un qui est mort juste devant la sortie. Quel dommage MUAHAHAAHA.[m
+2025-01-05 17:55:55 [INFO] Euh... Je veux dire. non. bien sur que non il n'y a pas de sortie.[m
+2025-01-05 17:56:09 [INFO] Ma_ster issued server command: /GAMRMODE CREATIVE
+2025-01-05 17:56:22 [INFO] Ma_ster issued server command: /gamemode creative
+2025-01-05 17:56:22 [INFO] Ma_ster: Set own game mode to CREATIVE mode[m
+2025-01-05 17:56:30 [INFO] Oh. je ne sais pas si vous avez ouvert un coffre ?[m
+2025-01-05 17:56:36 [INFO] Vous etes decu hein ?[m
+2025-01-05 17:56:43 [INFO] Vos collegues aventuriers ont tout pris.[m
+2025-01-05 17:56:49 [INFO] Ca coute cher de refournir le donjon a chaque fois.[m
+2025-01-05 17:56:53 [INFO] HERRIOT issued server command: /gamemode creative
+2025-01-05 17:56:53 [INFO] HERRIOT: Set own game mode to CREATIVE mode[m
+2025-01-05 17:56:56 [INFO] Et cette annee on est en budget limite.[m
+2025-01-05 17:56:57 [INFO] Connection reset
+2025-01-05 17:56:57 [INFO] Ma_ster lost connection: disconnect.quitting
+2025-01-05 17:56:57 [INFO] ßeMa_ster left the game.
+2025-01-05 17:57:03 [INFO] C'est bien triste.[m
+2025-01-05 17:57:03 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:54594.
+2025-01-05 17:58:54 [INFO] Connection reset
+2025-01-05 17:58:54 [INFO] HERRIOT lost connection: disconnect.quitting
+2025-01-05 17:58:54 [INFO] ßeHERRIOT left the game.
+2025-01-05 18:47:20 [INFO] Disconnecting /192.168.1.20:57200: Protocol error
+2025-01-05 18:47:20 [INFO] /192.168.1.20:57200 lost connection
+2025-01-05 18:50:14 [INFO] Disconnecting /192.168.1.20:33970: Protocol error
+2025-01-05 18:50:14 [INFO] /192.168.1.20:33970 lost connection
+2025-01-05 19:08:33 [INFO] /192.168.1.20:58720 lost connection
+2025-01-05 19:32:19 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 19:57:43 [INFO] CONSOLE: Stopping the server..[m
+2025-01-05 19:57:43 [INFO] Stopping server
+2025-01-05 19:57:43 [INFO] [RaspberryJuice] Disabling RaspberryJuice v1.3
+2025-01-05 19:57:43 [SEVERE] java.net.SocketException: socket closed
+2025-01-05 19:57:43 [WARNING] DSCT: socket closed
+2025-01-05 19:57:43 [INFO] Saving players
+2025-01-05 19:57:43 [INFO] Closing listening thread
+2025-01-05 19:57:43 [SEVERE] 	at java.net.PlainSocketImpl.socketAccept(Native Method)
+2025-01-05 19:57:43 [INFO] Saving worlds
+2025-01-05 19:57:43 [SEVERE] 	at java.net.PlainSocketImpl.accept(Unknown Source)
+2025-01-05 19:57:43 [INFO] Saving chunks for level 'world'/Overworld
+2025-01-05 19:57:43 [SEVERE] 	at java.net.ServerSocket.implAccept(Unknown Source)
+2025-01-05 19:57:43 [SEVERE] 	at java.net.ServerSocket.accept(Unknown Source)
+2025-01-05 19:57:43 [SEVERE] 	at net.zhuoweizhang.raspberryjuice.ServerListenerThread.run(ServerListenerThread.java:27)
+2025-01-05 19:57:43 [SEVERE] 	at java.lang.Thread.run(Unknown Source)
+2025-01-05 19:57:43 [INFO] Saving chunks for level 'world_nether'/Nether
+2025-01-05 19:57:43 [INFO] Saving chunks for level 'world_the_end'/The End
+2025-01-05 20:47:01 [INFO] Starting minecraft server version 1.6.4
+2025-01-05 20:47:01 [INFO] Loading properties
+2025-01-05 20:47:01 [INFO] Default game type: CREATIVE
+2025-01-05 20:47:01 [INFO] Generating keypair
+2025-01-05 20:47:02 [INFO] Starting Minecraft server on *:25565
+2025-01-05 20:47:02 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R2.0-b2918jnks (MC: 1.6.4) (Implementing API version 1.6.4-R2.0)
+2025-01-05 20:47:02 [INFO] [RaspberryJuice] Loading RaspberryJuice v1.3
+2025-01-05 20:47:02 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-01-05 20:47:02 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2025-01-05 20:47:02 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-01-05 20:47:02 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2025-01-05 20:47:02 [INFO] Preparing level "world"
+2025-01-05 20:47:02 [INFO] Preparing start region for level 0 (Seed: 2455753326185401600)
+2025-01-05 20:47:03 [INFO] Preparing start region for level 1 (Seed: 2455753326185401600)
+2025-01-05 20:47:04 [INFO] Preparing start region for level 2 (Seed: 2455753326185401600)
+2025-01-05 20:47:04 [INFO] [RaspberryJuice] Enabling RaspberryJuice v1.3
+2025-01-05 20:47:04 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2025-01-05 20:47:04 [INFO] Done (2,202s)! For help, type "help" or "?"
+2025-01-05 20:47:07 [SEVERE] Exception in thread "Thread-6" 
+2025-01-05 20:47:07 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-05 20:47:07 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+2025-01-05 20:47:07 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:795)
+2025-01-05 20:47:07 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:734)
+2025-01-05 20:47:07 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2025-01-05 20:47:07 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2025-01-05 20:47:07 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2025-01-05 20:47:07 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-01-05 20:47:07 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2025-01-05 20:47:07 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2025-01-05 20:47:07 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+2025-01-05 20:47:07 [SEVERE] 	... 5 more
+2025-01-05 20:47:43 [INFO] HERRIOT[/127.0.0.1:48582] logged in with entity id 30 at ([world] -505.44386533123003, 87.0, 38.57644476276407)
+2025-01-05 20:48:31 [INFO] HERRIOT issued server command: /tp HERRIOT -1000 ~ -1000
+2025-01-05 20:48:31 [INFO] HERRIOT: Teleported HERRIOT to -999,50, 87,00, -999,50[m
+2025-01-05 20:48:37 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-01-05 20:52:12 [INFO] HERRIOT issued server command: /time set day
+2025-01-05 20:52:12 [INFO] HERRIOT: Set time to 0[m
+2025-01-05 20:52:17 [INFO] Connection reset
+2025-01-05 20:52:17 [INFO] HERRIOT lost connection: disconnect.quitting
+2025-01-05 20:52:17 [INFO] ßeHERRIOT left the game.
+2025-01-05 20:52:25 [INFO] CONSOLE: Stopping the server..[m
+2025-01-05 20:52:25 [INFO] Stopping server
+2025-01-05 20:52:25 [INFO] [RaspberryJuice] Disabling RaspberryJuice v1.3
+2025-01-05 20:52:25 [SEVERE] java.net.SocketException: socket closed
+2025-01-05 20:52:25 [INFO] Saving players
+2025-01-05 20:52:25 [WARNING] DSCT: socket closed
+2025-01-05 20:52:25 [INFO] Saving worlds
+2025-01-05 20:52:25 [SEVERE] 	at java.net.PlainSocketImpl.socketAccept(Native Method)
+2025-01-05 20:52:25 [INFO] Closing listening thread
+2025-01-05 20:52:25 [INFO] Saving chunks for level 'world'/Overworld
+2025-01-05 20:52:25 [SEVERE] 	at java.net.PlainSocketImpl.accept(Unknown Source)
+2025-01-05 20:52:25 [SEVERE] 	at java.net.ServerSocket.implAccept(Unknown Source)
+2025-01-05 20:52:25 [SEVERE] 	at java.net.ServerSocket.accept(Unknown Source)
+2025-01-05 20:52:25 [SEVERE] 	at net.zhuoweizhang.raspberryjuice.ServerListenerThread.run(ServerListenerThread.java:27)
+2025-01-05 20:52:25 [SEVERE] 	at java.lang.Thread.run(Unknown Source)
+2025-01-05 20:52:25 [INFO] Saving chunks for level 'world_nether'/Nether
+2025-01-05 20:52:25 [INFO] Saving chunks for level 'world_the_end'/The End

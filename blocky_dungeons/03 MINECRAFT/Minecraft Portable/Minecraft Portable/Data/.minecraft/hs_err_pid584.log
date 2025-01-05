@@ -21,19 +21,19 @@ Current thread (0x00cb8800):  JavaThread "Minecraft main thread" [_thread_in_nat
 siginfo: ExceptionCode=0xc0000005, writing address 0x00000024
 
 Registers:
-EAX=0x0001d95c, EBX=0x7db3c000, ECX=0x00000000, EDX=0x00000000
+EAX=0x00063f8f, EBX=0x7db3c000, ECX=0x00000000, EDX=0x00000000
 ESP=0x015af300, EBP=0x015af348, ESI=0x00000000, EDI=0x00cb8800
-EIP=0x793e6a32, EFLAGS=0x00210206
+EIP=0x793e6a32, EFLAGS=0x00210202
 
 Top of Stack: (sp=0x015af300)
-0x015af300:   7d58f500 00000018 0000007c 000040ae
+0x015af300:   7d58f520 00000018 000005e2 00003229
 0x015af310:   015af378 00cb8800 015af348 79104423
-0x015af320:   7db3c000 7c000128 7940b950 7f6a80c0
+0x015af320:   7db3c000 7c000128 7940b950 7f6a90c0
 0x015af330:   015af378 00cb8800 015af348 7a8a2de5
 0x015af340:   015af35c 00000000 015af388 10009fb4
-0x015af350:   00cb8928 7a8a2db5 10009fb4 0183882b
+0x015af350:   00cb8928 7a8a2db5 10009fb4 0183beeb
 0x015af360:   00cb8928 015af378 7a8a2db0 00000000
-0x015af370:   3dab6de8 4706f718 5bdafec8 00000008 
+0x015af370:   3d9f3458 46fe9d08 5bdafea8 0000005f 
 
 Instructions: (pc=0x793e6a32)
 0x793e6a12:   0c 15 03 00 01 ba 01 00 00 00 89 d8 e8 1d db ff
@@ -44,7 +44,7 @@ Instructions: (pc=0x793e6a32)
 
 Register to memory mapping:
 
-EAX=0x0001d95c is an unknown value
+EAX=0x00063f8f is an unknown value
 EBX=0x7db3c000 is an unknown value
 ECX=0x00000000 is an unknown value
 EDX=0x00000000 is an unknown value
@@ -85,15 +85,15 @@ v  ~StubRoutines::call_stub
 ---------------  P R O C E S S  ---------------
 
 Java Threads: ( => current thread )
-  0x04d82c00 JavaThread "Client write thread" [_thread_blocked, id=736, stack(0x092c0000,0x093c0000)]
-  0x04d82000 JavaThread "Client read thread" [_thread_in_native, id=732, stack(0x091b0000,0x092b0000)]
-  0x0417e400 JavaThread "Thread-11" daemon [_thread_in_native, id=696, stack(0x08f90000,0x09090000)]
-  0x04b80c00 JavaThread "LWJGL Timer" daemon [_thread_blocked, id=684, stack(0x08c60000,0x08d60000)]
-  0x04daa800 JavaThread "Thread-6" [_thread_blocked, id=652, stack(0x06fb0000,0x070b0000)]
-  0x04d77400 JavaThread "Thread-5" [_thread_blocked, id=648, stack(0x05680000,0x05780000)]
-  0x04ac0c00 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=640, stack(0x05420000,0x05520000)]
-  0x04a91c00 JavaThread "Timer hack thread" daemon [_thread_blocked, id=636, stack(0x05310000,0x05410000)]
-  0x041a8000 JavaThread "Snooper Timer" daemon [_thread_blocked, id=632, stack(0x04980000,0x04a80000)]
+  0x00d4e400 JavaThread "Client write thread" [_thread_blocked, id=1968, stack(0x08710000,0x08810000)]
+  0x05183800 JavaThread "Client read thread" [_thread_in_native, id=1960, stack(0x08600000,0x08700000)]
+  0x04159400 JavaThread "Thread-12" daemon [_thread_in_native, id=700, stack(0x082d0000,0x083d0000)]
+  0x052c8c00 JavaThread "LWJGL Timer" daemon [_thread_blocked, id=684, stack(0x07e90000,0x07f90000)]
+  0x04dd0400 JavaThread "Thread-6" [_thread_blocked, id=652, stack(0x073f0000,0x074f0000)]
+  0x04d7fc00 JavaThread "Thread-5" [_thread_blocked, id=648, stack(0x05ac0000,0x05bc0000)]
+  0x04ac0c00 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=640, stack(0x04fe0000,0x050e0000)]
+  0x04a91800 JavaThread "Timer hack thread" daemon [_thread_blocked, id=636, stack(0x04ed0000,0x04fd0000)]
+  0x041a9800 JavaThread "Snooper Timer" daemon [_thread_blocked, id=632, stack(0x04980000,0x04a80000)]
   0x00d25000 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=624, stack(0x03ea0000,0x03fa0000)]
   0x00d23400 JavaThread "C1 CompilerThread0" daemon [_thread_blocked, id=620, stack(0x03d90000,0x03e90000)]
   0x00d21c00 JavaThread "Attach Listener" daemon [_thread_blocked, id=616, stack(0x03c80000,0x03d80000)]
@@ -104,26 +104,26 @@ Java Threads: ( => current thread )
 
 Other Threads:
   0x00cdc400 VMThread [stack: 0x03840000,0x03940000] [id=600]
-  0x00d3c800 WatcherThread [stack: 0x03fb0000,0x040b0000] [id=628]
+  0x00d2c000 WatcherThread [stack: 0x03fb0000,0x040b0000] [id=628]
 
 VM state:not at safepoint (normal execution)
 
 VM Mutex/Monitor currently owned by a thread: None
 
 Heap
- def new generation   total 43584K, used 37640K [0x3b930000, 0x3e870000, 0x463d0000)
-  eden space 38784K,  89% used [0x3b930000, 0x3db00668, 0x3df10000)
-  from space 4800K,  62% used [0x3e3c0000, 0x3e6b19d8, 0x3e870000)
-  to   space 4800K,   0% used [0x3df10000, 0x3df10000, 0x3e3c0000)
- tenured generation   total 96728K, used 81273K [0x463d0000, 0x4c246000, 0x5b930000)
-   the space 96728K,  84% used [0x463d0000, 0x4b32e798, 0x4b32e800, 0x4c246000)
- compacting perm gen  total 12288K, used 10679K [0x5b930000, 0x5c530000, 0x5f930000)
-   the space 12288K,  86% used [0x5b930000, 0x5c39ddf8, 0x5c39de00, 0x5c530000)
+ def new generation   total 48896K, used 35096K [0x3b930000, 0x3ee30000, 0x463d0000)
+  eden space 43520K,  77% used [0x3b930000, 0x3da3cd20, 0x3e3b0000)
+  from space 5376K,  23% used [0x3e3b0000, 0x3e4e9558, 0x3e8f0000)
+  to   space 5376K,   0% used [0x3e8f0000, 0x3e8f0000, 0x3ee30000)
+ tenured generation   total 108492K, used 80362K [0x463d0000, 0x4cdc3000, 0x5b930000)
+   the space 108492K,  74% used [0x463d0000, 0x4b24aad8, 0x4b24ac00, 0x4cdc3000)
+ compacting perm gen  total 12288K, used 10809K [0x5b930000, 0x5c530000, 0x5f930000)
+   the space 12288K,  87% used [0x5b930000, 0x5c3be468, 0x5c3be600, 0x5c530000)
     ro space 10240K,  51% used [0x5f930000, 0x5fe63000, 0x5fe63000, 0x60330000)
     rw space 12288K,  55% used [0x60330000, 0x609ce4f8, 0x609ce600, 0x60f30000)
 
-Code Cache  [0x015c0000, 0x01c78000, 0x035c0000)
- total_blobs=2914 nmethods=2593 adapters=254 free_code_cache=26539776 largest_free_block=192
+Code Cache  [0x015c0000, 0x01d68000, 0x035c0000)
+ total_blobs=3294 nmethods=2971 adapters=256 free_code_cache=25549056 largest_free_block=256
 
 Dynamic libraries:
 0x00400000 - 0x00425000 	C:\Program Files\Java\jre6\bin\javaw.exe
@@ -149,10 +149,10 @@ Dynamic libraries:
 0x6d7c0000 - 0x6d7cc000 	C:\Program Files\Java\jre6\bin\verify.dll
 0x6d330000 - 0x6d34f000 	C:\Program Files\Java\jre6\bin\java.dll
 0x6d800000 - 0x6d80f000 	C:\Program Files\Java\jre6\bin\zip.dll
-0x10000000 - 0x1004c000 	C:\users\matthew\Bureau\Server TP minecraft\TP Minecraft avec python 3\03 MINECRAFT\Minecraft Portable\Minecraft Portable\Data\.minecraft\versions\1.6.4\1.6.4-natives-190649675485800\lwjgl.dll
+0x10000000 - 0x1004c000 	C:\users\matthew\Bureau\Server TP minecraft\TP Minecraft avec python 3\03 MINECRAFT\Minecraft Portable\Minecraft Portable\Data\.minecraft\versions\1.6.4\1.6.4-natives-275047278709299\lwjgl.dll
 0x7a820000 - 0x7a938000 	C:\windows\system32\OPENGL32.dll
 0x041d0000 - 0x04675000 	C:\windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.2600.2982_none_deadbeef\COMCTL32.dll
-0x7f620000 - 0x7f6b0000 	C:\windows\system32\winex11.drv
+0x7f620000 - 0x7f6b1000 	C:\windows\system32\winex11.drv
 0x68700000 - 0x68788000 	C:\windows\system32\uxtheme.dll
 0x6d610000 - 0x6d623000 	C:\Program Files\Java\jre6\bin\net.dll
 0x7f130000 - 0x7f168000 	C:\windows\system32\WS2_32.dll
@@ -160,22 +160,22 @@ Dynamic libraries:
 0x6d630000 - 0x6d639000 	C:\Program Files\Java\jre6\bin\nio.dll
 0x6d000000 - 0x6d14c000 	C:\Program Files\Java\jre6\bin\awt.dll
 0x7f0c0000 - 0x7f0fd000 	C:\windows\system32\WINSPOOL.DRV
-0x070c0000 - 0x07125000 	C:\users\matthew\Bureau\Server TP minecraft\TP Minecraft avec python 3\03 MINECRAFT\Minecraft Portable\Minecraft Portable\data\.minecraft\versions\1.6.4\1.6.4-natives-190649675485800\OpenAL32.dll
+0x07500000 - 0x07565000 	C:\users\matthew\Bureau\Server TP minecraft\TP Minecraft avec python 3\03 MINECRAFT\Minecraft Portable\Minecraft Portable\data\.minecraft\versions\1.6.4\1.6.4-natives-275047278709299\OpenAL32.dll
 0x7c640000 - 0x7d000000 	C:\windows\system32\SHELL32.dll
 0x64a40000 - 0x64b29000 	C:\windows\system32\shlwapi.dll
 0x63bc0000 - 0x63c04000 	C:\windows\system32\shcore.dll
 0x67d40000 - 0x67db9000 	C:\windows\system32\mmdevapi.dll
 0x64ec0000 - 0x652b9000 	C:\windows\system32\oleaut32.dll
-0x7d6a0000 - 0x7d6c3000 	C:\windows\system32\winepulse.drv
+0x7d6b0000 - 0x7d6d6000 	C:\windows\system32\winepulse.drv
 0x682c0000 - 0x683e7000 	C:\windows\system32\dsound.dll
 0x6d7a0000 - 0x6d7a8000 	C:\Program Files\Java\jre6\bin\sunmscapi.dll
-0x089a0000 - 0x08c59000 	C:\windows\system32\CRYPT32.dll
+0x07bd0000 - 0x07e89000 	C:\windows\system32\CRYPT32.dll
 0x66240000 - 0x66288000 	C:\windows\system32\bcrypt.dll
 0x6d560000 - 0x6d569000 	C:\Program Files\Java\jre6\bin\management.dll
-0x05580000 - 0x0558f000 	C:\windows\system32\PSAPI.DLL
+0x08040000 - 0x0804f000 	C:\windows\system32\PSAPI.DLL
 
 VM Arguments:
-jvm_args: -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx512M -Djava.library.path=C:\users\matthew\Bureau\Server TP minecraft\TP Minecraft avec python 3\03 MINECRAFT\Minecraft Portable\Minecraft Portable\data\.minecraft\versions\1.6.4\1.6.4-natives-190649675485800 
+jvm_args: -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx512M -Djava.library.path=C:\users\matthew\Bureau\Server TP minecraft\TP Minecraft avec python 3\03 MINECRAFT\Minecraft Portable\Minecraft Portable\data\.minecraft\versions\1.6.4\1.6.4-natives-275047278709299 
 java_command: net.minecraft.client.main.Main --username HERRIOT --session 1337535510N --version 1.6.4 --gameDir C:\users\matthew\Bureau\Server TP minecraft\TP Minecraft avec python 3\03 MINECRAFT\Minecraft Portable\Minecraft Portable\data\.minecraft --assetsDir C:\users\matthew\Bureau\Server TP minecraft\TP Minecraft avec python 3\03 MINECRAFT\Minecraft Portable\Minecraft Portable\data\.minecraft\assets\virtual\legacy
 Launcher Type: SUN_STANDARD
 
@@ -196,10 +196,10 @@ OS: Windows 7 Build 7601 Service Pack 1
 
 CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 158 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
 
-Memory: 4k page, physical 34809120k(23683788k free), swap 34809124k(25780932k free)
+Memory: 4k page, physical 34809120k(22111312k free), swap 34809124k(24208208k free)
 
 vm_info: Java HotSpot(TM) Client VM (20.45-b01) for windows-x86 JRE (1.6.0_45-b06), built on Mar 26 2013 13:40:03 by "java_re" with MS VC++ 7.1 (VS2003)
 
-time: Thu Jan 02 19:29:52 2025
-elapsed time: 3621 seconds
+time: Sun Jan 05 10:34:51 2025
+elapsed time: 5591 seconds
 
