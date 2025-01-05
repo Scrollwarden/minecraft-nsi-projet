@@ -1,0 +1,22 @@
+BLOCKY DUNGEONS is a python program created by DICESCREEN STUDIO.
+
+BLOCKY DUNGEONS is placed under a CC BY-NC-SA license.
+The CC BY-NC-SA license allow the owners of files of BLOCKY DUNGEONS
+(we will abbreviate "users") to share BLOCKY DUNGEONS and the files it 
+contain to anyone in any way. Users are allowed to transform, modifiy, 
+remix BLOCKY DUNGEONS and the files belonging to it to any format.
+
+The CC BY-NC-SA license do not allow users to use neither BLOCKY DUNGEONS
+and the files belonging to it and works created from BLOCKY DUNGEONS for
+a commercial purpose. Works created from BLOCKY DUNGEONS must be under
+the CC BY-NC-SA license. Works created from BLOCKY DUNGEONS must credit
+the source work and the authors of the source work. The source work is 
+related to BLOCKY DUNGEONS. Works created from BLOCKY DUNGEONS are not
+allowed to imply any DICESCREEN STUDIO supports about the work or the authors
+of this work.
+
+If a disrespect of the CC BY-NC-SA license applied to BLOCKY DUNGEONS or
+the lines written above is noticed, strong consequences will follow.
+
+This file was wrotten by DICESCREEN STUDIO and couldn't be used by any
+organisation that are not related to DICESCREEN STUDIO.
