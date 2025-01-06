@@ -18,6 +18,19 @@ from dungeons_settings import *
 
 mc = minecraft.Minecraft.create()
 
+DONJON_NAME_LIST = ("les caves d'Akandar",
+                    "la forteresse de Dar-Kerand",
+                    "le Donjon de Beuknaheul",
+                    "les ruines de Dol-Kazad",
+                    "les souterrains d'Izirren",
+                    "la cache du Roi d'Emeraude",
+                    "le repaire du Dunjuan",
+                    "le Donjon de Ykclob",
+                    "le fort des Soldats D'ombres",
+                    "l'Antre de la Wyvern",
+                    "les oubliettes d'Isline")
+DONJON_NAME = random.choice(DONJON_NAME_LIST)
+
 ENTITY_BOSS_LIST = (entity.WITHER_SKELETON, entity.ILLUSIONER, entity.ENDERMAN, entity.EVOKER)
 ENTITY_MONSTER_LVL1_LIST = (entity.ZOMBIE, entity.SKELETON, entity.SLIME, entity.SPIDER)
 ENTITY_MONSTER_LVL2_LIST = (entity.CAVE_SPIDER, entity.STRAY, entity.HUSK, entity.SILVERFISH, entity.MAGMA_CUBE)
@@ -607,7 +620,7 @@ def evil_monologue():
     Tout bon donjon commence par un bon vieux monologue typique du maître du donjon qui se moque de ses victimes, pas vrai ?
     """
     print('staring monologue')
-    mc.postToChat("(evil deep voice) Vous voila. pauvre mortel. enferme dans mon terrible donjon !")
+    mc.postToChat(f"(evil deep voice) Vous voila. pauvre mortel. enferme dans {DONJON_NAME} ! Piege dans mon terrible donjon !")
     time.sleep(7)
     mc.postToChat("(evil Gandalf voice) Vous. n'en. sortirez. PAAAS !")
     time.sleep(6.5)
@@ -666,6 +679,34 @@ def evil_monologue():
     mc.postToChat("Et cette annee on est en budget limite.")
     time.sleep(7)
     mc.postToChat("C'est bien triste.")
+    time.sleep(40) # mauvaise blague, désolé.
+    mc.postToChat("Zut. j'ai pas scale la pression dans tout le donjon...")
+    time.sleep(6.5)
+    mc.postToChat("Certaines salles ont un peu plus de Pascales que les autres.")
+    time.sleep(9)
+    mc.postToChat("Quoi ? Pourquoi vous faites cette tete ?")
+    time.sleep(6.5)
+    mc.postToChat("Vous vous appelez Pascale peut-etre ?")
+    time.sleep(8)
+    mc.postToChat("Je... euh... desole.")
+    time.sleep(7)
+    mc.postToChat("Vous savez. j'ai pas de nom moi.")
+    time.sleep(6.5)
+    mc.postToChat("Je suis juste le mechant du donjon.")
+    time.sleep(6.5)
+    mc.postToChat("Personne ne me connais.")
+    time.sleep(7)
+    mc.postToChat("Ceux qui connaissent l'existance du donjon me craignent et font de moi un monstre sanguinaire.")
+    time.sleep(6.5)
+    mc.postToChat("Alors que je suis juste un demon.")
+    time.sleep(7)
+    mc.postToChat("Les seuls comme vous avec qui je peux discuter un peu ne ressortent jamais.")
+    time.sleep(8)
+    mc.postToChat("D'un autre cote. les pieges et les aventuriers coinces dans des donjon sont tellement amusants !")
+    time.sleep(8)
+    mc.postToChat("Le Maitre du Donjon s'amuse et amuse ses victimes... non je veux dire ses joueurs... au prix de sa solitude.")
+    time.sleep(7)
+    mc.postToChat("C'est le seul à connaitre vraiment les regles. C'est lui qui les invente. Et il les subit.")
 
 def test_room():
     """programme de test des salles"""
