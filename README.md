@@ -106,7 +106,8 @@ testez les structures suivantes :
 ## 4. Bugs connus
 Les bugs suivants ont été répertoriés sous Linux Mint :
 - **Minecraft Out Of Memory.** Le jeu peut freeze et crash au bout d'un certain temps visiblement aléatoire. De nombreux messages Out Of Memory sont envoyés avant.
-Ce bug semble lié à la machine sur laquelle le projet à été développé ou peut provenir du setup en lui-même. Si ce bug est observé sur d'autres machines, une installation propre du setup depuis zéro résoudra peut-être le problème.
+Ce bug semble lié à la machine sur laquelle le projet à été développé ou peut provenir du setup en lui-même. Si ce bug est observé sur d'autres machines, une installation propre du setup depuis zéro résoudra peut-être le problème.  
+SAFE : Ce bug n'a pas été observé durant un test d'une sur une machine Window avec le même setup.
 
 ## 5. Crédits
 ### Créateurs
